@@ -2194,6 +2194,9 @@ POSTS & CONTENT STYLES
 .content {
   margin-top: 0; }
 
+#breadcrumbs {
+  margin: 0; }
+
 .article-header {
   background-color: #bc1739; }
   .article-header a {
