@@ -628,15 +628,31 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
     }
 }
 
-/* Quilter
--------------------------------------------------------------- */
+/***** Quilter *****/
 
-.page-id-252, .category-quilter, .tag-quilter {
-	a, a:visited {color: #079DB8; &:hover, &:focus {color: darken(#079DB8, 9%);} }
-	h1 {color: #fff; background-color:#079DB8; border-radius:1em; text-align:center;}
-	h2, h3, h4 {color:#079DB8;}
+.page-id-252,
+.tag-quilter {
+
+    .article-header {
+        background-color:#079DB8;
+    }
+	.main {
+        a,
+        a:visited {
+            color: #079DB8;
+
+            &:hover,
+            &:focus {
+                color: darken(#079DB8, 9%);
+            }
+        }
+
+        h2,
+        h3,
+        h4 {color:#079DB8;}
 	}
 
+}
 
 /* Red
 -------------- */

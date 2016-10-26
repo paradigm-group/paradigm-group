@@ -1560,20 +1560,31 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 .tag-prudential .main h5 {
   color: #CC0000; }
 
-/* Quilter
--------------------------------------------------------------- */
-.page-id-252 a, .page-id-252 a:visited, .category-quilter a, .category-quilter a:visited, .tag-quilter a, .tag-quilter a:visited {
+/***** Quilter *****/
+.page-id-252 .article-header,
+.tag-quilter .article-header {
+  background-color: #079DB8; }
+
+.page-id-252 .main a,
+.page-id-252 .main a:visited,
+.tag-quilter .main a,
+.tag-quilter .main a:visited {
   color: #079DB8; }
-  .page-id-252 a:hover, .page-id-252 a:focus, .page-id-252 a:visited:hover, .page-id-252 a:visited:focus, .category-quilter a:hover, .category-quilter a:focus, .category-quilter a:visited:hover, .category-quilter a:visited:focus, .tag-quilter a:hover, .tag-quilter a:focus, .tag-quilter a:visited:hover, .tag-quilter a:visited:focus {
+  .page-id-252 .main a:hover, .page-id-252 .main a:focus,
+  .page-id-252 .main a:visited:hover,
+  .page-id-252 .main a:visited:focus,
+  .tag-quilter .main a:hover,
+  .tag-quilter .main a:focus,
+  .tag-quilter .main a:visited:hover,
+  .tag-quilter .main a:visited:focus {
     color: #05778c; }
 
-.page-id-252 h1, .category-quilter h1, .tag-quilter h1 {
-  color: #fff;
-  background-color: #079DB8;
-  border-radius: 1em;
-  text-align: center; }
-
-.page-id-252 h2, .page-id-252 h3, .page-id-252 h4, .category-quilter h2, .category-quilter h3, .category-quilter h4, .tag-quilter h2, .tag-quilter h3, .tag-quilter h4 {
+.page-id-252 .main h2,
+.page-id-252 .main h3,
+.page-id-252 .main h4,
+.tag-quilter .main h2,
+.tag-quilter .main h3,
+.tag-quilter .main h4 {
   color: #079DB8; }
 
 /* Red
