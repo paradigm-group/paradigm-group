@@ -984,216 +984,57 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 .tag-axa .main h4 {
   color: #0b3881; }
 
-/* Blackrock
--------------------------------------------------------------- */
-.page-id-236 a, .page-id-236 a:visited,
-.category-blackrock a,
-.category-blackrock a:visited,
-.tag-blackrock-2 a,
-.tag-blackrock-2 a:visited {
-  color: #424B54; }
-  .page-id-236 a:hover, .page-id-236 a:focus, .page-id-236 a:visited:hover, .page-id-236 a:visited:focus,
-  .category-blackrock a:hover,
-  .category-blackrock a:focus,
-  .category-blackrock a:visited:hover,
-  .category-blackrock a:visited:focus,
-  .tag-blackrock-2 a:hover,
-  .tag-blackrock-2 a:focus,
-  .tag-blackrock-2 a:visited:hover,
-  .tag-blackrock-2 a:visited:focus {
-    color: #c03; }
+/***** Blackrock *****/
+/***** Blackfinch *****/
+/***** BNY Mellon *****/
+/***** Brand FT *****/
+.tag-brand-ft .article-header {
+  background-color: #496394; }
 
-.page-id-236 h1,
-.category-blackrock h1,
-.tag-blackrock-2 h1 {
-  background-color: #000;
-  color: #fff;
-  border-radius: 1em;
-  text-align: center; }
-
-.page-id-236 h2, .page-id-236 h3, .page-id-236 h4,
-.category-blackrock h2,
-.category-blackrock h3,
-.category-blackrock h4,
-.tag-blackrock-2 h2,
-.tag-blackrock-2 h3,
-.tag-blackrock-2 h4 {
-  color: #000; }
-
-/* Blackfinch
--------------------------------------------------------------- */
-.page-id-16598 a, .page-id-16598 a:visited, .tag-blackfinch a, .tag-blackfinch a:visited {
-  color: #000; }
-  .page-id-16598 a:hover, .page-id-16598 a:focus, .page-id-16598 a:visited:hover, .page-id-16598 a:visited:focus, .tag-blackfinch a:hover, .tag-blackfinch a:focus, .tag-blackfinch a:visited:hover, .tag-blackfinch a:visited:focus {
-    color: #000; }
-
-.page-id-16598 h1, .tag-blackfinch h1 {
-  background-color: #000;
-  color: #fff;
-  border-radius: 1em;
-  text-align: center; }
-
-.page-id-16598 h2, .page-id-16598 h3, .page-id-16598 h4, .tag-blackfinch h2, .tag-blackfinch h3, .tag-blackfinch h4 {
-  color: #424B54; }
-
-.page-id-16598 .aj-collapse, .tag-blackfinch .aj-collapse {
-  color: #424B54; }
-
-.page-id-16598 .blackrock, .tag-blackfinch .blackrock {
-  background-color: #424B54; }
-
-/* BNY Mellon
--------------------------------------------------------------- */
-.page-id-11289 a, .page-id-11289 a:visited, .category-bny-mellon a, .category-bny-mellon a:visited, .tag-bny a, .tag-bny a:visited {
-  color: #FFA100; }
-  .page-id-11289 a:hover, .page-id-11289 a:focus, .page-id-11289 a:visited:hover, .page-id-11289 a:visited:focus, .category-bny-mellon a:hover, .category-bny-mellon a:focus, .category-bny-mellon a:visited:hover, .category-bny-mellon a:visited:focus, .tag-bny a:hover, .tag-bny a:focus, .tag-bny a:visited:hover, .tag-bny a:visited:focus {
-    color: #d18400; }
-
-.page-id-11289 h1, .category-bny-mellon h1, .tag-bny h1 {
-  background-color: #FFA100;
-  color: #fff;
-  border-radius: 1em;
-  text-align: center; }
-
-.page-id-11289 h2, .page-id-11289 h3, .page-id-11289 h4, .category-bny-mellon h2, .category-bny-mellon h3, .category-bny-mellon h4, .tag-bny h2, .tag-bny h3, .tag-bny h4 {
-  color: #FFA100; }
-
-/* Brand FT
--------------------------------------------------------------- */
-.tag-brand-ft a,
-.tag-brand-ft a:visited {
+.tag-brand-ft .main a,
+.tag-brand-ft .main a:visited {
   color: #2262ac; }
-  .tag-brand-ft a:hover, .tag-brand-ft a:focus,
-  .tag-brand-ft a:visited:hover,
-  .tag-brand-ft a:visited:focus {
+  .tag-brand-ft .main a:hover, .tag-brand-ft .main a:focus,
+  .tag-brand-ft .main a:visited:hover,
+  .tag-brand-ft .main a:visited:focus {
     color: #1a4c86; }
 
-.tag-brand-ft h1 {
-  text-align: center;
-  background-color: #496394;
-  color: #fff;
-  border-radius: 1em; }
-
-.tag-brand-ft h2,
-.tag-brand-ft h3,
-.tag-brand-ft h4 {
+.tag-brand-ft .main h2,
+.tag-brand-ft .main h3,
+.tag-brand-ft .main h4 {
   color: #2262ac; }
 
-/* Bright Grey
--------------------------------------------------------------- */
-.page-id-237 a, .page-id-237 a:visited, .category-bright-grey a, .category-bright-grey a:visited, .category-target-bright-grey a, .category-target-bright-grey a:visited, .tag-bright-grey a, .tag-bright-grey a:visited {
-  color: #ea0e8c; }
-  .page-id-237 a:hover, .page-id-237 a:focus, .page-id-237 a:visited:hover, .page-id-237 a:visited:focus, .category-bright-grey a:hover, .category-bright-grey a:focus, .category-bright-grey a:visited:hover, .category-bright-grey a:visited:focus, .category-target-bright-grey a:hover, .category-target-bright-grey a:focus, .category-target-bright-grey a:visited:hover, .category-target-bright-grey a:visited:focus, .tag-bright-grey a:hover, .tag-bright-grey a:focus, .tag-bright-grey a:visited:hover, .tag-bright-grey a:visited:focus {
-    color: #bf0b72; }
+/***** Bright Grey *****/
+/***** Cater Allen Private Bank *****/
+/***** Defaqto *****/
+.page-id-19456 .article-header,
+.tag-defaqto .article-header {
+  background-color: #005493; }
 
-.page-id-237 h1, .category-bright-grey h1, .category-target-bright-grey h1, .tag-bright-grey h1 {
-  color: #575756;
-  background-color: #EA0082;
-  text-align: center;
-  border-radius: 1em; }
-
-.page-id-237 h2, .page-id-237 h3, .page-id-237 h4, .category-bright-grey h2, .category-bright-grey h3, .category-bright-grey h4, .category-target-bright-grey h2, .category-target-bright-grey h3, .category-target-bright-grey h4, .tag-bright-grey h2, .tag-bright-grey h3, .tag-bright-grey h4 {
-  color: #EA0082; }
-
-/* Cater Allen Private Bank
--------------------------------------------------------------- */
-.page-id-238 a, .page-id-238 a:visited, .category-cater-allen-private-bank a, .category-cater-allen-private-bank a:visited, .tag-cater-allen a, .tag-cater-allen a:visited {
-  color: #047; }
-  .page-id-238 a:hover, .page-id-238 a:focus, .page-id-238 a:visited:hover, .page-id-238 a:visited:focus, .category-cater-allen-private-bank a:hover, .category-cater-allen-private-bank a:focus, .category-cater-allen-private-bank a:visited:hover, .category-cater-allen-private-bank a:visited:focus, .tag-cater-allen a:hover, .tag-cater-allen a:focus, .tag-cater-allen a:visited:hover, .tag-cater-allen a:visited:focus {
-    color: #002a49; }
-
-.page-id-238 h1, .category-cater-allen-private-bank h1, .tag-cater-allen h1 {
-  color: #fff;
-  background-color: #047;
-  border-radius: 1em;
-  text-align: center; }
-
-.page-id-238 h2, .page-id-238 h3, .page-id-238 h4, .page-id-238 h5, .category-cater-allen-private-bank h2, .category-cater-allen-private-bank h3, .category-cater-allen-private-bank h4, .category-cater-allen-private-bank h5, .tag-cater-allen h2, .tag-cater-allen h3, .tag-cater-allen h4, .tag-cater-allen h5 {
-  color: #047; }
-
-/* Defaqto
--------------------------------------------------------------- */
-.page-id-19456 a,
-.page-id-19456 a:visited,
-.tag-defaqto a,
-.tag-defaqto a:visited {
+.page-id-19456 .main a,
+.page-id-19456 .main a:visited,
+.tag-defaqto .main a,
+.tag-defaqto .main a:visited {
   color: #005493; }
-  .page-id-19456 a:hover, .page-id-19456 a:focus,
-  .page-id-19456 a:visited:hover,
-  .page-id-19456 a:visited:focus,
-  .tag-defaqto a:hover,
-  .tag-defaqto a:focus,
-  .tag-defaqto a:visited:hover,
-  .tag-defaqto a:visited:focus {
+  .page-id-19456 .main a:hover, .page-id-19456 .main a:focus,
+  .page-id-19456 .main a:visited:hover,
+  .page-id-19456 .main a:visited:focus,
+  .tag-defaqto .main a:hover,
+  .tag-defaqto .main a:focus,
+  .tag-defaqto .main a:visited:hover,
+  .tag-defaqto .main a:visited:focus {
     color: #003a65; }
 
-.page-id-19456 h1,
-.tag-defaqto h1 {
-  color: #fff;
-  background-color: #005493;
-  border-radius: 1em;
-  text-align: center; }
-
-.page-id-19456 h2,
-.page-id-19456 h3,
-.page-id-19456 h4,
-.tag-defaqto h2,
-.tag-defaqto h3,
-.tag-defaqto h4 {
+.page-id-19456 .main h2,
+.page-id-19456 .main h3,
+.page-id-19456 .main h4,
+.tag-defaqto .main h2,
+.tag-defaqto .main h3,
+.tag-defaqto .main h4 {
   color: #005493; }
 
-/* Fidelity
--------------------------------------------------------------- */
-.page-id-239 a, .page-id-239 a:visited, .category-fidelity a, .category-fidelity a:visited, .category-target-fidelity a, .category-target-fidelity a:visited, .tag-fidelity a, .tag-fidelity a:visited {
-  color: #007CC1; }
-  .page-id-239 a:hover, .page-id-239 a:focus, .page-id-239 a:visited:hover, .page-id-239 a:visited:focus, .category-fidelity a:hover, .category-fidelity a:focus, .category-fidelity a:visited:hover, .category-fidelity a:visited:focus, .category-target-fidelity a:hover, .category-target-fidelity a:focus, .category-target-fidelity a:visited:hover, .category-target-fidelity a:visited:focus, .tag-fidelity a:hover, .tag-fidelity a:focus, .tag-fidelity a:visited:hover, .tag-fidelity a:visited:focus {
-    color: #005f93; }
-
-.page-id-239 h1, .category-fidelity h1, .category-target-fidelity h1, .tag-fidelity h1 {
-  color: #fff;
-  background-color: #007CC1;
-  border-radius: 1em;
-  text-align: center; }
-
-.page-id-239 h2, .page-id-239 h3, .page-id-239 h4, .category-fidelity h2, .category-fidelity h3, .category-fidelity h4, .category-target-fidelity h2, .category-target-fidelity h3, .category-target-fidelity h4, .tag-fidelity h2, .tag-fidelity h3, .tag-fidelity h4 {
-  color: #007CC1; }
-
-/* FriendsLife
--------------------------------------------------------------- */
-.page-id-240 a, .page-id-240 a:visited,
-.category-friendslife a,
-.category-friendslife a:visited,
-.tag-friends-life a,
-.tag-friends-life a:visited {
-  color: #137AC1; }
-  .page-id-240 a:hover, .page-id-240 a:focus, .page-id-240 a:visited:hover, .page-id-240 a:visited:focus,
-  .category-friendslife a:hover,
-  .category-friendslife a:focus,
-  .category-friendslife a:visited:hover,
-  .category-friendslife a:visited:focus,
-  .tag-friends-life a:hover,
-  .tag-friends-life a:focus,
-  .tag-friends-life a:visited:hover,
-  .tag-friends-life a:visited:focus {
-    color: #0f6097; }
-
-.page-id-240 h1,
-.category-friendslife h1,
-.tag-friends-life h1 {
-  color: #fff;
-  background-color: #137AC1;
-  border-radius: 1em;
-  text-align: center; }
-
-.page-id-240 h2, .page-id-240 h3, .page-id-240 h4,
-.category-friendslife h2,
-.category-friendslife h3,
-.category-friendslife h4,
-.tag-friends-life h2,
-.tag-friends-life h3,
-.tag-friends-life h4 {
-  color: #137AC1; }
-
+/***** Fidelity *****/
+/***** FriendsLife *****/
 /* Goldman Sachs
 -------------------------------------------------------------- */
 .page-id-20608 a,

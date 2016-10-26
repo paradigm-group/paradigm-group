@@ -99,148 +99,96 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
     }
 }
 
-/* Blackrock
--------------------------------------------------------------- */
+/***** Blackrock *****/
 
 .page-id-236,
-.category-blackrock,
-.tag-blackrock-2 {
-	a, a:visited {color:#424B54; &:hover, &:focus {color: #c03;} }
-	h1 {
-		background-color:#000;
-		color:#fff;
-		border-radius:1em;
-		text-align:center;
-	}
-	h2, h3, h4 {color:#000;}
-	}
+.tag-blackrock-2 {}
 
 
-/* Blackfinch
--------------------------------------------------------------- */
+/***** Blackfinch *****/
 
-.page-id-16598, .tag-blackfinch {
-	a, a:visited {color:#000; &:hover, &:focus {color: #000;} }
-	h1 {
-		background-color:#000;
-		color:#fff;
-		border-radius:1em;
-		text-align:center;
-	}
-	h2, h3, h4 {color:#424B54;}
-	.aj-collapse {color:#424B54;}
-	.blackrock {background-color:#424B54;}
-	}
+.page-id-16598,
+.tag-blackfinch {}
 
-/* BNY Mellon
--------------------------------------------------------------- */
+/***** BNY Mellon *****/
 
-.page-id-11289, .category-bny-mellon, .tag-bny {
-	a, a:visited {color:#FFA100; &:hover, &:focus {color: darken(#FFA100, 9%);} }
-	h1 {
-		background-color:#FFA100;
-		color:#fff;
-		border-radius:1em;
-		text-align:center;
-	}
-	h2, h3, h4 {color:#FFA100;}
-	}
+.page-id-11289,
+.tag-bny {}
 
-/* Brand FT
--------------------------------------------------------------- */
+/***** Brand FT *****/
 
 .tag-brand-ft {
-	a,
-    a:visited {
-        color: #2262ac;
 
-        &:hover,
-        &:focus {
-            color: darken(#2262ac, 9%);
-        }
-    }
-
-    h1 {
-        text-align:center;
+    .article-header {
         background-color:#496394;
-        color:#fff;
-        border-radius:1em;
     }
 
-    h2,
-    h3,
-    h4 {
-        color: #2262ac;
+    .main {
+        a,
+        a:visited {
+            color: #2262ac;
+
+            &:hover,
+            &:focus {
+                color: darken(#2262ac, 9%);
+            }
+        }
+
+        h2,
+        h3,
+        h4 {
+            color: #2262ac;
+        }
     }
 }
 
-/* Bright Grey
--------------------------------------------------------------- */
+/***** Bright Grey *****/
 
-.page-id-237, .category-bright-grey, .category-target-bright-grey, .tag-bright-grey  {
-	a, a:visited {color:#ea0e8c; &:hover, &:focus {color: darken(#ea0e8c, 9%);} }
-	h1 {color: #575756  ;background-color:#EA0082 ; text-align:center; border-radius:1em;}
-	h2, h3, h4 {color:#EA0082;}
-	}
+.page-id-237,
+.tag-bright-grey  {}
 
-/* Cater Allen Private Bank
--------------------------------------------------------------- */
+/***** Cater Allen Private Bank *****/
 
-.page-id-238, .category-cater-allen-private-bank, .tag-cater-allen  {
-	a, a:visited {color: #047; &:hover, &:focus {color: darken(#047, 9%);} }
-	h1 {color: #fff; background-color:#047; border-radius:1em; text-align:center;}
-	h2, h3, h4, h5 {color:#047;}
-	}
+.page-id-238,
+.tag-cater-allen  {}
 
-/* Defaqto
--------------------------------------------------------------- */
+/***** Defaqto *****/
 
 .page-id-19456,
 .tag-defaqto{
 
-    a,
-    a:visited {
-        color: #005493;
-
-        &:hover,
-        &:focus {
-            color: darken(#005493, 9%);
-        }
-    }
-
-    h1 {
-        color: #fff;
+    .article-header {
         background-color:#005493;
-        border-radius:1em;
-        text-align:center;
     }
 
-    h2,
-    h3,
-    h4 {
-        color: #005493;
+    .main {
+        a,
+        a:visited {
+            color: #005493;
+
+            &:hover,
+            &:focus {
+                color: darken(#005493, 9%);
+            }
+        }
+
+        h2,
+        h3,
+        h4 {
+            color: #005493;
+        }
     }
 }
 
-/* Fidelity
--------------------------------------------------------------- */
+/***** Fidelity *****/
 
-.page-id-239, .category-fidelity, .category-target-fidelity, .tag-fidelity {
-	a, a:visited {color: #007CC1; &:hover, &:focus {color: darken(#007CC1, 9%);} }
-	h1 {color: #fff; background-color:#007CC1;border-radius:1em; text-align:center;}
-	h2, h3, h4 {color: #007CC1;}
-	}
+.page-id-239,
+.tag-fidelity {}
 
-/* FriendsLife
--------------------------------------------------------------- */
+/***** FriendsLife *****/
 
 .page-id-240,
-.category-friendslife,
-.tag-friends-life  {
-	a, a:visited {color: #137AC1; &:hover, &:focus {color: darken(#137AC1, 9%);} }
-	h1 {color: #fff; background-color:#137AC1; border-radius:1em; text-align:center;}
-	h2, h3, h4 {color: #137AC1;}
-	}
+.tag-friends-life  {}
 
 /* Goldman Sachs
 -------------------------------------------------------------- */
