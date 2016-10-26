@@ -507,31 +507,31 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
     }
 }
 
-/* Para-Sols
--------------------------------------------------------------- */
+/***** Para-Sols ****/
 
 .page-id-19474,
 .tag-parasols{
-	a,
-    a:visited {
-        color: #005A84;
 
-        &:hover,
-        &:focus {
-            color: darken(#005A84, 9%);
-        }
+    .article-header {
+        background-color: #005A84;
     }
 
-    h1 {
-        color: #fff;
-        background-color:#003045;
-        border-radius:1em;
-        text-align:center;}
+    .main {
+        a,
+        a:visited {
+            color: #005A84;
 
-    h2,
-    h3,
-    h4 {
-        color: #003045;
+            &:hover,
+            &:focus {
+                color: darken(#005A84, 9%);
+            }
+        }
+
+        h2,
+        h3,
+        h4 {
+            color: #005A84;
+        }
     }
 }
 

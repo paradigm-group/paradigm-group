@@ -1369,36 +1369,32 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 .tag-old-mutual .main h4 {
   color: #006150; }
 
-/* Para-Sols
--------------------------------------------------------------- */
-.page-id-19474 a,
-.page-id-19474 a:visited,
-.tag-parasols a,
-.tag-parasols a:visited {
+/***** Para-Sols ****/
+.page-id-19474 .article-header,
+.tag-parasols .article-header {
+  background-color: #005A84; }
+
+.page-id-19474 .main a,
+.page-id-19474 .main a:visited,
+.tag-parasols .main a,
+.tag-parasols .main a:visited {
   color: #005A84; }
-  .page-id-19474 a:hover, .page-id-19474 a:focus,
-  .page-id-19474 a:visited:hover,
-  .page-id-19474 a:visited:focus,
-  .tag-parasols a:hover,
-  .tag-parasols a:focus,
-  .tag-parasols a:visited:hover,
-  .tag-parasols a:visited:focus {
+  .page-id-19474 .main a:hover, .page-id-19474 .main a:focus,
+  .page-id-19474 .main a:visited:hover,
+  .page-id-19474 .main a:visited:focus,
+  .tag-parasols .main a:hover,
+  .tag-parasols .main a:focus,
+  .tag-parasols .main a:visited:hover,
+  .tag-parasols .main a:visited:focus {
     color: #003b56; }
 
-.page-id-19474 h1,
-.tag-parasols h1 {
-  color: #fff;
-  background-color: #003045;
-  border-radius: 1em;
-  text-align: center; }
-
-.page-id-19474 h2,
-.page-id-19474 h3,
-.page-id-19474 h4,
-.tag-parasols h2,
-.tag-parasols h3,
-.tag-parasols h4 {
-  color: #003045; }
+.page-id-19474 .main h2,
+.page-id-19474 .main h3,
+.page-id-19474 .main h4,
+.tag-parasols .main h2,
+.tag-parasols .main h3,
+.tag-parasols .main h4 {
+  color: #005A84; }
 
 /* Partnership
 -------------------------------------------------------------- */
