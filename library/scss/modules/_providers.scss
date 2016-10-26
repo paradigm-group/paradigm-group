@@ -23,18 +23,10 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         }
     }
 
-    h1 {
+    .page-header {
 		background-color: #0077C8;
-		background-image: linear-gradient(to right, #0077C8, #0AB9EB);
-		text-align: center;
 		color: #fff;
-		background-image: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#0077C8), to(#0AB9EB));
-		background-image: -webkit-linear-gradient(left, #0077C8, #0AB9EB);
-		background-image: -moz-linear-gradient(left, #0077C8, #0AB9EB);
-		background-image: -ms-linear-gradient(left, #0077C8, #0AB9EB);
-		background-image: -o-linear-gradient(left, #0077C8, #0AB9EB);
-		filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#0077c8', EndColorStr='#0AB9EB',GradientType=1) /* IE6-9 */;
-		}
+    }
 
 	h2,
     h3,

@@ -18,23 +18,22 @@
 
                 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
-                    <header class="article-header">
+                    <header class="article-header page-header">
 
                         <h1 class="entry-title page-title" itemprop="headline">
                             <?php the_title(); ?>
                         </h1>
-                        <?php if (is_front_page()) {} else {
-                            if ( function_exists('yoast_breadcrumb') ) {
-                                yoast_breadcrumb('<p id="breadcrumbs">','</p>');
-                            }
-                        } ?>
 
                     </header> <?php // end article header ?>
 
                     <div class="entry-content" itemprop="articleBody">
-                         <?php the_field ('intro_text');?>
+                        <?php
+                            if ( function_exists('yoast_breadcrumb') ) {
+                                yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+                        } ?>
+                        <?php the_field ('intro_text');?>
 
-                            <?php if( have_rows('main_content') ): ?>
+                        <?php if( have_rows('main_content') ): ?>
 
                                 <?php while( have_rows('main_content') ): the_row();?>
 
