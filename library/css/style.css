@@ -2382,7 +2382,8 @@ and more scalable.
         width: 100%; }
         .nav li ul.sub-menu li a,
         .nav li ul.children li a {
-          background-color: #f8f9fa; }
+          background-color: #f8f9fa;
+          color: #bc1739; }
 
 /* end .top-nav */
 /*********************
