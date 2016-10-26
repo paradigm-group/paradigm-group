@@ -1287,19 +1287,31 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 .tag-mg-2 .main h4 {
   color: #004F5C; }
 
-/* Metlife
--------------------------------------------------------------- */
-.page-id-247 a, .page-id-247 a:visited, .category-metlife a, .category-metlife a:visited, .tag-metlife-2 a, .tag-metlife-2 a:visited {
+/***** Metlife *****/
+.page-id-247 .article-header,
+.tag-metlife-2 .article-header {
+  background-color: #007cc2; }
+
+.page-id-247 .main a,
+.page-id-247 .main a:visited,
+.tag-metlife-2 .main a,
+.tag-metlife-2 .main a:visited {
   color: #007cc2; }
-  .page-id-247 a:hover, .page-id-247 a:focus, .page-id-247 a:visited:hover, .page-id-247 a:visited:focus, .category-metlife a:hover, .category-metlife a:focus, .category-metlife a:visited:hover, .category-metlife a:visited:focus, .tag-metlife-2 a:hover, .tag-metlife-2 a:focus, .tag-metlife-2 a:visited:hover, .tag-metlife-2 a:visited:focus {
+  .page-id-247 .main a:hover, .page-id-247 .main a:focus,
+  .page-id-247 .main a:visited:hover,
+  .page-id-247 .main a:visited:focus,
+  .tag-metlife-2 .main a:hover,
+  .tag-metlife-2 .main a:focus,
+  .tag-metlife-2 .main a:visited:hover,
+  .tag-metlife-2 .main a:visited:focus {
     color: #005f94; }
 
-.page-id-247 h1, .category-metlife h1, .tag-metlife-2 h1 {
-  color: #007cc2;
-  border-radius: 1em;
-  text-align: center; }
-
-.page-id-247 h2, .page-id-247 h3, .page-id-247 h4, .category-metlife h2, .category-metlife h3, .category-metlife h4, .tag-metlife-2 h2, .tag-metlife-2 h3, .tag-metlife-2 h4 {
+.page-id-247 .main h2,
+.page-id-247 .main h3,
+.page-id-247 .main h4,
+.tag-metlife-2 .main h2,
+.tag-metlife-2 .main h3,
+.tag-metlife-2 .main h4 {
   color: #007cc2; }
 
 /* OBSR

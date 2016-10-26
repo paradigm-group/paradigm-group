@@ -425,14 +425,31 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         h4 {color: #004F5C;}
 	}
 }
-/* Metlife
--------------------------------------------------------------- */
+/***** Metlife *****/
 
-.page-id-247, .category-metlife, .tag-metlife-2  {
-	a, a:visited {color: #007cc2; &:hover, &:focus {color: darken(#007cc2, 9%);} }
-	h1 {color: #007cc2; border-radius:1em;text-align:center;}
-	h2, h3, h4 {color: #007cc2;}
+.page-id-247,
+.tag-metlife-2  {
+
+    .article-header {
+        background-color:#007cc2;
+    }
+
+    .main {
+        a,
+        a:visited {
+            color: #007cc2;
+
+            &:hover,
+            &:focus {
+                color: darken(#007cc2, 9%);
+            }
+        }
+
+        h2,
+        h3,
+        h4 {color: #007cc2;}
 	}
+}
 
 /* OBSR
 -------------------------------------------------------------- */
