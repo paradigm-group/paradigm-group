@@ -2,50 +2,47 @@
 
     <div class="content">
 
-        <div id="inner-content" class="container">
+        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-            <div class="main" role="main">
+            <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
-                <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+            <header class="article-header page-header">
 
-                <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+                <div class="container">
+                    <h1 class="entry-title page-title" itemprop="headline">
+                        <?php the_title(); ?>
+                    </h1>
+                </div>
+            </header> <?php // end article header ?>
 
-                    <header class="article-header">
+            <div class="container">
 
-                        <h1 class="entry-title page-title" itemprop="headline">
-                            <?php the_title(); ?>
-                        </h1>
+                <div class="main entry-content" itemprop="articleBody">
+                    <?php if ( function_exists('yoast_breadcrumb') ) {
+                        yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+                    } ?>
 
-                    </header> <?php // end article header ?>
+                    <?php
+                        // the content (pretty self explanatory huh)
+                        the_content();
+                    ?>
+                </div> <?php // end article section ?>
 
-                    <div class="entry-content" itemprop="articleBody">
-                        <?php if ( function_exists('yoast_breadcrumb') ) {
-                            yoast_breadcrumb('<p id="breadcrumbs">','</p>');
-                        } ?>
+                <footer class="article-footer">
 
-                        <?php
-                            // the content (pretty self explanatory huh)
-                            the_content();
-                        ?>
-                    </div> <?php // end article section ?>
+                </footer> <?php // end article footer ?>
 
-                    <footer class="article-footer">
-
-                    </footer> <?php // end article footer ?>
-
-                </article>
-
-            <?php endwhile; else : ?>
-
-                <?php get_template_part ('partials/no-post-found');?>
-
-            <?php endif; ?>
+                <?php get_sidebar(); ?>
 
             </div>
 
-            <?php  get_sidebar(); ?>
+        </article>
 
-        </div>
+    <?php endwhile; else : ?>
+
+        <?php get_template_part ('partials/no-post-found');?>
+
+    <?php endif; ?>
 
     </div>
 
