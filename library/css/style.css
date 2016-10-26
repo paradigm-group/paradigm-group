@@ -2324,7 +2324,7 @@ POSTS & CONTENT STYLES
 .type-target {
   background-color: #eee; }
   .type-target h1 {
-    align: center;
+    text-align: center;
     color: #fff; }
 
 /***** DROP DOWNS *****/
