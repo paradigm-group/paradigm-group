@@ -2319,10 +2319,7 @@ h5 {
 HEADER STYLES
 *********************/
 .header {
-  background-color: #fff;
-  color: #fff; }
-  .header a {
-    color: #fff; }
+  background-color: #fff; }
 
 .site-title {
   background: none; }
