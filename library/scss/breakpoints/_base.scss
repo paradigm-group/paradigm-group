@@ -269,6 +269,10 @@ POSTS & CONTENT STYLES
 
 .page-header {
     background-color: $red;
+    .page-title {
+        font-size: 5em;
+        color:$white;
+    }
 }
 
     .hentry {
@@ -291,8 +295,6 @@ POSTS & CONTENT STYLES
     }
 
     .single-title {}
-
-    .page-title {}
 
     .entry-title {}
 
