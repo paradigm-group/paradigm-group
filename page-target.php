@@ -70,7 +70,7 @@
 
                             foreach( $terms as $term ) : ?>
 
-                                <h2><a href="http://paradigmgroup.eu/issue/<?php echo $term->slug ?>"><?php echo $term->name ?></a></h2>
+                                <h2><a href="/issue/<?php echo $term->slug ?>"><?php echo $term->name ?></a></h2>
                                 <?php
                                     //list terms in a given taxonomy using wp_list_categories (also useful as a widget if using a PHP Code plugin)
                                     $taxonomy     = 'target_cat';
