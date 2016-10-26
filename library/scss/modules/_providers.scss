@@ -711,6 +711,31 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
     }
 }
 
+/***** Royal London *****/
+
+.page-id-11297,
+.tag-scottish-life,
+.tag-royal-london {
+
+    .article-header {
+        background-color: #421853;
+    }
+
+	.main {
+        a,
+        a:visited {
+            color: #421853;
+
+            &:hover,
+            &:focus {color: darken(#421853, 9%);}
+        }
+
+        h2,
+        h3,
+        h4 {color:#421853;}
+	}
+}
+
 /* Santander
 -------------------------------------------------------------- */
 
@@ -748,15 +773,6 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 	a, a:visited {color: #003772; &:hover, &:focus {color: darken(#003772, 9%);} }
 	h1 {color: #fff; background-color:#003772;border-radius:1em; text-align:center;}
 	h2, h3, h4 {color: #003772;}
-	}
-
-/* Scottish Life (ROYAL LONDON)
--------------------------------------------------------------- */
-
-.page-id-11297, .tag-scottish-life, .tag-royal-london {
-	a, a:visited {color: #421853; &:hover, &:focus {color: darken(#421853, 9%);} }
-	h1 {color: #fff; background-color:#421853;  border-radius:1em; text-align:center;}
-	h2, h3, h4 {color:#421853;}
 	}
 
 /* Scottish Provident

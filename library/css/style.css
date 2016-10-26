@@ -1634,6 +1634,43 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 .tag-retirement-advantage .main h4 {
   color: #00ab8e; }
 
+/***** Royal London *****/
+.page-id-11297 .article-header,
+.tag-scottish-life .article-header,
+.tag-royal-london .article-header {
+  background-color: #421853; }
+
+.page-id-11297 .main a,
+.page-id-11297 .main a:visited,
+.tag-scottish-life .main a,
+.tag-scottish-life .main a:visited,
+.tag-royal-london .main a,
+.tag-royal-london .main a:visited {
+  color: #421853; }
+  .page-id-11297 .main a:hover, .page-id-11297 .main a:focus,
+  .page-id-11297 .main a:visited:hover,
+  .page-id-11297 .main a:visited:focus,
+  .tag-scottish-life .main a:hover,
+  .tag-scottish-life .main a:focus,
+  .tag-scottish-life .main a:visited:hover,
+  .tag-scottish-life .main a:visited:focus,
+  .tag-royal-london .main a:hover,
+  .tag-royal-london .main a:focus,
+  .tag-royal-london .main a:visited:hover,
+  .tag-royal-london .main a:visited:focus {
+    color: #260e2f; }
+
+.page-id-11297 .main h2,
+.page-id-11297 .main h3,
+.page-id-11297 .main h4,
+.tag-scottish-life .main h2,
+.tag-scottish-life .main h3,
+.tag-scottish-life .main h4,
+.tag-royal-london .main h2,
+.tag-royal-london .main h3,
+.tag-royal-london .main h4 {
+  color: #421853; }
+
 /* Santander
 -------------------------------------------------------------- */
 .page-id-11209 a,
@@ -1698,22 +1735,6 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-253 h2, .page-id-253 h3, .page-id-253 h4, .tag-schroders h2, .tag-schroders h3, .tag-schroders h4 {
   color: #003772; }
-
-/* Scottish Life (ROYAL LONDON)
--------------------------------------------------------------- */
-.page-id-11297 a, .page-id-11297 a:visited, .tag-scottish-life a, .tag-scottish-life a:visited, .tag-royal-london a, .tag-royal-london a:visited {
-  color: #421853; }
-  .page-id-11297 a:hover, .page-id-11297 a:focus, .page-id-11297 a:visited:hover, .page-id-11297 a:visited:focus, .tag-scottish-life a:hover, .tag-scottish-life a:focus, .tag-scottish-life a:visited:hover, .tag-scottish-life a:visited:focus, .tag-royal-london a:hover, .tag-royal-london a:focus, .tag-royal-london a:visited:hover, .tag-royal-london a:visited:focus {
-    color: #260e2f; }
-
-.page-id-11297 h1, .tag-scottish-life h1, .tag-royal-london h1 {
-  color: #fff;
-  background-color: #421853;
-  border-radius: 1em;
-  text-align: center; }
-
-.page-id-11297 h2, .page-id-11297 h3, .page-id-11297 h4, .tag-scottish-life h2, .tag-scottish-life h3, .tag-scottish-life h4, .tag-royal-london h2, .tag-royal-london h3, .tag-royal-london h4 {
-  color: #421853; }
 
 /* Scottish Provident
 -------------------------------------------------------------- */
