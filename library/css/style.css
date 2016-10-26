@@ -2321,6 +2321,12 @@ POSTS & CONTENT STYLES
 .tags {
   margin: 0; }
 
+.type-target {
+  background-color: #eee; }
+  .type-target h1 {
+    align: center;
+    color: #fff; }
+
 /***** DROP DOWNS *****/
 .aj-collapse {
   cursor: pointer; }
