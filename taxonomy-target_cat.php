@@ -18,7 +18,8 @@
                         $term = $wp_query->get_queried_object();
                         $title = $term->name;
                     ?>
-                    <h1 class="page-title">Welcome to Target <?php echo $title;?></h1>
+                    <h1 class="page-title">Welcome to Target <br>
+                    <?php echo $title;?></h1>
                 </div>
             </header>
 
