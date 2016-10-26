@@ -17,7 +17,8 @@
 
                     <?php  global $wp_query;
                         $term = $wp_query->get_queried_object();
-                        $title = $term->name; }?>
+                        $title = $term->name;
+                    ?>
 
                     <p><?php echo $title; ?></p>
                 </div>
