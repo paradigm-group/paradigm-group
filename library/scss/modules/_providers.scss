@@ -40,11 +40,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-233,
 .category-ageas,
-.tag-ageas {
-	h1 {
-	   text-align:center;
-	}
-}
+.tag-ageas {}
 
 /***** Aviva *****/
 
@@ -52,31 +48,28 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 .category-aviva,
 .tag-aviva {
 
-    a,
-    a:visited {
+    .page-header {
+        background-color:#ffd900;
         color: #004fb6;
-
-        &:hover,
-        &:focus {
-            color: darken(#004fb6, 9%);
-        }
     }
 
-    h1 {
-        border-radius: 1em;
-		background-image: linear-gradient(to right, #FFE866, #FFD900);
-		background-image: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#FFE866), to(#FFD900));
-		background-image: -webkit-linear-gradient(left, #FFE866, #FFD900);
-		background-image: -moz-linear-gradient(left, #FFE866, #FFD900);
-		background-image: -ms-linear-gradient(left, #FFE866, #FFD900);
-		background-image: -o-linear-gradient(left, #FFE866, #FFD900);
-		filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFE866', EndColorStr='#FFD900',GradientType=1) /* IE6-9 */;
-		color: #004fb6;
-		text-align:center;
-		}
-	h2, h3, h4 {color: #004fb6;}
-	}
+    .main {
 
+        a,
+        a:visited {
+            color: #004fb6;
+
+            &:hover,
+            &:focus {
+                color: darken(#004fb6, 9%);
+            }
+        }
+
+        h2,
+        h3,
+        h4 {color: #004fb6;}
+    }
+}
 /* AXA (Wealth & Life Invest)
 -------------------------------------------------------------- */
 

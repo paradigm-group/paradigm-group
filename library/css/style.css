@@ -909,53 +909,42 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
   color: #0077C8; }
 
 /***** Ageas Page 233 *****/
-.page-id-233 h1,
-.category-ageas h1,
-.tag-ageas h1 {
-  text-align: center; }
-
 /***** Aviva *****/
-.page-id-234 a,
-.page-id-234 a:visited,
-.category-aviva a,
-.category-aviva a:visited,
-.tag-aviva a,
-.tag-aviva a:visited {
+.page-id-234 .page-header,
+.category-aviva .page-header,
+.tag-aviva .page-header {
+  background-color: #ffd900;
   color: #004fb6; }
-  .page-id-234 a:hover, .page-id-234 a:focus,
-  .page-id-234 a:visited:hover,
-  .page-id-234 a:visited:focus,
-  .category-aviva a:hover,
-  .category-aviva a:focus,
-  .category-aviva a:visited:hover,
-  .category-aviva a:visited:focus,
-  .tag-aviva a:hover,
-  .tag-aviva a:focus,
-  .tag-aviva a:visited:hover,
-  .tag-aviva a:visited:focus {
+
+.page-id-234 .main a,
+.page-id-234 .main a:visited,
+.category-aviva .main a,
+.category-aviva .main a:visited,
+.tag-aviva .main a,
+.tag-aviva .main a:visited {
+  color: #004fb6; }
+  .page-id-234 .main a:hover, .page-id-234 .main a:focus,
+  .page-id-234 .main a:visited:hover,
+  .page-id-234 .main a:visited:focus,
+  .category-aviva .main a:hover,
+  .category-aviva .main a:focus,
+  .category-aviva .main a:visited:hover,
+  .category-aviva .main a:visited:focus,
+  .tag-aviva .main a:hover,
+  .tag-aviva .main a:focus,
+  .tag-aviva .main a:visited:hover,
+  .tag-aviva .main a:visited:focus {
     color: #003b88; }
 
-.page-id-234 h1,
-.category-aviva h1,
-.tag-aviva h1 {
-  border-radius: 1em;
-  background-image: linear-gradient(to right, #FFE866, #FFD900);
-  background-image: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#FFE866), to(#FFD900));
-  background-image: -webkit-linear-gradient(left, #FFE866, #FFD900);
-  background-image: -moz-linear-gradient(left, #FFE866, #FFD900);
-  background-image: -ms-linear-gradient(left, #FFE866, #FFD900);
-  background-image: -o-linear-gradient(left, #FFE866, #FFD900);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFE866', EndColorStr='#FFD900',GradientType=1);
-  color: #004fb6;
-  text-align: center; }
-
-.page-id-234 h2, .page-id-234 h3, .page-id-234 h4,
-.category-aviva h2,
-.category-aviva h3,
-.category-aviva h4,
-.tag-aviva h2,
-.tag-aviva h3,
-.tag-aviva h4 {
+.page-id-234 .main h2,
+.page-id-234 .main h3,
+.page-id-234 .main h4,
+.category-aviva .main h2,
+.category-aviva .main h3,
+.category-aviva .main h4,
+.tag-aviva .main h2,
+.tag-aviva .main h3,
+.tag-aviva .main h4 {
   color: #004fb6; }
 
 /* AXA (Wealth & Life Invest)
