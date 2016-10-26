@@ -29,8 +29,6 @@
 
             <div class="container">
 
-                <?php get_sidebar('members'); ?>
-
                 <div class="main entry-content" itemprop="articleBody">
 
                             <?php if (is_front_page()) {} else {
@@ -44,9 +42,7 @@
                     ?>
                 </div> <?php // end article section ?>
 
-                <footer class="article-footer">
-
-                </footer> <?php // end article footer ?>
+                <?php get_sidebar('members'); ?>
 
             </div>
         </article>
