@@ -627,17 +627,17 @@ Stylesheet: Layout Stylesheet
   margin: 0 auto; }
 
 .logo-container {
-  -webkit-box-flex: 2;
-  -webkit-flex: 2;
-  -ms-flex: 2;
-  flex: 2;
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
   padding: 0 1em; }
 
 .sidebar-header {
-  -webkit-box-flex: 2;
-  -webkit-flex: 2;
-  -ms-flex: 2;
-  flex: 2;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   padding: 0 1em; }
 
 .full {
@@ -871,7 +871,7 @@ you set a great foundation, you won't need to add too many styles in
 the other stylesheets. Remember, keep it light: Speed is Important.
 *********************/
 /******************************************************************
-Site Name: Paradigm FCA Application
+Site Name: Paradigm Group - Doing it properly
 Author: Jack Machin
 
 Stylesheet: Base Mobile Stylesheet
