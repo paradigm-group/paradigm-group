@@ -23,15 +23,13 @@ Stylesheet: Layout Stylesheet
         -webkit-flex: none;
         -ms-flex: none;
         flex: none;
-        display: flex;
     }
 
     .navigation {
         -webkit-box-flex: 0;
         -webkit-flex: none;
         -ms-flex: none;
-        flex: none;
-        display: flex;
+        flex: none;;
     }
 
     .content {
@@ -40,7 +38,6 @@ Stylesheet: Layout Stylesheet
         -ms-flex: 1 0 auto;
         flex: 1;
         width: 100%;
-        display: flex;
     }
 
     .footer {
@@ -48,7 +45,6 @@ Stylesheet: Layout Stylesheet
         -webkit-flex: none;
         -ms-flex: none;
         flex: none;
-        display: flex;
     }
 
 .container {

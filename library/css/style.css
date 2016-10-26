@@ -596,30 +596,26 @@ Stylesheet: Layout Stylesheet
   -webkit-box-flex: 0;
   -webkit-flex: none;
   -ms-flex: none;
-  flex: none;
-  display: flex; }
+  flex: none; }
 
 .navigation {
   -webkit-box-flex: 0;
   -webkit-flex: none;
   -ms-flex: none;
-  flex: none;
-  display: flex; }
+  flex: none; }
 
 .content {
   -webkit-box-flex: 1;
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1;
-  width: 100%;
-  display: flex; }
+  width: 100%; }
 
 .footer {
   -webkit-box-flex: 0;
   -webkit-flex: none;
   -ms-flex: none;
-  flex: none;
-  display: flex; }
+  flex: none; }
 
 .container {
   display: flex;
