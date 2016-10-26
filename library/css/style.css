@@ -1587,24 +1587,21 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 .tag-quilter .main h4 {
   color: #079DB8; }
 
-/* Red
--------------- */
-.tag-red a,
-.tag-red a:visited {
-  color: #cd2027; }
-  .tag-red a:hover, .tag-red a:focus,
-  .tag-red a:visited:hover,
-  .tag-red a:visited:focus {
-    color: #a51a1f; }
-
-.tag-red h1 {
-  color: #fff;
-  text-align: center;
+/***** Red *****/
+.tag-red .article-header {
   background-color: #cd2027; }
 
-.tag-red h2,
-.tag-red h3,
-.tag-red h4 {
+.tag-red .main a,
+.tag-red .main a:visited {
+  color: #cd2027; }
+  .tag-red .main a:hover, .tag-red .main a:focus,
+  .tag-red .main a:visited:hover,
+  .tag-red .main a:visited:focus {
+    color: #a51a1f; }
+
+.tag-red .main h2,
+.tag-red .main h3,
+.tag-red .main h4 {
   color: #cd2027; }
 
 /* Retirement Advantage
