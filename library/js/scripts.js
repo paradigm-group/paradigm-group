@@ -12,7 +12,7 @@
  * not required. It's your world baby, you can do whatever you want.
 */
 
-/*global $, jQuery, alert, rel*/
+/*global $, jQuery, alert */
 
 /*
  * Get Viewport Dimensions
