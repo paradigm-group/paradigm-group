@@ -1957,20 +1957,31 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 .tag-time .main h5 {
   color: #005581; }
 
-/* Zurich
--------------------------------------------------------------- */
-.page-id-265 a, .page-id-265 a:visited, .category-zurich a, .category-zurich a:visited, .post-4607 a, .post-4607 a:visited, .category-target-zurich a, .category-target-zurich a:visited, .tag-zurich a, .tag-zurich a:visited {
+/***** Zurich *****/
+.page-id-265 .article-header,
+.tag-zurich .article-header {
+  background-color: #003399; }
+
+.page-id-265 .main a,
+.page-id-265 .main a:visited,
+.tag-zurich .main a,
+.tag-zurich .main a:visited {
   color: #003399; }
-  .page-id-265 a:hover, .page-id-265 a:focus, .page-id-265 a:visited:hover, .page-id-265 a:visited:focus, .category-zurich a:hover, .category-zurich a:focus, .category-zurich a:visited:hover, .category-zurich a:visited:focus, .post-4607 a:hover, .post-4607 a:focus, .post-4607 a:visited:hover, .post-4607 a:visited:focus, .category-target-zurich a:hover, .category-target-zurich a:focus, .category-target-zurich a:visited:hover, .category-target-zurich a:visited:focus, .tag-zurich a:hover, .tag-zurich a:focus, .tag-zurich a:visited:hover, .tag-zurich a:visited:focus {
+  .page-id-265 .main a:hover, .page-id-265 .main a:focus,
+  .page-id-265 .main a:visited:hover,
+  .page-id-265 .main a:visited:focus,
+  .tag-zurich .main a:hover,
+  .tag-zurich .main a:focus,
+  .tag-zurich .main a:visited:hover,
+  .tag-zurich .main a:visited:focus {
     color: #00246b; }
 
-.page-id-265 h1, .category-zurich h1, .post-4607 h1, .category-target-zurich h1, .tag-zurich h1 {
-  color: #fff;
-  background-color: #003399;
-  border-radius: 1em;
-  text-align: center; }
-
-.page-id-265 h2, .page-id-265 h3, .page-id-265 h4, .category-zurich h2, .category-zurich h3, .category-zurich h4, .post-4607 h2, .post-4607 h3, .post-4607 h4, .category-target-zurich h2, .category-target-zurich h3, .category-target-zurich h4, .tag-zurich h2, .tag-zurich h3, .tag-zurich h4 {
+.page-id-265 .main h2,
+.page-id-265 .main h3,
+.page-id-265 .main h4,
+.tag-zurich .main h2,
+.tag-zurich .main h3,
+.tag-zurich .main h4 {
   color: #003399; }
 
 /*********************

@@ -996,11 +996,27 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         }
     }
 }
-/* Zurich
--------------------------------------------------------------- */
 
-.page-id-265, .category-zurich, .post-4607, .category-target-zurich, .tag-zurich {
-	a, a:visited {color: #003399; &:hover, &:focus {color: darken(#003399, 9%);} }
-	h1 {color: #fff; background-color:#003399; border-radius:1em; text-align:center;}
-	h2, h3, h4 {color:#003399;}
+/***** Zurich *****/
+
+.page-id-265,
+.tag-zurich {
+
+    .article-header {
+        background-color:#003399;
+    }
+
+    .main {
+        a,
+        a:visited {
+            color: #003399;
+
+            &:hover,
+            &:focus {color: darken(#003399, 9%);}
+        }
+
+        h2,
+        h3,
+        h4 {color:#003399;}
 	}
+}
