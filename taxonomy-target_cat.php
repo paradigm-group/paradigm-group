@@ -10,17 +10,20 @@
             if($term->parent > 0)  {
         ?>
 
-            <div class="article-header">
-                <h1>Welcome to Target</h1>
+            <header class="article-header page-header">
 
-                <?php if( is_tax() ) {
-                    global $wp_query;
-                    $term = $wp_query->get_queried_object();
-                        $title = $term->name;
+                <div class="container">
+                    <h1>Welcome to Target</h1>
 
-                    echo $title;
-                } ?>
-            </div>
+                    <?php if( is_tax() ) {
+                        global $wp_query;
+                        $term = $wp_query->get_queried_object();
+                            $title = $term->name;
+
+                        echo $title;
+                    } ?>
+                </div>
+            </header>
 
             <div id="main" class="twelvecol first clearfix" role="main">
                 <div class="ninecol first">
