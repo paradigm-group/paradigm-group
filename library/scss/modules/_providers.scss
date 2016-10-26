@@ -479,31 +479,31 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 	}
 }
 
-/* Old Mutual
--------------------------------------------------------------- */
+/***** Old Mutual *****/
 
 .page-id-24671,
 .tag-old-mutual {
-	a,
-    a:visited {
-        color: #006150;
 
-        &:hover,
-        &:focus {
-            color: darken(#006150, 9%);
+    .article-header {
+        background-color: #006150;
+    }
+
+    .main {
+        a,
+        a:visited {
+            color: #006150;
+
+            &:hover,
+            &:focus {
+                color: darken(#006150, 9%);
+            }
         }
-    }
 
-    h1 {
-        color: #fff;
-        background-color:#006150;
-        text-align:center;
-    }
-
-    h2,
-    h3,
-    h4 {
-        color: #006150;
+        h2,
+        h3,
+        h4 {
+            color: #006150;
+        }
     }
 }
 
