@@ -18,9 +18,9 @@
                     <?php if( is_tax() ) {
                         global $wp_query;
                         $term = $wp_query->get_queried_object();
-                            $title = $term->name;
+                            $title = $term->name; }?>
 
-                        echo '<p>'$title'</p>';
+                        <p><?php echo $title; ?></p>
                     } ?>
                 </div>
             </header>
