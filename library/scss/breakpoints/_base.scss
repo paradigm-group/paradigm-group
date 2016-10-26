@@ -270,6 +270,10 @@ POSTS & CONTENT STYLES
 .article-header {
     background-color: $red;
 
+    a {
+        color:$white;
+    }
+
     .page-title {
         font-size: 3.5em;
         color:$white;
