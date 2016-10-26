@@ -24,70 +24,70 @@
             </header>
 
             <div class="container">
-                <div class="ninecol first">
-                    <div class="entry-content intro">
 
-                        <?php echo category_description( $category_id ); ?>
+                <div class="entry-content main">
 
-                        <p>If you have any queries regarding Target, please contact: <a href="mailto:helpdesk@paradigmgroup.eu">helpdesk@paradigmgroup.eu</a></p>
-                        <p>You can also follow us on Twitter for information updates <a href="http://www.twitter.com/@Paradigmtechnic">@ParadigmTechnic</a></p>
+                    <?php echo category_description( $category_id ); ?>
 
-                        <?php
+                    <p>If you have any queries regarding Target, please contact: <a href="mailto:helpdesk@paradigmgroup.eu">helpdesk@paradigmgroup.eu</a></p>
+                    <p>You can also follow us on Twitter for information updates <a href="http://www.twitter.com/@Paradigmtechnic">@ParadigmTechnic</a></p>
 
-                            global $wp_query;
+                    <?php
+                        global $wp_query;
 
-                            $term_id = $wp_query->queried_object_id;
-                            $term_meta = get_option( "taxonomy_$term_id" );
-                            $pdfurl = $term_meta['tax_pdf'];
-                            $wordurl = $term_meta ['tax_word'];
+                        $term_id = $wp_query->queried_object_id;
+                        $term_meta = get_option( "taxonomy_$term_id" );
+                        $pdfurl = $term_meta['tax_pdf'];
+                        $wordurl = $term_meta ['tax_word'];
+                    ?>
 
-                        ?>
+                    <?php if( ! empty( $term_meta['tax_pdf'] ) ) { ?>
+                        <p><a href="<?php echo $pdfurl; ?>">PDF Version</a></p>
+                    <?php } else {} ?>
+                    <?php if( ! empty( $term_meta['tax_word'] ) ) { ?>
+                        <p><a href="<?php echo $wordurl; ?>">Word Version</a></p>
+                    <?php } else {} ?>
 
-                        <?php if( ! empty( $term_meta['tax_pdf'] ) ) { ?><p><a href="<?php echo $pdfurl; ?>">PDF Version</a></p><?php } else {} ?>
-                        <?php if( ! empty( $term_meta['tax_word'] ) ) { ?><p><a href="<?php echo $wordurl; ?>">Word Version</a></p><?php } else {} ?>
+                    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-                        </div>
+                        <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> role="article">
 
-                            <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+                            <header class="article-header">
 
-                                <article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article">
+                                <h1><?php the_title(); ?></h1>
 
-                                    <header class="article-header">
+                            </header> <!-- end article header -->
 
-                                        <h1 class="h2"><?php the_title(); ?></h1>
+                            <div class="entry-content clearfix">
 
-                                    </header> <!-- end article header -->
+                                <?php the_content(); ?>
 
-                                    <div class="entry-content clearfix">
+                            </div> <!-- end article section -->
 
-                                        <?php the_content(); ?>
+                            <footer class="article-footer">
+                                <p><a href="#top">Back to top&hellip;</a></p>
+                            </footer> <!-- end article footer -->
 
-                                    </div> <!-- end article section -->
+                        </article> <!-- end article -->
 
-                                    <footer class="article-footer">
-                                        <p><a href="#top">Back to top&hellip;</a></p>
-                                    </footer> <!-- end article footer -->
+                    <?php endwhile; ?>
 
-                                </article> <!-- end article -->
+                    <?php else : ?>
 
-                            <?php endwhile; ?>
+                        <article id="post-not-found" class="hentry clearfix">
+                            <header class="article-header">
+                                <h1><?php _e( 'Oops, Post Not Found!', 'bonestheme' ); ?></h1>
+                            </header>
+                            <section class="entry-content">
+                                <p><?php _e( 'Uh Oh. Something is missing. Try double checking things.', 'bonestheme' ); ?></p>
+                            </section>
+                            <footer class="article-footer">
+                                    <p><?php _e( 'This is the error message in the target archive template.', 'bonestheme' ); ?></p>
+                            </footer>
+                        </article>
 
-                            <?php else : ?>
-
-                                <article id="post-not-found" class="hentry clearfix">
-                                    <header class="article-header">
-                                        <h1><?php _e( 'Oops, Post Not Found!', 'bonestheme' ); ?></h1>
-                                    </header>
-                                    <section class="entry-content">
-                                        <p><?php _e( 'Uh Oh. Something is missing. Try double checking things.', 'bonestheme' ); ?></p>
-                                    </section>
-                                    <footer class="article-footer">
-                                            <p><?php _e( 'This is the error message in the target archive template.', 'bonestheme' ); ?></p>
-                                    </footer>
-                                </article>
-
-                            <?php endif; ?>
-                        </div>
+                    <?php endif; ?>
+                </div>
                         <div class="threecol targetcontents entry-content last">
                           <h2>Contents</h2>
                             <ul>
