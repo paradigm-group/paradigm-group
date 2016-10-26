@@ -55,7 +55,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         .page-title {color: #004fb6;}
     }
 
-    .main {
+    .entry-content {
 
         a,
         a:visited {
@@ -82,7 +82,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color: #0b3881;
     }
 
-	.main {
+	.entry-content {
         a,
         a:visited {
             color: #0b3881;
@@ -125,7 +125,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color:#496394;
     }
 
-    .main {
+    .entry-content {
         a,
         a:visited {
             color: #2262ac;
@@ -163,7 +163,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color:#003D6D;
     }
 
-    .main {
+    .entry-content {
         a,
         a:visited {
             color: #003D6D;
@@ -191,7 +191,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color:#005493;
     }
 
-    .main {
+    .entry-content {
         a,
         a:visited {
             color: #005493;
@@ -229,7 +229,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color:#7399C6;
     }
 
-    .main {
+    .entry-content {
         a,
         a:visited {
             color: #7399C6;
@@ -261,7 +261,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color:#004F71;
     }
 
-  .main {
+  .entry-content {
         a,
         a:visited {
             color: #004F71;
@@ -289,7 +289,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color: #000;
     }
 
-    .main {
+    .entry-content {
         a,
         a:visited {
             color: #000;
@@ -317,7 +317,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color:#496394;
     }
 
-    .main {
+    .entry-content {
         a,
         a:visited {
             color: #496394;
@@ -349,7 +349,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
     .article-header {
         background-color:#273188;
     }
-	.main {
+	.entry-content {
         a,
         a:visited {
             color: #273188;
@@ -375,7 +375,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color:#000;
     }
 
-    .main {
+    .entry-content {
         a,
         a:visited {color: #b6121c;
             &:hover,
@@ -398,7 +398,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 		background-color: #006688;
     }
 
-    .main {
+    .entry-content {
         a,
         a:visited {
             color: #006688;
@@ -424,8 +424,14 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
     .article-header {
         background-color: #068;
     }
-    .main {
-	a, a:visited {color: #068;  &:hover, &:focus {color: darken(#006688, 9%);} }
+    .entry-content {
+	   a,
+        a:visited {
+            color: #068;
+
+            &:hover,
+            &:focus {color: darken(#006688, 9%);}
+        }
 	h2, h3, h4 {color: #068;}
 	}
 }
@@ -439,7 +445,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color:#004F5C;
     }
 
-    .main {
+    .entry-content {
         a,
         a:visited {
             color: #004F5C;
@@ -464,7 +470,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color:#007cc2;
     }
 
-    .main {
+    .entry-content {
         a,
         a:visited {
             color: #007cc2;
@@ -494,7 +500,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
     .article-header {
         background-color:#336699;
     }
-    .main {
+    .entry-content {
         a,
         a:visited {
             color: #336699;
@@ -518,7 +524,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color: #006150;
     }
 
-    .main {
+    .entry-content {
         a,
         a:visited {
             color: #006150;
@@ -546,7 +552,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color: #005A84;
     }
 
-    .main {
+    .entry-content {
         a,
         a:visited {
             color: #005A84;
@@ -638,7 +644,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color:#CC0000;
     }
 
-    .main {
+    .entry-content {
         a,
         a:visited {
             color: #CC0000;
@@ -666,7 +672,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
     .article-header {
         background-color:#079DB8;
     }
-	.main {
+	.entry-content {
         a,
         a:visited {
             color: #079DB8;
@@ -692,7 +698,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color:#cd2027;
     }
 
-    .main {
+    .entry-content {
         a,
         a:visited {
             color: #cd2027;
@@ -721,7 +727,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color: #00ab8e;
     }
 
-    .main {
+    .entry-content {
         a,
         a:visited {
             color: #00ab8e;
@@ -750,7 +756,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color: #421853;
     }
 
-	.main {
+	.entry-content {
         a,
         a:visited {
             color: #421853;
@@ -774,7 +780,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color: #ff0000;
     }
 
-    .main {
+    .entry-content {
         a,
         a:visited {
             color: #ff0000;
@@ -801,7 +807,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
     .article-header {
         background-color: #003772;
     }
-	.main {
+	.entry-content {
         a,
         a:visited {
             color: #003772;
@@ -825,7 +831,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color: #001D68;
     }
 
-    .main {
+    .entry-content {
         a,
         a:visited {
             color: #001D68;
@@ -848,7 +854,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
     .article-header {
         background-color:#cf002d;
     }
-	.main {
+	.entry-content {
         a,
         a:visited {
             color: #cf002d;
@@ -872,7 +878,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color:#529FC5;
     }
 
-    .main {
+    .entry-content {
         a,
         a:visited {
             color: #529FC5;
@@ -934,7 +940,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color: #880C00;
     }
 
-    .main {
+    .entry-content {
         a,
         a:visited {
             color: #880C00;
@@ -958,7 +964,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color: #1BBCF3;
     }
 
-	.main {
+	.entry-content {
         a,
         a:visited {
             color: #1BBCF3;
@@ -982,7 +988,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color: #005581;
     }
 
-    .main {
+    .entry-content {
         a,
         a:visited {
             color: #005581;
@@ -1011,7 +1017,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color:#003399;
     }
 
-    .main {
+    .entry-content {
         a,
         a:visited {
             color: #003399;
