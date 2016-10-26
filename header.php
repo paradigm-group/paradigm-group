@@ -46,7 +46,7 @@
                     <h1><a href="<?php echo home_url(); ?>" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png" alt="Paradigm - FCA Application Assistance, Guidance and Helpline" class="logo"></a></h1>
 
                     <?php // if you'd like to use the site description you can un-comment it below ?>
-                    <?php bloginfo('description'); ?>
+                    <?php // bloginfo('description'); ?>
                 </div>
 
                 <?php get_sidebar ('header');?>
