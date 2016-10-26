@@ -45,7 +45,7 @@
                     <?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
                     <h1 class="site-title">
                         <a href="<?php echo home_url(); ?>" rel="nofollow">
-                            <img src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png" alt="Paradigm - FCA Application Assistance, Guidance and Helpline" class="logo">
+                            <img src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png" alt="<?php bloginfo('description'); ?>" class="logo">
                         </a>
                     </h1>
 
