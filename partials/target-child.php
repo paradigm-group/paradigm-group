@@ -78,7 +78,7 @@
         <p><strong>Back issues of Target are posted here for reference purposes but please note that guidance contained in older editions may not be the most current. We recommend that any search for information begins with the most recent edition.</strong></p>
     </div>
 
-    <div class="sidebar">
+    <div class="sidebar sidebar-target">
         <h2>Contents</h2>
             <ul>
                 <?php foreach($posts as $post) { setup_postdata($post);  ?>
