@@ -218,70 +218,41 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
     }
 }
 
-/* Henderson Global Investors Page
--------------------------------------------------------------- */
+/***** Henderson Global Investors Page *****/
 
 .page-id-241,
-.category-henderson,
-.tag-henderson {
+.tag-henderson {}
 
-    a,
-    a:visited {
-        color:#951a26;
+/***** Ingenious Investments *****/
 
-        &:hover,
-        &:focus {
-            color: darken(#951a26, 9%);
-        }
-    }
-	h1 {
-        color: #fff;
-        background-color:#778892;
-        border-radius:1em;
-        text-align:center;
-    }
+.page-id-242,
+.tag-ingenious {}
 
-    h2,
-    h3,
-    h4 {
-        color: #951a26;
-    }
-}
-
-/* Ingenious Investments
--------------------------------------------------------------- */
-
-.page-id-242, .category-ingenious, .category-target-ingenious, .tag-ingenious {
-	a, a:visited {color: #004F71; &:hover, &:focus {color: darken(#004F71, 9%);} }
-	h1 {text-align:center; background-color:#004F71;color:#fff; border-radius:1em;}
-	h2, h3, h4 {color: #004F71;}
-	}
-
-/* Investec
--------------------------------------------------------------- */
+/***** Investec *****/
 
 .tag-investec,
 .page-id-24787 {
-	a,
-    a:visited {
-        color: #000;
 
-        &:hover,
-        &:focus {
+    .article-header {
+        background-color: #000;
+    }
+
+    .main {
+        a,
+        a:visited {
+            color: #000;
+
+            &:hover,
+            &:focus {
+                color: #000;
+            }
+        }
+
+        h2,
+        h3,
+        h4 {
             color: #000;
         }
-    }
-
-    h1 {
-        color: #fff;
-        background-color:#000;
-        text-align:center;
-    }
-
-    h2,
-    h3,
-    h4 {
-        color: #000;
     }
 }
 

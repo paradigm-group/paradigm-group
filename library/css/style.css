@@ -1062,91 +1062,33 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 .tag-goldman-sachs .main h4 {
   color: #7399C6; }
 
-/* Henderson Global Investors Page
--------------------------------------------------------------- */
-.page-id-241 a,
-.page-id-241 a:visited,
-.category-henderson a,
-.category-henderson a:visited,
-.tag-henderson a,
-.tag-henderson a:visited {
-  color: #951a26; }
-  .page-id-241 a:hover, .page-id-241 a:focus,
-  .page-id-241 a:visited:hover,
-  .page-id-241 a:visited:focus,
-  .category-henderson a:hover,
-  .category-henderson a:focus,
-  .category-henderson a:visited:hover,
-  .category-henderson a:visited:focus,
-  .tag-henderson a:hover,
-  .tag-henderson a:focus,
-  .tag-henderson a:visited:hover,
-  .tag-henderson a:visited:focus {
-    color: #6e131c; }
+/***** Henderson Global Investors Page *****/
+/***** Ingenious Investments *****/
+/***** Investec *****/
+.tag-investec .article-header,
+.page-id-24787 .article-header {
+  background-color: #000; }
 
-.page-id-241 h1,
-.category-henderson h1,
-.tag-henderson h1 {
-  color: #fff;
-  background-color: #778892;
-  border-radius: 1em;
-  text-align: center; }
-
-.page-id-241 h2,
-.page-id-241 h3,
-.page-id-241 h4,
-.category-henderson h2,
-.category-henderson h3,
-.category-henderson h4,
-.tag-henderson h2,
-.tag-henderson h3,
-.tag-henderson h4 {
-  color: #951a26; }
-
-/* Ingenious Investments
--------------------------------------------------------------- */
-.page-id-242 a, .page-id-242 a:visited, .category-ingenious a, .category-ingenious a:visited, .category-target-ingenious a, .category-target-ingenious a:visited, .tag-ingenious a, .tag-ingenious a:visited {
-  color: #004F71; }
-  .page-id-242 a:hover, .page-id-242 a:focus, .page-id-242 a:visited:hover, .page-id-242 a:visited:focus, .category-ingenious a:hover, .category-ingenious a:focus, .category-ingenious a:visited:hover, .category-ingenious a:visited:focus, .category-target-ingenious a:hover, .category-target-ingenious a:focus, .category-target-ingenious a:visited:hover, .category-target-ingenious a:visited:focus, .tag-ingenious a:hover, .tag-ingenious a:focus, .tag-ingenious a:visited:hover, .tag-ingenious a:visited:focus {
-    color: #002f43; }
-
-.page-id-242 h1, .category-ingenious h1, .category-target-ingenious h1, .tag-ingenious h1 {
-  text-align: center;
-  background-color: #004F71;
-  color: #fff;
-  border-radius: 1em; }
-
-.page-id-242 h2, .page-id-242 h3, .page-id-242 h4, .category-ingenious h2, .category-ingenious h3, .category-ingenious h4, .category-target-ingenious h2, .category-target-ingenious h3, .category-target-ingenious h4, .tag-ingenious h2, .tag-ingenious h3, .tag-ingenious h4 {
-  color: #004F71; }
-
-/* Investec
--------------------------------------------------------------- */
-.tag-investec a,
-.tag-investec a:visited,
-.page-id-24787 a,
-.page-id-24787 a:visited {
+.tag-investec .main a,
+.tag-investec .main a:visited,
+.page-id-24787 .main a,
+.page-id-24787 .main a:visited {
   color: #000; }
-  .tag-investec a:hover, .tag-investec a:focus,
-  .tag-investec a:visited:hover,
-  .tag-investec a:visited:focus,
-  .page-id-24787 a:hover,
-  .page-id-24787 a:focus,
-  .page-id-24787 a:visited:hover,
-  .page-id-24787 a:visited:focus {
+  .tag-investec .main a:hover, .tag-investec .main a:focus,
+  .tag-investec .main a:visited:hover,
+  .tag-investec .main a:visited:focus,
+  .page-id-24787 .main a:hover,
+  .page-id-24787 .main a:focus,
+  .page-id-24787 .main a:visited:hover,
+  .page-id-24787 .main a:visited:focus {
     color: #000; }
 
-.tag-investec h1,
-.page-id-24787 h1 {
-  color: #fff;
-  background-color: #000;
-  text-align: center; }
-
-.tag-investec h2,
-.tag-investec h3,
-.tag-investec h4,
-.page-id-24787 h2,
-.page-id-24787 h3,
-.page-id-24787 h4 {
+.tag-investec .main h2,
+.tag-investec .main h3,
+.tag-investec .main h4,
+.page-id-24787 .main h2,
+.page-id-24787 .main h3,
+.page-id-24787 .main h4 {
   color: #000; }
 
 /* Intelliflo
