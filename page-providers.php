@@ -24,6 +24,9 @@
             </div>
         </header> <?php // end article header ?>
         <div class="container">
+
+            <?php get_sidebar('members'); ?>
+
             <div class="main entry-content" itemprop="articleBody">
                 <?php
                     if ( function_exists('yoast_breadcrumb') ) {
@@ -48,12 +51,6 @@
                 <?php the_field ('afterthoughts');?>
 
             </div> <?php // end article section ?>
-
-        <footer class="article-footer">
-
-        </footer> <?php // end article footer ?>
-
-        <?php get_sidebar('members'); ?>
 
         </div>
 
