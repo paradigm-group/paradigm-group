@@ -4,7 +4,7 @@
 
         <?php dynamic_sidebar( 'sidebar-main' ); ?>
 
-    <?php// else : ?>
+    <?php else : ?>
 
         <?php
             /*
@@ -16,6 +16,6 @@
             <p><?php // _e( 'This is a widget ready area. Add some and they will appear here.', 'bonestheme' );  ?></p>
         </div-->
 
-    <?php //endif; ?>
+    <?php endif; ?>
 
 </div>
