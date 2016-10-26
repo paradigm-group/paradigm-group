@@ -2390,6 +2390,9 @@ and more scalable.
 /*********************
 POSTS & CONTENT STYLES
 *********************/
+.content {
+  margin-top: 0; }
+
 .page-header {
   background-color: #bc1739; }
 
