@@ -66,7 +66,6 @@ Stylesheet: Layout Stylesheet
             -webkit-flex: 1;
             -ms-flex: 1;
             flex: 1;
-            padding: 0 1em;
         }
 
         .sidebar-header {
@@ -74,14 +73,12 @@ Stylesheet: Layout Stylesheet
             -webkit-flex: 1;
             -ms-flex: 1;
             flex: 1;
-            padding: 0 1em;
         }
 
     .nav {}
 
     .full {
         flex:1;
-        padding: 1em 0 0 1em;
     }
 
     .main {
@@ -89,7 +86,6 @@ Stylesheet: Layout Stylesheet
         -webkit-flex: 3;
         -ms-flex: 3;
         flex: 3;
-        padding: 0 1em;
     }
 
     .sidebar-main {
@@ -97,5 +93,4 @@ Stylesheet: Layout Stylesheet
         -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1;
-        padding: 0 1em;
     }
