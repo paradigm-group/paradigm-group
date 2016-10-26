@@ -22,7 +22,7 @@
             'fallback_cb' => ''                                 // fallback function (if there is one)
         ));
 
-    } elseif if (is_page_template('page-providers.php')) {
+    } elseif (is_page_template('page-providers.php')) {
 
         wp_nav_menu(array(
             'container' => 'div',                               // remove nav container
