@@ -2365,6 +2365,7 @@ and more scalable.
       text-decoration: none;
       padding: 0.75em;
       text-align: center;
+      color: #fff;
       /*
 			remember this is for mobile ONLY, so there's no need
 			to even declare hover styles here, you can do it in
@@ -2389,6 +2390,9 @@ and more scalable.
 /*********************
 POSTS & CONTENT STYLES
 *********************/
+.page-header {
+  background-color: #bc1739; }
+
 .hentry footer p {
   margin: 0; }
 
