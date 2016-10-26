@@ -25,7 +25,7 @@
                 </div>
             </header>
 
-            <div id="main" class="twelvecol first clearfix" role="main">
+            <div class="container">
                 <div class="ninecol first">
                     <div class="entry-content intro">
 
