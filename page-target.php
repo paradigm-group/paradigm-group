@@ -97,6 +97,7 @@
                                     <ul class="columns">
                                         <?php wp_list_categories( $args ); ?>
                                     </ul>
+                    <?php endforeach;?>
                 </div> <?php // end article section ?>
 
                 <?php get_sidebar('members'); ?>
