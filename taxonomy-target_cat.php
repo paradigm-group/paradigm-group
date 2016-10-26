@@ -21,7 +21,6 @@
                             $title = $term->name; }?>
 
                         <p><?php echo $title; ?></p>
-                    } ?>
                 </div>
             </header>
 
