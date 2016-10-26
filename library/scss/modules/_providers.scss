@@ -599,35 +599,32 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
     }
 }
 
-/* Prudential
--------------------------------------------------------------- */
+/***** Prudential *****/
 
 .page-id-251,
-.category-prudential,
-.category-target-prudential ,
 .tag-prudential {
 
-    a,
-    a:visited {
-        color: #CC0000;
-
-        &:hover,
-        &:focus {
-            color: darken(#CC0000, 9%);
-        }
-    }
-
-    h1 {
-        color: #fff;
+    article-header {
         background-color:#CC0000;
-        border-radius:1em;
-        text-align:center;
     }
-	h2,
-    h3,
-    h4,
-    h5 {
-        color:#CC0000;
+
+    .main {
+        a,
+        a:visited {
+            color: #CC0000;
+
+            &:hover,
+            &:focus {
+                color: darken(#CC0000, 9%);
+            }
+        }
+
+        h2,
+        h3,
+        h4,
+        h5 {
+            color:#CC0000;
+        }
     }
 }
 

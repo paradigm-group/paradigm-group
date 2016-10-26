@@ -1531,59 +1531,33 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
   .category-328 .partnershipcontents h3 {
     color: #fff; }
 
-/* Prudential
--------------------------------------------------------------- */
-.page-id-251 a,
-.page-id-251 a:visited,
-.category-prudential a,
-.category-prudential a:visited,
-.category-target-prudential a,
-.category-target-prudential a:visited,
-.tag-prudential a,
-.tag-prudential a:visited {
+/***** Prudential *****/
+.page-id-251 article-header,
+.tag-prudential article-header {
+  background-color: #CC0000; }
+
+.page-id-251 .main a,
+.page-id-251 .main a:visited,
+.tag-prudential .main a,
+.tag-prudential .main a:visited {
   color: #CC0000; }
-  .page-id-251 a:hover, .page-id-251 a:focus,
-  .page-id-251 a:visited:hover,
-  .page-id-251 a:visited:focus,
-  .category-prudential a:hover,
-  .category-prudential a:focus,
-  .category-prudential a:visited:hover,
-  .category-prudential a:visited:focus,
-  .category-target-prudential a:hover,
-  .category-target-prudential a:focus,
-  .category-target-prudential a:visited:hover,
-  .category-target-prudential a:visited:focus,
-  .tag-prudential a:hover,
-  .tag-prudential a:focus,
-  .tag-prudential a:visited:hover,
-  .tag-prudential a:visited:focus {
+  .page-id-251 .main a:hover, .page-id-251 .main a:focus,
+  .page-id-251 .main a:visited:hover,
+  .page-id-251 .main a:visited:focus,
+  .tag-prudential .main a:hover,
+  .tag-prudential .main a:focus,
+  .tag-prudential .main a:visited:hover,
+  .tag-prudential .main a:visited:focus {
     color: #9e0000; }
 
-.page-id-251 h1,
-.category-prudential h1,
-.category-target-prudential h1,
-.tag-prudential h1 {
-  color: #fff;
-  background-color: #CC0000;
-  border-radius: 1em;
-  text-align: center; }
-
-.page-id-251 h2,
-.page-id-251 h3,
-.page-id-251 h4,
-.page-id-251 h5,
-.category-prudential h2,
-.category-prudential h3,
-.category-prudential h4,
-.category-prudential h5,
-.category-target-prudential h2,
-.category-target-prudential h3,
-.category-target-prudential h4,
-.category-target-prudential h5,
-.tag-prudential h2,
-.tag-prudential h3,
-.tag-prudential h4,
-.tag-prudential h5 {
+.page-id-251 .main h2,
+.page-id-251 .main h3,
+.page-id-251 .main h4,
+.page-id-251 .main h5,
+.tag-prudential .main h2,
+.tag-prudential .main h3,
+.tag-prudential .main h4,
+.tag-prudential .main h5 {
   color: #CC0000; }
 
 /* Quilter
