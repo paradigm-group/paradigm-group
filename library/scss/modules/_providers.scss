@@ -17,21 +17,22 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
     .page-header {
 		background-color: #0077C8;
     }
-
-    a,
-    a:visited {
-        color: #0077C8;
-        &:hover,
-        &:focus {
-            color: darken(#0077C8, 9%);
+    .main {
+        a,
+        a:visited {
+            color: #0077C8;
+            &:hover,
+            &:focus {
+                color: darken(#0077C8, 9%);
+            }
         }
-    }
 
-	h2,
-    h3,
-    h4,
-    h5 {
-        color: #0077C8;
+        h2,
+        h3,
+        h4,
+        h5 {
+            color: #0077C8;
+        }
     }
 }
 

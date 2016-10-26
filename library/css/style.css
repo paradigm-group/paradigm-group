@@ -869,52 +869,43 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 ******************************************************************/
 /***** Aegon *****/
-.page-id-168 a,
-.page-id-168 a:visited,
-.category-aegon a,
-.category-aegon a:visited,
-.tag-aegon a,
-.tag-aegon a:visited {
+.page-id-168 .page-header,
+.category-aegon .page-header,
+.tag-aegon .page-header {
+  background-color: #0077C8; }
+
+.page-id-168 .main a,
+.page-id-168 .main a:visited,
+.category-aegon .main a,
+.category-aegon .main a:visited,
+.tag-aegon .main a,
+.tag-aegon .main a:visited {
   color: #0077C8; }
-  .page-id-168 a:hover, .page-id-168 a:focus,
-  .page-id-168 a:visited:hover,
-  .page-id-168 a:visited:focus,
-  .category-aegon a:hover,
-  .category-aegon a:focus,
-  .category-aegon a:visited:hover,
-  .category-aegon a:visited:focus,
-  .tag-aegon a:hover,
-  .tag-aegon a:focus,
-  .tag-aegon a:visited:hover,
-  .tag-aegon a:visited:focus {
+  .page-id-168 .main a:hover, .page-id-168 .main a:focus,
+  .page-id-168 .main a:visited:hover,
+  .page-id-168 .main a:visited:focus,
+  .category-aegon .main a:hover,
+  .category-aegon .main a:focus,
+  .category-aegon .main a:visited:hover,
+  .category-aegon .main a:visited:focus,
+  .tag-aegon .main a:hover,
+  .tag-aegon .main a:focus,
+  .tag-aegon .main a:visited:hover,
+  .tag-aegon .main a:visited:focus {
     color: #005c9a; }
 
-.page-id-168 h1,
-.category-aegon h1,
-.tag-aegon h1 {
-  background-color: #0077C8;
-  background-image: linear-gradient(to right, #0077C8, #0AB9EB);
-  text-align: center;
-  color: #fff;
-  background-image: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#0077C8), to(#0AB9EB));
-  background-image: -webkit-linear-gradient(left, #0077C8, #0AB9EB);
-  background-image: -moz-linear-gradient(left, #0077C8, #0AB9EB);
-  background-image: -ms-linear-gradient(left, #0077C8, #0AB9EB);
-  background-image: -o-linear-gradient(left, #0077C8, #0AB9EB);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#0077c8', EndColorStr='#0AB9EB',GradientType=1); }
-
-.page-id-168 h2,
-.page-id-168 h3,
-.page-id-168 h4,
-.page-id-168 h5,
-.category-aegon h2,
-.category-aegon h3,
-.category-aegon h4,
-.category-aegon h5,
-.tag-aegon h2,
-.tag-aegon h3,
-.tag-aegon h4,
-.tag-aegon h5 {
+.page-id-168 .main h2,
+.page-id-168 .main h3,
+.page-id-168 .main h4,
+.page-id-168 .main h5,
+.category-aegon .main h2,
+.category-aegon .main h3,
+.category-aegon .main h4,
+.category-aegon .main h5,
+.tag-aegon .main h2,
+.tag-aegon .main h3,
+.tag-aegon .main h4,
+.tag-aegon .main h5 {
   color: #0077C8; }
 
 /***** Ageas Page 233 *****/
