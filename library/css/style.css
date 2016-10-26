@@ -2658,6 +2658,9 @@ COMMENT FORM STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
+.widgettitle {
+  font-weight: 700; }
+
 .widget ul li {
   /* deep nesting */ }
 
