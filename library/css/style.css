@@ -2326,6 +2326,8 @@ POSTS & CONTENT STYLES
   .type-target h1 {
     text-align: center;
     color: #fff; }
+  .type-target .entry-content {
+    margin: 0 1em; }
 
 /***** DROP DOWNS *****/
 .aj-collapse {
