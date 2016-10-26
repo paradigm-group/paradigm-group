@@ -15,13 +15,11 @@
                 <div class="container">
                     <h1 class="page-title">Welcome to Target</h1>
 
-                    <?php if( is_tax() ) {
-                        global $wp_query;
+                    <?php  global $wp_query;
                         $term = $wp_query->get_queried_object();
-                            $title = $term->name; }?>
+                        $title = $term->name; }?>
 
-                        <p><?php echo $title; ?></p>
-                    <?php } ?>
+                    <p><?php echo $title; ?></p>
                 </div>
             </header>
 
