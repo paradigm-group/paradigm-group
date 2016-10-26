@@ -2268,9 +2268,8 @@ POSTS & CONTENT STYLES
       border-right: 0; }
   .entry-content blockquote {
     padding: 0 0 0 0.75em;
-    border-left: 3px solid #2980b9;
-    font-style: italic;
-    color: #9fa6b4; }
+    border-left: 3px solid #bc1739;
+    font-style: italic; }
   .entry-content dd {
     margin-left: 0;
     font-size: 0.9em;
