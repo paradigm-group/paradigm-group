@@ -1607,34 +1607,31 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 .tag-red .main h4 {
   color: #cd2027; }
 
-/* Retirement Advantage
--------------- */
-.page-id-21955 a,
-.page-id-21955 a:visited,
-.tag-retirement-advantage a,
-.tag-retirement-advantage a:visited {
-  color: #00ab8e; }
-  .page-id-21955 a:hover, .page-id-21955 a:focus,
-  .page-id-21955 a:visited:hover,
-  .page-id-21955 a:visited:focus,
-  .tag-retirement-advantage a:hover,
-  .tag-retirement-advantage a:focus,
-  .tag-retirement-advantage a:visited:hover,
-  .tag-retirement-advantage a:visited:focus {
-    color: #007d68; }
-
-.page-id-21955 h1,
-.tag-retirement-advantage h1 {
-  color: #fff;
-  text-align: center;
+/***** Retirement Advantage *****/
+.page-id-21955 .article-header,
+.tag-retirement-advantage .article-header {
   background-color: #00ab8e; }
 
-.page-id-21955 h2,
-.page-id-21955 h3,
-.page-id-21955 h4,
-.tag-retirement-advantage h2,
-.tag-retirement-advantage h3,
-.tag-retirement-advantage h4 {
+.page-id-21955 .main a,
+.page-id-21955 .main a:visited,
+.tag-retirement-advantage .main a,
+.tag-retirement-advantage .main a:visited {
+  color: #00ab8e; }
+  .page-id-21955 .main a:hover, .page-id-21955 .main a:focus,
+  .page-id-21955 .main a:visited:hover,
+  .page-id-21955 .main a:visited:focus,
+  .tag-retirement-advantage .main a:hover,
+  .tag-retirement-advantage .main a:focus,
+  .tag-retirement-advantage .main a:visited:hover,
+  .tag-retirement-advantage .main a:visited:focus {
+    color: #007d68; }
+
+.page-id-21955 .main h2,
+.page-id-21955 .main h3,
+.page-id-21955 .main h4,
+.tag-retirement-advantage .main h2,
+.tag-retirement-advantage .main h3,
+.tag-retirement-advantage .main h4 {
   color: #00ab8e; }
 
 /* Santander

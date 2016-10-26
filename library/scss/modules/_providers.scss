@@ -683,31 +683,31 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 }
 
 
-/* Retirement Advantage
--------------- */
+/***** Retirement Advantage *****/
 
 .page-id-21955,
 .tag-retirement-advantage {
-	a,
-    a:visited {
-        color: #00ab8e;
 
-        &:hover,
-        &:focus {
-            color: darken(#00ab8e, 9%);
-        }
-    }
-
-    h1 {
-        color: #fff;
-        text-align:center;
+    .article-header {
         background-color: #00ab8e;
     }
 
-    h2,
-    h3,
-    h4 {
-        color: #00ab8e;
+    .main {
+        a,
+        a:visited {
+            color: #00ab8e;
+
+            &:hover,
+            &:focus {
+                color: darken(#00ab8e, 9%);
+            }
+        }
+
+        h2,
+        h3,
+        h4 {
+            color: #00ab8e;
+        }
     }
 }
 
