@@ -1,8 +1,8 @@
 				<div class="sidebar sidebar-main" role="complementary">
 
-					<?php //if ( is_active_sidebar( 'sidebar-main' ) ) : ?>
+					<?php if ( is_active_sidebar( 'sidebar-main' ) ) : ?>
 
-						<?php //dynamic_sidebar( 'sidebar-main' ); ?>
+						<?php dynamic_sidebar( 'sidebar-main' ); ?>
 
 					<?php// else : ?>
 
