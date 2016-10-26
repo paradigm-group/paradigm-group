@@ -1314,25 +1314,32 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 .tag-metlife-2 .main h4 {
   color: #007cc2; }
 
-/* OBSR
--------------------------------------------------------------- */
-.page-id-248 h1 {
-  text-align: center; }
+/***** OBSR *****/
+/***** Octopus *****/
+.page-id-249 .article-header,
+.tag-octopus .article-header {
+  background-color: #336699; }
 
-/* Octopus
--------------------------------------------------------------- */
-.page-id-249 a, .page-id-249 a:visited, .category-octopus a, .category-octopus a:visited, .tag-octopus a, .tag-octopus a:visited {
+.page-id-249 .main a,
+.page-id-249 .main a:visited,
+.tag-octopus .main a,
+.tag-octopus .main a:visited {
   color: #336699; }
-  .page-id-249 a:hover, .page-id-249 a:focus, .page-id-249 a:visited:hover, .page-id-249 a:visited:focus, .category-octopus a:hover, .category-octopus a:focus, .category-octopus a:visited:hover, .category-octopus a:visited:focus, .tag-octopus a:hover, .tag-octopus a:focus, .tag-octopus a:visited:hover, .tag-octopus a:visited:focus {
+  .page-id-249 .main a:hover, .page-id-249 .main a:focus,
+  .page-id-249 .main a:visited:hover,
+  .page-id-249 .main a:visited:focus,
+  .tag-octopus .main a:hover,
+  .tag-octopus .main a:focus,
+  .tag-octopus .main a:visited:hover,
+  .tag-octopus .main a:visited:focus {
     color: #284f77; }
 
-.page-id-249 h1, .category-octopus h1, .tag-octopus h1 {
-  color: #fff;
-  background-color: #336699;
-  border-radius: 1em;
-  text-align: center; }
-
-.page-id-249 h2, .page-id-249 h3, .page-id-249 h4, .category-octopus h2, .category-octopus h3, .category-octopus h4, .tag-octopus h2, .tag-octopus h3, .tag-octopus h4 {
+.page-id-249 .main h2,
+.page-id-249 .main h3,
+.page-id-249 .main h4,
+.tag-octopus .main h2,
+.tag-octopus .main h3,
+.tag-octopus .main h4 {
   color: #336699; }
 
 /* Old Mutual

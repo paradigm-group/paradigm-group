@@ -451,24 +451,33 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 	}
 }
 
-/* OBSR
--------------------------------------------------------------- */
+/***** OBSR *****/
 
-.page-id-248 {
-	h1 {
-        text-align:center;
+.page-id-248 {}
+
+
+/***** Octopus *****/
+
+.page-id-249,
+.tag-octopus {
+
+    .article-header {
+        background-color:#336699;
     }
-}
+    .main {
+        a,
+        a:visited {
+            color: #336699;
 
+            &:hover,
+            &:focus {color: darken(#336699, 9%);}
+        }
 
-/* Octopus
--------------------------------------------------------------- */
-
-.page-id-249, .category-octopus, .tag-octopus {
-	a, a:visited {color: #336699;  &:hover, &:focus {color: darken(#336699, 9%);} }
-	h1 {color: #fff; background-color:#336699; border-radius:1em; text-align:center;}
-	h2, h3, h4 {color: #336699;}
+        h2,
+        h3,
+        h4 {color: #336699;}
 	}
+}
 
 /* Old Mutual
 -------------------------------------------------------------- */
