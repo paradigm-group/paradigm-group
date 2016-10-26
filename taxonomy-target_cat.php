@@ -13,7 +13,12 @@
             <header class="article-header page-header">
 
                 <div class="container">
-                    <h1 class="page-title">Welcome to Target</h1>
+                    <?php
+                        global $wp_query;
+                        $term = $wp_query->get_queried_object();
+                        $title = $term->name;
+                    ?>
+                    <h1 class="page-title">Welcome to Target <?php echo $title;?></h1>
                 </div>
             </header>
 
