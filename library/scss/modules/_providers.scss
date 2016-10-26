@@ -153,6 +153,34 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 .page-id-238,
 .tag-cater-allen  {}
 
+/***** Columbia Threadneedle *****/
+
+.page-id-264,
+.tag-threadneedle {
+
+    .article-header {
+        background-color:#003D6D;
+    }
+
+    .main {
+        a,
+        a:visited {
+            color: #003D6D;
+
+            &:hover,
+            &:focus {
+                color: darken(#003D6D, 9%);
+            }
+        }
+
+        h2,
+        h3,
+        h4 {
+            color: #003D6D;
+        }
+    }
+}
+
 /***** Defaqto *****/
 
 .page-id-19456,
@@ -896,64 +924,55 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
     }
 }
 
-/* Smith & Williamson
--------------------------------------------------------------- */
+/***** Smith & Williamson *****/
 
-.page-id-262, .tag-smith-williamson {
-	a, a:visited {color: #880C00; &:hover, &:focus {color: darken(#880C00, 9%);} }
-	h1 {color: #fff; background-color:#880C00;border-radius:1em; text-align:center;}
-	h2, h3, h4 {color:#880C00;}
-	}
+.page-id-262,
+.tag-smith-williamson {
 
-/* Suffolk Life
--------------------------------------------------------------- */
+    .article-header {
+        background-color: #880C00;
+    }
 
-.page-id-263, .tag-suffolk-life {
-	a, a:visited {color: #1BBCF3; &:hover, &:focus {color: darken(#1BBCF3, 9%);} }
-	h1 {
-		color: #fff;
-		background-color:#1BBCF3;
-		border-radius:1em;
-		background-image: linear-gradient(to top, #1BBCF3, #1083B0);
-		background-image: -webkit-gradient(linear, 100% 0%, 0% 0%, from(#1BBCF3), to( #1083B0));
-		background-image: -webkit-linear-gradient(top, #1BBCF3, #1083B0);
-		background-image: -moz-linear-gradient(top, #1BBCF3, #1083B0);
-		background-image: -ms-linear-gradient(top, #1BBCF3, #1083B0);
-		background-image: -o-linear-gradient(top, #1BBCF3, #1083B0);
-		text-align:center;}
-	h2, h3, h4 {color:#1BBCF3;}
-	}
+    .main {
+        a,
+        a:visited {
+            color: #880C00;
 
-/* Threadneedle
--------------------------------------------------------------- */
-
-.page-id-264,
-.category-threadneedle,
-.tag-threadneedle {
-
-    a,
-    a:visited {
-        color: #003D6D;
-
-        &:hover,
-        &:focus {
-            color: darken(#003D6D, 9%);
+            &:hover,
+            &:focus {color: darken(#880C00, 9%);}
         }
-    }
 
-    h1 {
-        color: #fff;
-        background-color:#003D6D;
-        border-radius:1em;
-        text-align:center;
-    }
-
-    h2,
-    h3,
-    h4 {
-        color: #003D6D;
-    }
+        h2,
+        h3,
+        h4 {color:#880C00;}
+	}
 }
+
+/***** Suffolk Life *****/
+
+.page-id-263,
+.tag-suffolk-life {
+
+    .article-header {
+        background-color: #1BBCF3;
+    }
+
+	.main {
+        a,
+        a:visited {
+            color: #1BBCF3;
+
+            &:hover,
+            &:focus {color: darken(#1BBCF3, 9%);}
+        }
+
+        h2,
+        h3,
+        h4 {color:#1BBCF3;}
+	}
+}
+
+
 
 /* TIME
 -------------------------------------------------------------- */

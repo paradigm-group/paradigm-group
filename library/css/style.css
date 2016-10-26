@@ -1009,6 +1009,33 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 /***** Bright Grey *****/
 /***** Cater Allen Private Bank *****/
+/***** Columbia Threadneedle *****/
+.page-id-264 .article-header,
+.tag-threadneedle .article-header {
+  background-color: #003D6D; }
+
+.page-id-264 .main a,
+.page-id-264 .main a:visited,
+.tag-threadneedle .main a,
+.tag-threadneedle .main a:visited {
+  color: #003D6D; }
+  .page-id-264 .main a:hover, .page-id-264 .main a:focus,
+  .page-id-264 .main a:visited:hover,
+  .page-id-264 .main a:visited:focus,
+  .tag-threadneedle .main a:hover,
+  .tag-threadneedle .main a:focus,
+  .tag-threadneedle .main a:visited:hover,
+  .tag-threadneedle .main a:visited:focus {
+    color: #00233f; }
+
+.page-id-264 .main h2,
+.page-id-264 .main h3,
+.page-id-264 .main h4,
+.tag-threadneedle .main h2,
+.tag-threadneedle .main h3,
+.tag-threadneedle .main h4 {
+  color: #003D6D; }
+
 /***** Defaqto *****/
 .page-id-19456 .article-header,
 .tag-defaqto .article-header {
@@ -1851,84 +1878,59 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 .tag-skandia h4 {
   color: #008066; }
 
-/* Smith & Williamson
--------------------------------------------------------------- */
-.page-id-262 a, .page-id-262 a:visited, .tag-smith-williamson a, .tag-smith-williamson a:visited {
+/***** Smith & Williamson *****/
+.page-id-262 .article-header,
+.tag-smith-williamson .article-header {
+  background-color: #880C00; }
+
+.page-id-262 .main a,
+.page-id-262 .main a:visited,
+.tag-smith-williamson .main a,
+.tag-smith-williamson .main a:visited {
   color: #880C00; }
-  .page-id-262 a:hover, .page-id-262 a:focus, .page-id-262 a:visited:hover, .page-id-262 a:visited:focus, .tag-smith-williamson a:hover, .tag-smith-williamson a:focus, .tag-smith-williamson a:visited:hover, .tag-smith-williamson a:visited:focus {
+  .page-id-262 .main a:hover, .page-id-262 .main a:focus,
+  .page-id-262 .main a:visited:hover,
+  .page-id-262 .main a:visited:focus,
+  .tag-smith-williamson .main a:hover,
+  .tag-smith-williamson .main a:focus,
+  .tag-smith-williamson .main a:visited:hover,
+  .tag-smith-williamson .main a:visited:focus {
     color: #5a0800; }
 
-.page-id-262 h1, .tag-smith-williamson h1 {
-  color: #fff;
-  background-color: #880C00;
-  border-radius: 1em;
-  text-align: center; }
-
-.page-id-262 h2, .page-id-262 h3, .page-id-262 h4, .tag-smith-williamson h2, .tag-smith-williamson h3, .tag-smith-williamson h4 {
+.page-id-262 .main h2,
+.page-id-262 .main h3,
+.page-id-262 .main h4,
+.tag-smith-williamson .main h2,
+.tag-smith-williamson .main h3,
+.tag-smith-williamson .main h4 {
   color: #880C00; }
 
-/* Suffolk Life
--------------------------------------------------------------- */
-.page-id-263 a, .page-id-263 a:visited, .tag-suffolk-life a, .tag-suffolk-life a:visited {
+/***** Suffolk Life *****/
+.page-id-263 .article-header,
+.tag-suffolk-life .article-header {
+  background-color: #1BBCF3; }
+
+.page-id-263 .main a,
+.page-id-263 .main a:visited,
+.tag-suffolk-life .main a,
+.tag-suffolk-life .main a:visited {
   color: #1BBCF3; }
-  .page-id-263 a:hover, .page-id-263 a:focus, .page-id-263 a:visited:hover, .page-id-263 a:visited:focus, .tag-suffolk-life a:hover, .tag-suffolk-life a:focus, .tag-suffolk-life a:visited:hover, .tag-suffolk-life a:visited:focus {
+  .page-id-263 .main a:hover, .page-id-263 .main a:focus,
+  .page-id-263 .main a:visited:hover,
+  .page-id-263 .main a:visited:focus,
+  .tag-suffolk-life .main a:hover,
+  .tag-suffolk-life .main a:focus,
+  .tag-suffolk-life .main a:visited:hover,
+  .tag-suffolk-life .main a:visited:focus {
     color: #0ba2d5; }
 
-.page-id-263 h1, .tag-suffolk-life h1 {
-  color: #fff;
-  background-color: #1BBCF3;
-  border-radius: 1em;
-  background-image: linear-gradient(to top, #1BBCF3, #1083B0);
-  background-image: -webkit-gradient(linear, 100% 0%, 0% 0%, from(#1BBCF3), to(#1083B0));
-  background-image: -webkit-linear-gradient(top, #1BBCF3, #1083B0);
-  background-image: -moz-linear-gradient(top, #1BBCF3, #1083B0);
-  background-image: -ms-linear-gradient(top, #1BBCF3, #1083B0);
-  background-image: -o-linear-gradient(top, #1BBCF3, #1083B0);
-  text-align: center; }
-
-.page-id-263 h2, .page-id-263 h3, .page-id-263 h4, .tag-suffolk-life h2, .tag-suffolk-life h3, .tag-suffolk-life h4 {
+.page-id-263 .main h2,
+.page-id-263 .main h3,
+.page-id-263 .main h4,
+.tag-suffolk-life .main h2,
+.tag-suffolk-life .main h3,
+.tag-suffolk-life .main h4 {
   color: #1BBCF3; }
-
-/* Threadneedle
--------------------------------------------------------------- */
-.page-id-264 a,
-.page-id-264 a:visited,
-.category-threadneedle a,
-.category-threadneedle a:visited,
-.tag-threadneedle a,
-.tag-threadneedle a:visited {
-  color: #003D6D; }
-  .page-id-264 a:hover, .page-id-264 a:focus,
-  .page-id-264 a:visited:hover,
-  .page-id-264 a:visited:focus,
-  .category-threadneedle a:hover,
-  .category-threadneedle a:focus,
-  .category-threadneedle a:visited:hover,
-  .category-threadneedle a:visited:focus,
-  .tag-threadneedle a:hover,
-  .tag-threadneedle a:focus,
-  .tag-threadneedle a:visited:hover,
-  .tag-threadneedle a:visited:focus {
-    color: #00233f; }
-
-.page-id-264 h1,
-.category-threadneedle h1,
-.tag-threadneedle h1 {
-  color: #fff;
-  background-color: #003D6D;
-  border-radius: 1em;
-  text-align: center; }
-
-.page-id-264 h2,
-.page-id-264 h3,
-.page-id-264 h4,
-.category-threadneedle h2,
-.category-threadneedle h3,
-.category-threadneedle h4,
-.tag-threadneedle h2,
-.tag-threadneedle h3,
-.tag-threadneedle h4 {
-  color: #003D6D; }
 
 /* TIME
 -------------------------------------------------------------- */
