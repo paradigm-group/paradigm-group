@@ -1396,89 +1396,139 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 .tag-parasols .main h4 {
   color: #005A84; }
 
-/* Partnership
--------------------------------------------------------------- */
-.page-id-250 a,
-.category-partnership a,
-.category-partnership-newsletter a,
-.category-target-partnership a,
-.tag-partnership a,
-.category-partnership-december-14 a,
-.category-328 a {
+/***** Partnership *****/
+.page-id-250 .article-header,
+.category-partnership .article-header,
+.category-partnership-newsletter .article-header,
+.category-target-partnership .article-header,
+.tag-partnership .article-header,
+.category-partnership-december-14 .article-header,
+.category-328 .article-header {
+  background-color: #6eb43f; }
+
+.page-id-250 .main a,
+.category-partnership .main a,
+.category-partnership-newsletter .main a,
+.category-target-partnership .main a,
+.tag-partnership .main a,
+.category-partnership-december-14 .main a,
+.category-328 .main a {
   color: #6eb43f; }
-  .page-id-250 a:hover, .page-id-250 a:focus, .page-id-250 a:visited,
-  .category-partnership a:hover,
-  .category-partnership a:focus,
-  .category-partnership a:visited,
-  .category-partnership-newsletter a:hover,
-  .category-partnership-newsletter a:focus,
-  .category-partnership-newsletter a:visited,
-  .category-target-partnership a:hover,
-  .category-target-partnership a:focus,
-  .category-target-partnership a:visited,
-  .tag-partnership a:hover,
-  .tag-partnership a:focus,
-  .tag-partnership a:visited,
-  .category-partnership-december-14 a:hover,
-  .category-partnership-december-14 a:focus,
-  .category-partnership-december-14 a:visited,
-  .category-328 a:hover,
-  .category-328 a:focus,
-  .category-328 a:visited {
+  .page-id-250 .main a:hover, .page-id-250 .main a:focus, .page-id-250 .main a:visited,
+  .category-partnership .main a:hover,
+  .category-partnership .main a:focus,
+  .category-partnership .main a:visited,
+  .category-partnership-newsletter .main a:hover,
+  .category-partnership-newsletter .main a:focus,
+  .category-partnership-newsletter .main a:visited,
+  .category-target-partnership .main a:hover,
+  .category-target-partnership .main a:focus,
+  .category-target-partnership .main a:visited,
+  .tag-partnership .main a:hover,
+  .tag-partnership .main a:focus,
+  .tag-partnership .main a:visited,
+  .category-partnership-december-14 .main a:hover,
+  .category-partnership-december-14 .main a:focus,
+  .category-partnership-december-14 .main a:visited,
+  .category-328 .main a:hover,
+  .category-328 .main a:focus,
+  .category-328 .main a:visited {
     color: #599233; }
 
-.page-id-250 h1,
-.category-partnership h1,
-.category-partnership-newsletter h1,
-.category-target-partnership h1,
-.tag-partnership h1,
-.category-partnership-december-14 h1,
-.category-328 h1 {
-  color: #fff;
-  background-color: #6eb43f;
-  border-radius: 1em;
-  text-align: center; }
-
-.page-id-250 h2,
-.page-id-250 h3,
-.page-id-250 h4,
-.category-partnership h2,
-.category-partnership h3,
-.category-partnership h4,
-.category-partnership-newsletter h2,
-.category-partnership-newsletter h3,
-.category-partnership-newsletter h4,
-.category-target-partnership h2,
-.category-target-partnership h3,
-.category-target-partnership h4,
-.tag-partnership h2,
-.tag-partnership h3,
-.tag-partnership h4,
-.category-partnership-december-14 h2,
-.category-partnership-december-14 h3,
-.category-partnership-december-14 h4,
-.category-328 h2,
-.category-328 h3,
-.category-328 h4 {
+.page-id-250 .main h2,
+.page-id-250 .main h3,
+.page-id-250 .main h4,
+.category-partnership .main h2,
+.category-partnership .main h3,
+.category-partnership .main h4,
+.category-partnership-newsletter .main h2,
+.category-partnership-newsletter .main h3,
+.category-partnership-newsletter .main h4,
+.category-target-partnership .main h2,
+.category-target-partnership .main h3,
+.category-target-partnership .main h4,
+.tag-partnership .main h2,
+.tag-partnership .main h3,
+.tag-partnership .main h4,
+.category-partnership-december-14 .main h2,
+.category-partnership-december-14 .main h3,
+.category-partnership-december-14 .main h4,
+.category-328 .main h2,
+.category-328 .main h3,
+.category-328 .main h4 {
   color: #6eb43f; }
 
-h1.partnership-title {
+.page-id-250 .partnership-title,
+.category-partnership .partnership-title,
+.category-partnership-newsletter .partnership-title,
+.category-target-partnership .partnership-title,
+.tag-partnership .partnership-title,
+.category-partnership-december-14 .partnership-title,
+.category-328 .partnership-title {
   background-color: #fff;
   color: #6eb43f;
   text-align: left; }
 
-.partnershipcontents {
+.page-id-250 .partnershipcontents,
+.category-partnership .partnershipcontents,
+.category-partnership-newsletter .partnershipcontents,
+.category-target-partnership .partnershipcontents,
+.tag-partnership .partnershipcontents,
+.category-partnership-december-14 .partnershipcontents,
+.category-328 .partnershipcontents {
   background-color: #6eb43f;
   padding: 1em; }
-  .partnershipcontents ul {
+  .page-id-250 .partnershipcontents ul,
+  .category-partnership .partnershipcontents ul,
+  .category-partnership-newsletter .partnershipcontents ul,
+  .category-target-partnership .partnershipcontents ul,
+  .tag-partnership .partnershipcontents ul,
+  .category-partnership-december-14 .partnershipcontents ul,
+  .category-328 .partnershipcontents ul {
     list-style-type: disc;
     margin-left: 2em; }
-  .partnershipcontents a {
+  .page-id-250 .partnershipcontents a,
+  .category-partnership .partnershipcontents a,
+  .category-partnership-newsletter .partnershipcontents a,
+  .category-target-partnership .partnershipcontents a,
+  .tag-partnership .partnershipcontents a,
+  .category-partnership-december-14 .partnershipcontents a,
+  .category-328 .partnershipcontents a {
     color: #fff; }
-    .partnershipcontents a:hover, .partnershipcontents a:focus, .partnershipcontents a:visited {
+    .page-id-250 .partnershipcontents a:hover, .page-id-250 .partnershipcontents a:focus, .page-id-250 .partnershipcontents a:visited,
+    .category-partnership .partnershipcontents a:hover,
+    .category-partnership .partnershipcontents a:focus,
+    .category-partnership .partnershipcontents a:visited,
+    .category-partnership-newsletter .partnershipcontents a:hover,
+    .category-partnership-newsletter .partnershipcontents a:focus,
+    .category-partnership-newsletter .partnershipcontents a:visited,
+    .category-target-partnership .partnershipcontents a:hover,
+    .category-target-partnership .partnershipcontents a:focus,
+    .category-target-partnership .partnershipcontents a:visited,
+    .tag-partnership .partnershipcontents a:hover,
+    .tag-partnership .partnershipcontents a:focus,
+    .tag-partnership .partnershipcontents a:visited,
+    .category-partnership-december-14 .partnershipcontents a:hover,
+    .category-partnership-december-14 .partnershipcontents a:focus,
+    .category-partnership-december-14 .partnershipcontents a:visited,
+    .category-328 .partnershipcontents a:hover,
+    .category-328 .partnershipcontents a:focus,
+    .category-328 .partnershipcontents a:visited {
       color: #e8e8e8 !important; }
-  .partnershipcontents h2,
-  .partnershipcontents h3 {
+  .page-id-250 .partnershipcontents h2,
+  .page-id-250 .partnershipcontents h3,
+  .category-partnership .partnershipcontents h2,
+  .category-partnership .partnershipcontents h3,
+  .category-partnership-newsletter .partnershipcontents h2,
+  .category-partnership-newsletter .partnershipcontents h3,
+  .category-target-partnership .partnershipcontents h2,
+  .category-target-partnership .partnershipcontents h3,
+  .tag-partnership .partnershipcontents h2,
+  .tag-partnership .partnershipcontents h3,
+  .category-partnership-december-14 .partnershipcontents h2,
+  .category-partnership-december-14 .partnershipcontents h3,
+  .category-328 .partnershipcontents h2,
+  .category-328 .partnershipcontents h3 {
     color: #fff; }
 
 /* Prudential
