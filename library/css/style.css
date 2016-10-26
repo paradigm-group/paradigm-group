@@ -1064,6 +1064,32 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 /***** Henderson Global Investors Page *****/
 /***** Ingenious Investments *****/
+.page-id-242 .article-header,
+.tag-ingenious .article-header {
+  background-color: #004F71; }
+
+.page-id-242 .main a,
+.page-id-242 .main a:visited,
+.tag-ingenious .main a,
+.tag-ingenious .main a:visited {
+  color: #004F71; }
+  .page-id-242 .main a:hover, .page-id-242 .main a:focus,
+  .page-id-242 .main a:visited:hover,
+  .page-id-242 .main a:visited:focus,
+  .tag-ingenious .main a:hover,
+  .tag-ingenious .main a:focus,
+  .tag-ingenious .main a:visited:hover,
+  .tag-ingenious .main a:visited:focus {
+    color: #004F71; }
+
+.page-id-242 .main h2,
+.page-id-242 .main h3,
+.page-id-242 .main h4,
+.tag-ingenious .main h2,
+.tag-ingenious .main h3,
+.tag-ingenious .main h4 {
+  color: #004F71; }
+
 /***** Investec *****/
 .tag-investec .article-header,
 .page-id-24787 .article-header {
@@ -1146,151 +1172,119 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 .tag-just-retirement .main h4 {
   color: #273188; }
 
-/* London & Colonial
--------------------------------------------------------------- */
-.page-id-24547 a,
-.page-id-24547 a:visited,
-.tag-london-colonial a,
-.tag-london-colonial a:visited {
+/***** London & Colonial *****/
+.page-id-24547 .article-header,
+.tag-london-colonial .article-header {
+  background-color: #000; }
+
+.page-id-24547 .main a,
+.page-id-24547 .main a:visited,
+.tag-london-colonial .main a,
+.tag-london-colonial .main a:visited {
   color: #b6121c; }
-  .page-id-24547 a:hover, .page-id-24547 a:focus,
-  .page-id-24547 a:visited:hover,
-  .page-id-24547 a:visited:focus,
-  .tag-london-colonial a:hover,
-  .tag-london-colonial a:focus,
-  .tag-london-colonial a:visited:hover,
-  .tag-london-colonial a:visited:focus {
+  .page-id-24547 .main a:hover, .page-id-24547 .main a:focus,
+  .page-id-24547 .main a:visited:hover,
+  .page-id-24547 .main a:visited:focus,
+  .tag-london-colonial .main a:hover,
+  .tag-london-colonial .main a:focus,
+  .tag-london-colonial .main a:visited:hover,
+  .tag-london-colonial .main a:visited:focus {
     color: #8c0e16; }
 
-.page-id-24547 h1,
-.tag-london-colonial h1 {
-  color: #fff;
-  background-color: #000;
-  text-align: center; }
-
-.page-id-24547 h2,
-.page-id-24547 h3,
-.page-id-24547 h4,
-.tag-london-colonial h2,
-.tag-london-colonial h3,
-.tag-london-colonial h4 {
+.page-id-24547 .main h2,
+.page-id-24547 .main h3,
+.page-id-24547 .main h4,
+.tag-london-colonial .main h2,
+.tag-london-colonial .main h3,
+.tag-london-colonial .main h4 {
   color: #273188; }
 
-/* Legal & General
--------------------------------------------------------------- */
-.page-id-244 a,
-.page-id-244 a:visited,
-.category-legal-general a,
-.category-legal-general a:visited,
-.category-target-legal-general a,
-.category-target-legal-general a:visited,
-.tag-legal-general a,
-.tag-legal-general a:visited {
+/***** Legal & General *****/
+.page-id-244 .article-header,
+.tag-legal-general .article-header {
+  background-color: #006688; }
+
+.page-id-244 .main a,
+.page-id-244 .main a:visited,
+.tag-legal-general .main a,
+.tag-legal-general .main a:visited {
   color: #006688; }
-  .page-id-244 a:hover, .page-id-244 a:focus,
-  .page-id-244 a:visited:hover,
-  .page-id-244 a:visited:focus,
-  .category-legal-general a:hover,
-  .category-legal-general a:focus,
-  .category-legal-general a:visited:hover,
-  .category-legal-general a:visited:focus,
-  .category-target-legal-general a:hover,
-  .category-target-legal-general a:focus,
-  .category-target-legal-general a:visited:hover,
-  .category-target-legal-general a:visited:focus,
-  .tag-legal-general a:hover,
-  .tag-legal-general a:focus,
-  .tag-legal-general a:visited:hover,
-  .tag-legal-general a:visited:focus {
+  .page-id-244 .main a:hover, .page-id-244 .main a:focus,
+  .page-id-244 .main a:visited:hover,
+  .page-id-244 .main a:visited:focus,
+  .tag-legal-general .main a:hover,
+  .tag-legal-general .main a:focus,
+  .tag-legal-general .main a:visited:hover,
+  .tag-legal-general .main a:visited:focus {
     color: #00445a; }
 
-.page-id-244 h1,
-.category-legal-general h1,
-.category-target-legal-general h1,
-.tag-legal-general h1 {
-  color: #fff;
-  background-color: #006688;
-  border-radius: 1em;
-  text-align: center; }
+.page-id-244 .main h2,
+.page-id-244 .main h3,
+.page-id-244 .main h4,
+.page-id-244 .main h5,
+.tag-legal-general .main h2,
+.tag-legal-general .main h3,
+.tag-legal-general .main h4,
+.tag-legal-general .main h5 {
+  color: #0077C8; }
 
-.page-id-244 h2,
-.page-id-244 h3,
-.page-id-244 h4,
-.category-legal-general h2,
-.category-legal-general h3,
-.category-legal-general h4,
-.category-target-legal-general h2,
-.category-target-legal-general h3,
-.category-target-legal-general h4,
-.tag-legal-general h2,
-.tag-legal-general h3,
-.tag-legal-general h4 {
-  color: #006688; }
+/***** Legal & General Investments *****/
+.page-id-245 .article-header,
+.tag-legal-general-investments .article-header {
+  background-color: #068; }
 
-/* Legal & General Investments
--------------------------------------------------------------- */
-.page-id-245 a, .page-id-245 a:visited, .category-legal-general-investments a, .category-legal-general-investments a:visited, .category-target-legal-general-investments a, .category-target-legal-general-investments a:visited, .tag-legal-general-investments a, .tag-legal-general-investments a:visited {
+.page-id-245 .main a, .page-id-245 .main a:visited,
+.tag-legal-general-investments .main a,
+.tag-legal-general-investments .main a:visited {
   color: #068; }
-  .page-id-245 a:hover, .page-id-245 a:focus, .page-id-245 a:visited:hover, .page-id-245 a:visited:focus, .category-legal-general-investments a:hover, .category-legal-general-investments a:focus, .category-legal-general-investments a:visited:hover, .category-legal-general-investments a:visited:focus, .category-target-legal-general-investments a:hover, .category-target-legal-general-investments a:focus, .category-target-legal-general-investments a:visited:hover, .category-target-legal-general-investments a:visited:focus, .tag-legal-general-investments a:hover, .tag-legal-general-investments a:focus, .tag-legal-general-investments a:visited:hover, .tag-legal-general-investments a:visited:focus {
+  .page-id-245 .main a:hover, .page-id-245 .main a:focus, .page-id-245 .main a:visited:hover, .page-id-245 .main a:visited:focus,
+  .tag-legal-general-investments .main a:hover,
+  .tag-legal-general-investments .main a:focus,
+  .tag-legal-general-investments .main a:visited:hover,
+  .tag-legal-general-investments .main a:visited:focus {
     color: #00445a; }
 
-.page-id-245 h1, .category-legal-general-investments h1, .category-target-legal-general-investments h1, .tag-legal-general-investments h1 {
-  color: #fff;
-  background-color: #068;
-  border-radius: 1em;
-  text-align: center; }
-
-.page-id-245 h2, .page-id-245 h3, .page-id-245 h4, .category-legal-general-investments h2, .category-legal-general-investments h3, .category-legal-general-investments h4, .category-target-legal-general-investments h2, .category-target-legal-general-investments h3, .category-target-legal-general-investments h4, .tag-legal-general-investments h2, .tag-legal-general-investments h3, .tag-legal-general-investments h4 {
+.page-id-245 .main h2, .page-id-245 .main h3, .page-id-245 .main h4,
+.tag-legal-general-investments .main h2,
+.tag-legal-general-investments .main h3,
+.tag-legal-general-investments .main h4 {
   color: #068; }
 
-/* M&G
--------------------------------------------------------------- */
-.page-id-246 a,
-.page-id-246 a:visited,
-.category-mg a,
-.category-mg a:visited,
-.tag-mg a,
-.tag-mg a:visited,
-.tag-mg-2 a,
-.tag-mg-2 a:visited {
+/***** M&G *****/
+.page-id-246 .article-header,
+.tag-mg .article-header,
+.tag-mg-2 .article-header {
+  background-color: #004F5C; }
+
+.page-id-246 .main a,
+.page-id-246 .main a:visited,
+.tag-mg .main a,
+.tag-mg .main a:visited,
+.tag-mg-2 .main a,
+.tag-mg-2 .main a:visited {
   color: #004F5C; }
-  .page-id-246 a:hover, .page-id-246 a:focus,
-  .page-id-246 a:visited:hover,
-  .page-id-246 a:visited:focus,
-  .category-mg a:hover,
-  .category-mg a:focus,
-  .category-mg a:visited:hover,
-  .category-mg a:visited:focus,
-  .tag-mg a:hover,
-  .tag-mg a:focus,
-  .tag-mg a:visited:hover,
-  .tag-mg a:visited:focus,
-  .tag-mg-2 a:hover,
-  .tag-mg-2 a:focus,
-  .tag-mg-2 a:visited:hover,
-  .tag-mg-2 a:visited:focus {
+  .page-id-246 .main a:hover, .page-id-246 .main a:focus,
+  .page-id-246 .main a:visited:hover,
+  .page-id-246 .main a:visited:focus,
+  .tag-mg .main a:hover,
+  .tag-mg .main a:focus,
+  .tag-mg .main a:visited:hover,
+  .tag-mg .main a:visited:focus,
+  .tag-mg-2 .main a:hover,
+  .tag-mg-2 .main a:focus,
+  .tag-mg-2 .main a:visited:hover,
+  .tag-mg-2 .main a:visited:focus {
     color: #00282e; }
 
-.page-id-246 h1,
-.category-mg h1,
-.tag-mg h1,
-.tag-mg-2 h1 {
-  color: #fff;
-  background-color: #004F5C;
-  text-align: center; }
-
-.page-id-246 h2,
-.page-id-246 h3,
-.page-id-246 h4,
-.category-mg h2,
-.category-mg h3,
-.category-mg h4,
-.tag-mg h2,
-.tag-mg h3,
-.tag-mg h4,
-.tag-mg-2 h2,
-.tag-mg-2 h3,
-.tag-mg-2 h4 {
+.page-id-246 .main h2,
+.page-id-246 .main h3,
+.page-id-246 .main h4,
+.tag-mg .main h2,
+.tag-mg .main h3,
+.tag-mg .main h4,
+.tag-mg-2 .main h2,
+.tag-mg-2 .main h3,
+.tag-mg-2 .main h4 {
   color: #004F5C; }
 
 /* Metlife

@@ -226,7 +226,29 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 /***** Ingenious Investments *****/
 
 .page-id-242,
-.tag-ingenious {}
+.tag-ingenious {
+    .article-header {
+        background-color:#004F71;
+    }
+
+  .main {
+        a,
+        a:visited {
+            color: #004F71;
+
+            &:hover,
+            &:focus {
+                color: #004F71;
+            }
+        }
+
+        h2,
+        h3,
+        h4 {
+            color: #004F71;
+        }
+    }
+}
 
 /***** Investec *****/
 
@@ -314,76 +336,80 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 	}
 }
 
-/* London & Colonial
--------------------------------------------------------------- */
+/***** London & Colonial *****/
 
 .page-id-24547,
 .tag-london-colonial {
-	a,
-    a:visited {color: #b6121c;
-        &:hover,
-        &:focus {
-            color: darken(#b6121c, 9%);
-        }
-    }
 
-    h1 {
-        color: #fff;
+    .article-header {
         background-color:#000;
-        text-align:center
     }
 
-    h2,
-    h3,
-    h4 {color: #273188;}
+    .main {
+        a,
+        a:visited {color: #b6121c;
+            &:hover,
+            &:focus {
+                color: darken(#b6121c, 9%);
+            }
+        }
+
+        h2,
+        h3,
+        h4 {color: #273188;}
+    }
 }
 
-/* Legal & General
--------------------------------------------------------------- */
+/***** Legal & General *****/
 
 .page-id-244,
-.category-legal-general,
-.category-target-legal-general,
 .tag-legal-general {
-	a,
-    a:visited {
-        color: #006688;
+    .article-header {
+		background-color: #006688;
+    }
 
-        &:hover,
-        &:focus {
-            color: darken(#006688, 9%);
+    .main {
+        a,
+        a:visited {
+            color: #006688;
+            &:hover,
+            &:focus {
+                color: darken(#006688, 9%);
+            }
+        }
+
+        h2,
+        h3,
+        h4,
+        h5 {
+            color: #0077C8;
         }
     }
-
-    h1 {
-        color: #fff;
-        background-color:#006688;
-        border-radius:1em;
-        text-align:center;}
-	h2,
-    h3,
-    h4 {
-        color: #006688;
-    }
-
 }
 
-/* Legal & General Investments
--------------------------------------------------------------- */
+/***** Legal & General Investments *****/
 
-.page-id-245, .category-legal-general-investments, .category-target-legal-general-investments, .tag-legal-general-investments {
+.page-id-245,
+.tag-legal-general-investments {
+    .article-header {
+        background-color: #068;
+    }
+    .main {
 	a, a:visited {color: #068;  &:hover, &:focus {color: darken(#006688, 9%);} }
-	h1 {color: #fff; background-color:#068; border-radius:1em; text-align:center;}
 	h2, h3, h4 {color: #068;}
 	}
-
-/* M&G
--------------------------------------------------------------- */
+}
+/***** M&G *****/
 
 .page-id-246,
-.category-mg,
 .tag-mg,
 .tag-mg-2 {
+
+    .article-header {
+        background-color:#004F5C;
+    }
+
+    .main {
 	a,
     a:visited {
         color: #004F5C;
@@ -393,17 +419,12 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
             color: darken(#004F5C, 9%);
         }
     }
-	h1 {
-        color: #fff;
-        background-color:#004F5C;
-        text-align:center;
-    }
 
     h2,
     h3,
     h4 {color: #004F5C;}
 	}
-
+}
 /* Metlife
 -------------------------------------------------------------- */
 
