@@ -574,7 +574,7 @@ BOX  SHADOW
 MAZE
 *********************/
 /******************************************************************
-Site Name:
+Site Name: Paradigm - Let's do this right
 Author: Jack Machin
 
 Stylesheet: Layout Stylesheet
@@ -645,13 +645,15 @@ Stylesheet: Layout Stylesheet
   -webkit-box-flex: 3;
   -webkit-flex: 3;
   -ms-flex: 3;
-  flex: 3; }
+  flex: 3;
+  padding: 0 0 0 1em; }
 
 .sidebar-main {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
-  flex: 1; }
+  flex: 1;
+  padding: 0 0 0 1em; }
 
 /******************************************************************
 Site Name:
