@@ -736,44 +736,56 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 	}
 }
 
-/* Santander
--------------------------------------------------------------- */
+/***** Santander *****/
 
 .page-id-11209,
-.category-santander,
-.category-target-santander,
 .tag-santander {
 
-    a,
-    a:visited {
-        color: #ff0000;
+    .article-header {
+        background-color: #ff0000;
+    }
 
-        &:hover,
-        &:focus {
-            color: darken(#ff0000, 9%);
+    .main {
+        a,
+        a:visited {
+            color: #ff0000;
+
+            &:hover,
+            &:focus {
+                color: darken(#ff0000, 9%);
+            }
+    }
+
+        h2,
+        h3,
+        h4 {
+            color: #ff0000;
         }
-    }
-
-    h1 {
-        color: #ff0000;
-        text-align:center;
-    }
-
-    h2,
-    h3,
-    h4 {
-        color: #ff0000;
     }
 }
 
-/* Schroders
--------------------------------------------------------------- */
+/***** Schroders *****/
 
-.page-id-253, .tag-schroders {
-	a, a:visited {color: #003772; &:hover, &:focus {color: darken(#003772, 9%);} }
-	h1 {color: #fff; background-color:#003772;border-radius:1em; text-align:center;}
-	h2, h3, h4 {color: #003772;}
+.page-id-253,
+.tag-schroders {
+
+    .article-header {
+        background-color: #003772;
+    }
+	.main {
+        a,
+        a:visited {
+            color: #003772;
+
+            &:hover,
+            &:focus {color: darken(#003772, 9%);}
+        }
+
+        h2,
+        h3,
+        h4 {color: #003772;}
 	}
+}
 
 /* Scottish Provident
 -------------------------------------------------------------- */
