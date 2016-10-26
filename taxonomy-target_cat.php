@@ -13,14 +13,14 @@
             <header class="article-header page-header">
 
                 <div class="container">
-                    <h1>Welcome to Target</h1>
+                    <h1 class="page-title">Welcome to Target</h1>
 
                     <?php if( is_tax() ) {
                         global $wp_query;
                         $term = $wp_query->get_queried_object();
                             $title = $term->name;
 
-                        echo $title;
+                        echo '<p>'$title'</p>';
                     } ?>
                 </div>
             </header>
