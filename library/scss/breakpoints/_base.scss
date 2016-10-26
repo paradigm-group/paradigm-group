@@ -151,7 +151,9 @@ HEADER STYLES
         color: $white;
     }
 }
-
+    .site-title {
+        background: none;
+    }
 	.logo {
         max-width:100%;
         height:auto;

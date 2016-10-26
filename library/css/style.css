@@ -2324,6 +2324,9 @@ HEADER STYLES
   .header a {
     color: #fff; }
 
+.site-title {
+  background: none; }
+
 .logo {
   max-width: 100%;
   height: auto; }
