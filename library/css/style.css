@@ -949,71 +949,35 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 /* AXA (Wealth & Life Invest)
 -------------------------------------------------------------- */
-.page-id-235 a,
-.page-id-235 a:visited,
-.page-id-11095 a,
-.page-id-11095 a:visited,
-.category-5 a,
-.category-5 a:visited,
-.category-axa-wealth a,
-.category-axa-wealth a:visited,
-.tag-axa a,
-.tag-axa a:visited {
+.page-id-235 .main a,
+.page-id-235 .main a:visited,
+.page-id-11095 .main a,
+.page-id-11095 .main a:visited,
+.tag-axa .main a,
+.tag-axa .main a:visited {
   color: #0b3881; }
-  .page-id-235 a:hover, .page-id-235 a:focus,
-  .page-id-235 a:visited:hover,
-  .page-id-235 a:visited:focus,
-  .page-id-11095 a:hover,
-  .page-id-11095 a:focus,
-  .page-id-11095 a:visited:hover,
-  .page-id-11095 a:visited:focus,
-  .category-5 a:hover,
-  .category-5 a:focus,
-  .category-5 a:visited:hover,
-  .category-5 a:visited:focus,
-  .category-axa-wealth a:hover,
-  .category-axa-wealth a:focus,
-  .category-axa-wealth a:visited:hover,
-  .category-axa-wealth a:visited:focus,
-  .tag-axa a:hover,
-  .tag-axa a:focus,
-  .tag-axa a:visited:hover,
-  .tag-axa a:visited:focus {
+  .page-id-235 .main a:hover, .page-id-235 .main a:focus,
+  .page-id-235 .main a:visited:hover,
+  .page-id-235 .main a:visited:focus,
+  .page-id-11095 .main a:hover,
+  .page-id-11095 .main a:focus,
+  .page-id-11095 .main a:visited:hover,
+  .page-id-11095 .main a:visited:focus,
+  .tag-axa .main a:hover,
+  .tag-axa .main a:focus,
+  .tag-axa .main a:visited:hover,
+  .tag-axa .main a:visited:focus {
     color: #072657; }
 
-.page-id-235 h1,
-.page-id-11095 h1,
-.category-5 h1,
-.category-axa-wealth h1,
-.tag-axa h1 {
-  color: #fff;
-  border-radius: 1em;
-  background-color: #003881;
-  background-image: linear-gradient(to right, #003881, #2e5391);
-  background-image: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#003881), to(#2e5391));
-  background-image: -webkit-linear-gradient(left, #003881, #2e5391);
-  background-image: -moz-linear-gradient(left, #003881, #2e5391);
-  background-image: -ms-linear-gradient(left, #003881, #2e5391);
-  background-image: -o-linear-gradient(left, #003881, #2e5391);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#003881', EndColorStr='#2e5391',GradientType=1);
-  zoom: 1;
-  text-align: center; }
-
-.page-id-235 h2,
-.page-id-235 h3,
-.page-id-235 h4,
-.page-id-11095 h2,
-.page-id-11095 h3,
-.page-id-11095 h4,
-.category-5 h2,
-.category-5 h3,
-.category-5 h4,
-.category-axa-wealth h2,
-.category-axa-wealth h3,
-.category-axa-wealth h4,
-.tag-axa h2,
-.tag-axa h3,
-.tag-axa h4 {
+.page-id-235 .main h2,
+.page-id-235 .main h3,
+.page-id-235 .main h4,
+.page-id-11095 .main h2,
+.page-id-11095 .main h3,
+.page-id-11095 .main h4,
+.tag-axa .main h2,
+.tag-axa .main h3,
+.tag-axa .main h4 {
   color: #0b3881; }
 
 /* Blackrock

@@ -75,38 +75,23 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-235,
 .page-id-11095,
-.category-5,
-.category-axa-wealth,
 .tag-axa  {
-	a,
-    a:visited {
-        color: #0b3881;
+	.main {
+        a,
+        a:visited {
+            color: #0b3881;
 
-        &:hover,
-        &:focus {
-            color: darken(#0b3881, 9%);
+            &:hover,
+            &:focus {
+                color: darken(#0b3881, 9%);
+            }
         }
-    }
 
-    h1 {
-		color: #fff;
-		border-radius: 1em;
-		background-color: #003881;
-		background-image: linear-gradient(to right, #003881, #2e5391);
-		background-image: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#003881), to(#2e5391));
-		background-image: -webkit-linear-gradient(left, #003881, #2e5391);
-		background-image: -moz-linear-gradient(left, #003881, #2e5391);
-		background-image: -ms-linear-gradient(left, #003881, #2e5391);
-		background-image: -o-linear-gradient(left, #003881, #2e5391);
-		filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#003881', EndColorStr='#2e5391',GradientType=1) /* IE6-9 */;
-		zoom: 1;
-		text-align:center;
-		}
-
-	h2,
-    h3,
-    h4 {
-        color: #0b3881;
+        h2,
+        h3,
+        h4 {
+            color: #0b3881;
+        }
     }
 }
 
