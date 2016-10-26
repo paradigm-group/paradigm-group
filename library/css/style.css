@@ -869,9 +869,9 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 ******************************************************************/
 /***** Aegon *****/
-.page-id-168 .page-header,
-.category-aegon .page-header,
-.tag-aegon .page-header {
+.page-id-168 .article-header,
+.category-aegon .article-header,
+.tag-aegon .article-header {
   background-color: #0077C8; }
 
 .page-id-168 .main a,
@@ -910,9 +910,9 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 /***** Ageas Page 233 *****/
 /***** Aviva *****/
-.page-id-234 .page-header,
-.category-aviva .page-header,
-.tag-aviva .page-header {
+.page-id-234 .article-header,
+.category-aviva .article-header,
+.tag-aviva .article-header {
   background-color: #ffd900;
   color: #004fb6; }
 
@@ -2368,9 +2368,9 @@ POSTS & CONTENT STYLES
 .content {
   margin-top: 0; }
 
-.page-header {
+.article-header {
   background-color: #bc1739; }
-  .page-header .page-title {
+  .article-header .page-title {
     font-size: 5em;
     color: #fff; }
 
