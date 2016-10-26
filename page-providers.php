@@ -32,10 +32,24 @@
                     </header> <?php // end article header ?>
 
                     <div class="entry-content" itemprop="articleBody">
-                        <?php
-                            // the content (pretty self explanatory huh)
-                            the_content();
-                        ?>
+                         <?php the_field ('intro_text');?>
+
+                            <?php if( have_rows('main_content') ): ?>
+
+                                <?php while( have_rows('main_content') ): the_row();?>
+
+                                    <h2><a class="aj-collapse" rel="<?php the_sub_field ('section_id') ;?>"><?php  the_sub_field ('section_title') ; ?></a></h2>
+
+                                    <div class="aj-hidden clearfix" id="<?php  the_sub_field ('section_id') ;?>">
+                                        <?php  the_sub_field ('section_content') ; ?>
+                                    </div>
+
+                            <?php endwhile; ?>
+
+                        <?php endif; ?>
+
+                        <?php the_field ('afterthoughts');?>
+
                     </div> <?php // end article section ?>
 
                     <footer class="article-footer">
