@@ -54,7 +54,7 @@
             </div>
             <nav role="navigation" class="navigation">
 
-                <?php if (is_page_template('members')) { echo '/* this is the members template */'; } else {} ?>
+                <?php if (is_page_template('page-members.php')) { echo '/* this is the members template */'; } else {} ?>
 
                 <?php wp_nav_menu(array(
                     'container' => 'div',                           // remove nav container
