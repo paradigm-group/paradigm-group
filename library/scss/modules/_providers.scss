@@ -1,0 +1,982 @@
+/******************************************************************
+Site Name: Paradigm Group - Doing it properly
+Author: Jack Machin
+
+Stylesheet: Providers Stylesheet
+
+This is where we do custom CSS for Strategic Partners to make their page look nice.
+
+******************************************************************/
+
+
+/***** Aegon *****/
+
+.page-id-168,
+.category-aegon,
+.tag-aegon {
+
+    a,
+    a:visited {
+        color: #0077C8;
+        &:hover,
+        &:focus {
+            color: darken(#0077C8, 9%);
+        }
+    }
+
+    h1 {
+		background-color: #0077C8;
+		background-image: linear-gradient(to right, #0077C8, #0AB9EB);
+		text-align: center;
+		color: #fff;
+		background-image: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#0077C8), to(#0AB9EB));
+		background-image: -webkit-linear-gradient(left, #0077C8, #0AB9EB);
+		background-image: -moz-linear-gradient(left, #0077C8, #0AB9EB);
+		background-image: -ms-linear-gradient(left, #0077C8, #0AB9EB);
+		background-image: -o-linear-gradient(left, #0077C8, #0AB9EB);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#0077c8', EndColorStr='#0AB9EB',GradientType=1) /* IE6-9 */;
+		}
+
+	h2,
+    h3,
+    h4,
+    h5 {
+        color: #0077C8;
+    }
+}
+
+/***** Ageas Page 233 *****/
+
+.page-id-233,
+.category-ageas,
+.tag-ageas {
+	h1 {
+	   text-align:center;
+	}
+}
+
+/***** Aviva *****/
+
+.page-id-234,
+.category-aviva,
+.tag-aviva {
+
+    a,
+    a:visited {
+        color: #004fb6;
+
+        &:hover,
+        &:focus {
+            color: darken(#004fb6, 9%);
+        }
+    }
+
+    h1 {
+        border-radius: 1em;
+		background-image: linear-gradient(to right, #FFE866, #FFD900);
+		background-image: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#FFE866), to(#FFD900));
+		background-image: -webkit-linear-gradient(left, #FFE866, #FFD900);
+		background-image: -moz-linear-gradient(left, #FFE866, #FFD900);
+		background-image: -ms-linear-gradient(left, #FFE866, #FFD900);
+		background-image: -o-linear-gradient(left, #FFE866, #FFD900);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFE866', EndColorStr='#FFD900',GradientType=1) /* IE6-9 */;
+		color: #004fb6;
+		text-align:center;
+		}
+	h2, h3, h4 {color: #004fb6;}
+	}
+
+/* AXA (Wealth & Life Invest)
+-------------------------------------------------------------- */
+
+.page-id-235,
+.page-id-11095,
+.category-5,
+.category-axa-wealth,
+.tag-axa  {
+	a,
+    a:visited {
+        color: #0b3881;
+
+        &:hover,
+        &:focus {
+            color: darken(#0b3881, 9%);
+        }
+    }
+
+    h1 {
+		color: #fff;
+		border-radius: 1em;
+		background-color: #003881;
+		background-image: linear-gradient(to right, #003881, #2e5391);
+		background-image: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#003881), to(#2e5391));
+		background-image: -webkit-linear-gradient(left, #003881, #2e5391);
+		background-image: -moz-linear-gradient(left, #003881, #2e5391);
+		background-image: -ms-linear-gradient(left, #003881, #2e5391);
+		background-image: -o-linear-gradient(left, #003881, #2e5391);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#003881', EndColorStr='#2e5391',GradientType=1) /* IE6-9 */;
+		zoom: 1;
+		text-align:center;
+		}
+
+	h2,
+    h3,
+    h4 {
+        color: #0b3881;
+    }
+}
+
+/* Blackrock
+-------------------------------------------------------------- */
+
+.page-id-236,
+.category-blackrock,
+.tag-blackrock-2 {
+	a, a:visited {color:#424B54; &:hover, &:focus {color: #c03;} }
+	h1 {
+		background-color:#000;
+		color:#fff;
+		border-radius:1em;
+		text-align:center;
+	}
+	h2, h3, h4 {color:#000;}
+	}
+
+
+/* Blackfinch
+-------------------------------------------------------------- */
+
+.page-id-16598, .tag-blackfinch {
+	a, a:visited {color:#000; &:hover, &:focus {color: #000;} }
+	h1 {
+		background-color:#000;
+		color:#fff;
+		border-radius:1em;
+		text-align:center;
+	}
+	h2, h3, h4 {color:#424B54;}
+	.aj-collapse {color:#424B54;}
+	.blackrock {background-color:#424B54;}
+	}
+
+/* BNY Mellon
+-------------------------------------------------------------- */
+
+.page-id-11289, .category-bny-mellon, .tag-bny {
+	a, a:visited {color:#FFA100; &:hover, &:focus {color: darken(#FFA100, 9%);} }
+	h1 {
+		background-color:#FFA100;
+		color:#fff;
+		border-radius:1em;
+		text-align:center;
+	}
+	h2, h3, h4 {color:#FFA100;}
+	}
+
+/* Brand FT
+-------------------------------------------------------------- */
+
+.tag-brand-ft {
+	a,
+    a:visited {
+        color: #2262ac;
+
+        &:hover,
+        &:focus {
+            color: darken(#2262ac, 9%);
+        }
+    }
+
+    h1 {
+        text-align:center;
+        background-color:#496394;
+        color:#fff;
+        border-radius:1em;
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: #2262ac;
+    }
+}
+
+/* Bright Grey
+-------------------------------------------------------------- */
+
+.page-id-237, .category-bright-grey, .category-target-bright-grey, .tag-bright-grey  {
+	a, a:visited {color:#ea0e8c; &:hover, &:focus {color: darken(#ea0e8c, 9%);} }
+	h1 {color: #575756  ;background-color:#EA0082 ; text-align:center; border-radius:1em;}
+	h2, h3, h4 {color:#EA0082;}
+	}
+
+/* Cater Allen Private Bank
+-------------------------------------------------------------- */
+
+.page-id-238, .category-cater-allen-private-bank, .tag-cater-allen  {
+	a, a:visited {color: #047; &:hover, &:focus {color: darken(#047, 9%);} }
+	h1 {color: #fff; background-color:#047; border-radius:1em; text-align:center;}
+	h2, h3, h4, h5 {color:#047;}
+	}
+
+/* Defaqto
+-------------------------------------------------------------- */
+
+.page-id-19456,
+.tag-defaqto{
+
+    a,
+    a:visited {
+        color: #005493;
+
+        &:hover,
+        &:focus {
+            color: darken(#005493, 9%);
+        }
+    }
+
+    h1 {
+        color: #fff;
+        background-color:#005493;
+        border-radius:1em;
+        text-align:center;
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: #005493;
+    }
+}
+
+/* Fidelity
+-------------------------------------------------------------- */
+
+.page-id-239, .category-fidelity, .category-target-fidelity, .tag-fidelity {
+	a, a:visited {color: #007CC1; &:hover, &:focus {color: darken(#007CC1, 9%);} }
+	h1 {color: #fff; background-color:#007CC1;border-radius:1em; text-align:center;}
+	h2, h3, h4 {color: #007CC1;}
+	}
+
+/* FriendsLife
+-------------------------------------------------------------- */
+
+.page-id-240,
+.category-friendslife,
+.tag-friends-life  {
+	a, a:visited {color: #137AC1; &:hover, &:focus {color: darken(#137AC1, 9%);} }
+	h1 {color: #fff; background-color:#137AC1; border-radius:1em; text-align:center;}
+	h2, h3, h4 {color: #137AC1;}
+	}
+
+/* Goldman Sachs
+-------------------------------------------------------------- */
+
+.page-id-20608,
+.tag-goldman-sachs  {
+	a,
+    a:visited {
+        color: #7399C6;
+
+        &:hover,
+        &:focus {
+            color: darken(#7399C6, 9%);
+        }
+    }
+
+    h1 {
+        color: #fff;
+        background-color:#7399C6;
+        border-radius:1em;
+        text-align:center;
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: #7399C6;
+    }
+}
+
+/* Henderson Global Investors Page
+-------------------------------------------------------------- */
+
+.page-id-241,
+.category-henderson,
+.tag-henderson {
+
+    a,
+    a:visited {
+        color:#951a26;
+
+        &:hover,
+        &:focus {
+            color: darken(#951a26, 9%);
+        }
+    }
+	h1 {
+        color: #fff;
+        background-color:#778892;
+        border-radius:1em;
+        text-align:center;
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: #951a26;
+    }
+}
+
+/* Ingenious Investments
+-------------------------------------------------------------- */
+
+.page-id-242, .category-ingenious, .category-target-ingenious, .tag-ingenious {
+	a, a:visited {color: #004F71; &:hover, &:focus {color: darken(#004F71, 9%);} }
+	h1 {text-align:center; background-color:#004F71;color:#fff; border-radius:1em;}
+	h2, h3, h4 {color: #004F71;}
+	}
+
+/* Investec
+-------------------------------------------------------------- */
+
+.tag-investec,
+.page-id-24787 {
+	a,
+    a:visited {
+        color: #000;
+
+        &:hover,
+        &:focus {
+            color: #000;
+        }
+    }
+
+    h1 {
+        color: #fff;
+        background-color:#000;
+        text-align:center;
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: #000;
+    }
+}
+
+/* Intelliflo
+-------------------------------------------------------------- */
+
+.page-id-18313, .tag-intelliflo {
+	a,
+    a:visited {
+        color: #496394;
+
+        &:hover,
+        &:focus {
+            color: darken(#496394, 9%);
+        }
+    }
+
+    h1 {
+        text-align:center;
+        background-color:#496394;
+        color:#fff;
+        border-radius:1em;
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: #496394;
+    }
+}
+
+/* J.P. Morgan
+-------------------------------------------------------------- */
+
+.page-id-243, .category-j-p-morgan, .tag-jp-morgan {
+	a, a:visited {color: #345091; &:hover, &:focus {color: darken(#345091, 9%);} }
+	h1 {color: #345091; background-color:#F0EAD8; border-radius:1em; text-align:center;}
+	h2, h3, h4 {color:#345091;}
+	}
+
+/* Just Retirement
+-------------------------------------------------------------- */
+
+.page-id-4174, .category-just-retirement, .category-target-just-retirement, .tag-just-retirement {
+	a, a:visited {color: #273188; &:hover, &:focus {color: darken(#273188, 9%);} }
+	h1 {color: #a49400; background-color:#273188; border-radius:1em; text-align:center}
+	h2, h3, h4 {color: #273188;}
+	}
+
+/* London & Colonial
+-------------------------------------------------------------- */
+
+.page-id-24547,
+.tag-london-colonial {
+	a,
+    a:visited {color: #b6121c;
+        &:hover,
+        &:focus {
+            color: darken(#b6121c, 9%);
+        }
+    }
+
+    h1 {
+        color: #fff;
+        background-color:#000;
+        text-align:center
+    }
+
+    h2,
+    h3,
+    h4 {color: #273188;}
+}
+
+/* Legal & General
+-------------------------------------------------------------- */
+
+.page-id-244,
+.category-legal-general,
+.category-target-legal-general,
+.tag-legal-general {
+	a,
+    a:visited {
+        color: #006688;
+
+        &:hover,
+        &:focus {
+            color: darken(#006688, 9%);
+        }
+    }
+
+    h1 {
+        color: #fff;
+        background-color:#006688;
+        border-radius:1em;
+        text-align:center;}
+	h2,
+    h3,
+    h4 {
+        color: #006688;
+    }
+
+}
+
+/* Legal & General Investments
+-------------------------------------------------------------- */
+
+.page-id-245, .category-legal-general-investments, .category-target-legal-general-investments, .tag-legal-general-investments {
+	a, a:visited {color: #068;  &:hover, &:focus {color: darken(#006688, 9%);} }
+	h1 {color: #fff; background-color:#068; border-radius:1em; text-align:center;}
+	h2, h3, h4 {color: #068;}
+	}
+
+/* M&G
+-------------------------------------------------------------- */
+
+.page-id-246,
+.category-mg,
+.tag-mg,
+.tag-mg-2 {
+	a,
+    a:visited {
+        color: #004F5C;
+
+        &:hover,
+        &:focus {
+            color: darken(#004F5C, 9%);
+        }
+    }
+	h1 {
+        color: #fff;
+        background-color:#004F5C;
+        text-align:center;
+    }
+
+    h2,
+    h3,
+    h4 {color: #004F5C;}
+	}
+
+/* Metlife
+-------------------------------------------------------------- */
+
+.page-id-247, .category-metlife, .tag-metlife-2  {
+	a, a:visited {color: #007cc2; &:hover, &:focus {color: darken(#007cc2, 9%);} }
+	h1 {color: #007cc2; border-radius:1em;text-align:center;}
+	h2, h3, h4 {color: #007cc2;}
+	}
+
+/* OBSR
+-------------------------------------------------------------- */
+
+.page-id-248 {
+	h1 {
+        text-align:center;
+    }
+}
+
+
+/* Octopus
+-------------------------------------------------------------- */
+
+.page-id-249, .category-octopus, .tag-octopus {
+	a, a:visited {color: #336699;  &:hover, &:focus {color: darken(#336699, 9%);} }
+	h1 {color: #fff; background-color:#336699; border-radius:1em; text-align:center;}
+	h2, h3, h4 {color: #336699;}
+	}
+
+/* Old Mutual
+-------------------------------------------------------------- */
+
+.page-id-24671,
+.tag-old-mutual {
+	a,
+    a:visited {
+        color: #006150;
+
+        &:hover,
+        &:focus {
+            color: darken(#006150, 9%);
+        }
+    }
+
+    h1 {
+        color: #fff;
+        background-color:#006150;
+        text-align:center;
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: #006150;
+    }
+}
+
+/* Para-Sols
+-------------------------------------------------------------- */
+
+.page-id-19474,
+.tag-parasols{
+	a,
+    a:visited {
+        color: #005A84;
+
+        &:hover,
+        &:focus {
+            color: darken(#005A84, 9%);
+        }
+    }
+
+    h1 {
+        color: #fff;
+        background-color:#003045;
+        border-radius:1em;
+        text-align:center;}
+
+    h2,
+    h3,
+    h4 {
+        color: #003045;
+    }
+}
+
+/* Partnership
+-------------------------------------------------------------- */
+
+.page-id-250,
+.category-partnership,
+.category-partnership-newsletter,
+.category-target-partnership,
+.tag-partnership,
+.category-partnership-december-14,
+.category-328 {
+
+    a {
+        color: #6eb43f;
+
+        &:hover,
+        &:focus ,
+        &:visited {
+            color: darken(#6eb43f, 9%);
+        }
+    }
+
+    h1 {
+        color: #fff;
+        background-color:#6eb43f;
+        border-radius:1em;
+        text-align:center;
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: #6eb43f;
+    }
+
+}
+
+h1.partnership-title {
+    background-color: #fff;
+    color: #6eb43f;
+    text-align: left;
+}
+
+.partnershipcontents {
+	background-color:#6eb43f;
+    padding: 1em;
+
+	ul {
+        list-style-type: disc;
+        margin-left:2em;
+    }
+
+    a {
+        color: #fff;
+
+        &:hover,
+        &:focus,
+        &:visited {
+            color: darken(#fff, 9%) !important;
+        }
+    }
+
+    h2,
+    h3 {
+        color:#fff;
+    }
+}
+
+/* Prudential
+-------------------------------------------------------------- */
+
+.page-id-251,
+.category-prudential,
+.category-target-prudential ,
+.tag-prudential {
+
+    a,
+    a:visited {
+        color: #CC0000;
+
+        &:hover,
+        &:focus {
+            color: darken(#CC0000, 9%);
+        }
+    }
+
+    h1 {
+        color: #fff;
+        background-color:#CC0000;
+        border-radius:1em;
+        text-align:center;
+    }
+	h2,
+    h3,
+    h4,
+    h5 {
+        color:#CC0000;
+    }
+}
+
+/* Quilter
+-------------------------------------------------------------- */
+
+.page-id-252, .category-quilter, .tag-quilter {
+	a, a:visited {color: #079DB8; &:hover, &:focus {color: darken(#079DB8, 9%);} }
+	h1 {color: #fff; background-color:#079DB8; border-radius:1em; text-align:center;}
+	h2, h3, h4 {color:#079DB8;}
+	}
+
+
+/* Red
+-------------- */
+
+.tag-red {
+	a,
+    a:visited {
+        color: #cd2027;
+
+        &:hover,
+        &:focus {
+            color: darken(#cd2027, 9%);
+        }
+    }
+
+    h1 {
+        color: #fff;
+        text-align:center;
+        background-color: #cd2027;
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: #cd2027;
+    }
+}
+
+
+
+/* Retirement Advantage
+-------------- */
+
+.page-id-21955,
+.tag-retirement-advantage {
+	a,
+    a:visited {
+        color: #00ab8e;
+
+        &:hover,
+        &:focus {
+            color: darken(#00ab8e, 9%);
+        }
+    }
+
+    h1 {
+        color: #fff;
+        text-align:center;
+        background-color: #00ab8e;
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: #00ab8e;
+    }
+}
+
+/* Santander
+-------------------------------------------------------------- */
+
+.page-id-11209,
+.category-santander,
+.category-target-santander,
+.tag-santander {
+
+    a,
+    a:visited {
+        color: #ff0000;
+
+        &:hover,
+        &:focus {
+            color: darken(#ff0000, 9%);
+        }
+    }
+
+    h1 {
+        color: #ff0000;
+        text-align:center;
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: #ff0000;
+    }
+}
+
+/* Schroders
+-------------------------------------------------------------- */
+
+.page-id-253, .tag-schroders {
+	a, a:visited {color: #003772; &:hover, &:focus {color: darken(#003772, 9%);} }
+	h1 {color: #fff; background-color:#003772;border-radius:1em; text-align:center;}
+	h2, h3, h4 {color: #003772;}
+	}
+
+/* Scottish Life (ROYAL LONDON)
+-------------------------------------------------------------- */
+
+.page-id-11297, .tag-scottish-life, .tag-royal-london {
+	a, a:visited {color: #421853; &:hover, &:focus {color: darken(#421853, 9%);} }
+	h1 {color: #fff; background-color:#421853;  border-radius:1em; text-align:center;}
+	h2, h3, h4 {color:#421853;}
+	}
+
+/* Scottish Provident
+-------------------------------------------------------------- */
+
+.page-id-254, .category-scottish-provident, .category-target-scottish-provident, .tag-scottish-provident  {
+	a, a:visited {color: #001D68; &:hover, &:focus {color: darken(#001D68, 9%);} }
+	h1 {color: #fff; background-color:#001D68;  border-radius:1em; text-align:center;}
+	h2, h3, h4 {color: #001D68;}
+	}
+
+
+/* Scottish Widows
+-------------------------------------------------------------- */
+
+.page-id-255, .category-scottish-widows, .category-target-scottish-widows, .tag-scottish-widows {
+	a, a:visited {color: #cf002d; &:hover, &:focus {color: darken(#cf002d, 9%);} }
+	h1 {color: #fff; background-color:#cf002d; border-radius:1em; text-align:center;}
+	h2, h3, h4 {color: #cf002d;}
+	}
+
+/* Selectapension
+-------------------------------------------------------------- */
+
+.page-id-260,
+.tag-selectapension {
+
+    a,
+    a:visited {
+        color: #529FC5;
+
+        &:hover,
+        &:focus {
+            color: darken(#529FC5, 9%);
+        }
+    }
+
+    h1 {
+        color: #fff;
+        background-color:#529FC5;
+        border-radius:1em;
+        text-align:center;
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: #529FC5;
+    }
+}
+
+/* Skandia
+-------------------------------------------------------------- */
+
+.page-id-261,
+.category-skandia,
+.tag-skandia {
+
+    a,
+    a:visited {
+        color: #008066;
+
+        &:hover,
+        &:focus {
+            color: darken(#008066, 9%);
+        }
+    }
+
+    h1 {
+        color: #fff;
+        background-color:#008066;
+        border-radius:1em;
+        text-align:center;
+    }
+
+    .skandia {
+        background-color:#e6e6e6;
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: #008066
+    }
+}
+
+/* Smith & Williamson
+-------------------------------------------------------------- */
+
+.page-id-262, .tag-smith-williamson {
+	a, a:visited {color: #880C00; &:hover, &:focus {color: darken(#880C00, 9%);} }
+	h1 {color: #fff; background-color:#880C00;border-radius:1em; text-align:center;}
+	h2, h3, h4 {color:#880C00;}
+	}
+
+/* Suffolk Life
+-------------------------------------------------------------- */
+
+.page-id-263, .tag-suffolk-life {
+	a, a:visited {color: #1BBCF3; &:hover, &:focus {color: darken(#1BBCF3, 9%);} }
+	h1 {
+		color: #fff;
+		background-color:#1BBCF3;
+		border-radius:1em;
+		background-image: linear-gradient(to top, #1BBCF3, #1083B0);
+		background-image: -webkit-gradient(linear, 100% 0%, 0% 0%, from(#1BBCF3), to( #1083B0));
+		background-image: -webkit-linear-gradient(top, #1BBCF3, #1083B0);
+		background-image: -moz-linear-gradient(top, #1BBCF3, #1083B0);
+		background-image: -ms-linear-gradient(top, #1BBCF3, #1083B0);
+		background-image: -o-linear-gradient(top, #1BBCF3, #1083B0);
+		text-align:center;}
+	h2, h3, h4 {color:#1BBCF3;}
+	}
+
+/* Threadneedle
+-------------------------------------------------------------- */
+
+.page-id-264,
+.category-threadneedle,
+.tag-threadneedle {
+
+    a,
+    a:visited {
+        color: #003D6D;
+
+        &:hover,
+        &:focus {
+            color: darken(#003D6D, 9%);
+        }
+    }
+
+    h1 {
+        color: #fff;
+        background-color:#003D6D;
+        border-radius:1em;
+        text-align:center;
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: #003D6D;
+    }
+}
+
+/* TIME
+-------------------------------------------------------------- */
+
+.page-id-21909,
+.tag-time {
+
+    a,
+    a:visited {
+        color: #005581;
+
+        &:hover,
+        &:focus {
+            color: darken(#005581, 9%);
+        }
+    }
+
+    h1 {
+        color: #fff;
+        background-color:#005581;
+        border-radius:1em;
+        text-align:center;
+    }
+
+    h2,
+    h3,
+    h4,
+    h5 {
+        color: #005581;
+    }
+}
+/* Zurich
+-------------------------------------------------------------- */
+
+.page-id-265, .category-zurich, .post-4607, .category-target-zurich, .tag-zurich {
+	a, a:visited {color: #003399; &:hover, &:focus {color: darken(#003399, 9%);} }
+	h1 {color: #fff; background-color:#003399; border-radius:1em; text-align:center;}
+	h2, h3, h4 {color:#003399;}
+	}
