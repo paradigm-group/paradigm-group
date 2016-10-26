@@ -1,15 +1,14 @@
 <?php
 /*
-Author: Eddie Machado
-URL: http://themble.com/bones/
+Author: Jack Machin
 
 This is where you can drop your custom functions or
 just edit things like thumbnail sizes, header images,
 sidebars, comments, ect.
 */
 
-// LOAD BONES CORE (if you remove this, the theme will break)
-require_once( 'library/bones.php' );
+// LOAD PARADIGM CORE (if you remove this, the theme will break)
+require_once( 'library/paradigm.php' );
 
 // USE THIS TEMPLATE TO CREATE CUSTOM POST TYPES EASILY
 //require_once( 'library/custom-post-type.php' );
