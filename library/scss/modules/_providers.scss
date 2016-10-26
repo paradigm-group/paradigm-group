@@ -70,12 +70,16 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         h4 {color: #004fb6;}
     }
 }
-/* AXA (Wealth & Life Invest)
--------------------------------------------------------------- */
+/***** AXA (Wealth & Life Invest) *****/
 
 .page-id-235,
 .page-id-11095,
 .tag-axa  {
+
+    .article-header {
+        background-color: #0b3881;
+    }
+
 	.main {
         a,
         a:visited {
