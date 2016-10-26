@@ -245,9 +245,6 @@ NAVIGATION STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-.widgettitle {
-  border-bottom: 2px solid #444; }
-
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */ }

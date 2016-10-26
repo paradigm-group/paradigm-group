@@ -123,8 +123,8 @@ function bones_register_sidebars() {
 		'description' => __( 'The main (default) sidebar.', 'paradigmg-group' ),
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
-		'before_title' => '<h4 class="widgettitle">',
-		'after_title' => '</h4>',
+		'before_title' => '<p class="widgettitle">',
+		'after_title' => '</p>',
 	));
 
     register_sidebar(array(
@@ -133,8 +133,8 @@ function bones_register_sidebars() {
 		'description' => __( 'The Header sidebar.', 'paradigmg-group' ),
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
-		'before_title' => '<h4 class="widgettitle">',
-		'after_title' => '</h4>',
+		'before_title' => '<p class="widgettitle">',
+		'after_title' => '</p>',
 	));
 
     register_sidebar(array(
@@ -143,8 +143,8 @@ function bones_register_sidebars() {
 		'description' => __( 'The Members sidebar.', 'paradigm-group' ),
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
-		'before_title' => '<h4 class="widgettitle">',
-		'after_title' => '</h4>',
+		'before_title' => '<p class="widgettitle">',
+		'after_title' => '</p>',
 	));
 
 	/*
