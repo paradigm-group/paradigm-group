@@ -14,13 +14,6 @@
 
                 <div class="container">
                     <h1 class="page-title">Welcome to Target</h1>
-
-                    <?php  global $wp_query;
-                        $term = $wp_query->get_queried_object();
-                        $title = $term->name;
-                    ?>
-
-                    <p><?php echo $title; ?></p>
                 </div>
             </header>
 
