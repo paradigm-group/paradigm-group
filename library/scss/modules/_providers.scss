@@ -14,6 +14,10 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 .category-aegon,
 .tag-aegon {
 
+    .page-header {
+		background-color: #0077C8;
+    }
+
     a,
     a:visited {
         color: #0077C8;
@@ -21,11 +25,6 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         &:focus {
             color: darken(#0077C8, 9%);
         }
-    }
-
-    .page-header {
-		background-color: #0077C8;
-		color: #fff;
     }
 
 	h2,
