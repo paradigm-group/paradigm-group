@@ -1725,71 +1725,88 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 .tag-schroders .main h4 {
   color: #003772; }
 
-/* Scottish Provident
--------------------------------------------------------------- */
-.page-id-254 a, .page-id-254 a:visited, .category-scottish-provident a, .category-scottish-provident a:visited, .category-target-scottish-provident a, .category-target-scottish-provident a:visited, .tag-scottish-provident a, .tag-scottish-provident a:visited {
+/***** Scottish Provident *****/
+.page-id-254 .article-header,
+.tag-scottish-provident .article-header {
+  background-color: #001D68; }
+
+.page-id-254 .main a,
+.page-id-254 .main a:visited,
+.tag-scottish-provident .main a,
+.tag-scottish-provident .main a:visited {
   color: #001D68; }
-  .page-id-254 a:hover, .page-id-254 a:focus, .page-id-254 a:visited:hover, .page-id-254 a:visited:focus, .category-scottish-provident a:hover, .category-scottish-provident a:focus, .category-scottish-provident a:visited:hover, .category-scottish-provident a:visited:focus, .category-target-scottish-provident a:hover, .category-target-scottish-provident a:focus, .category-target-scottish-provident a:visited:hover, .category-target-scottish-provident a:visited:focus, .tag-scottish-provident a:hover, .tag-scottish-provident a:focus, .tag-scottish-provident a:visited:hover, .tag-scottish-provident a:visited:focus {
+  .page-id-254 .main a:hover, .page-id-254 .main a:focus,
+  .page-id-254 .main a:visited:hover,
+  .page-id-254 .main a:visited:focus,
+  .tag-scottish-provident .main a:hover,
+  .tag-scottish-provident .main a:focus,
+  .tag-scottish-provident .main a:visited:hover,
+  .tag-scottish-provident .main a:visited:focus {
     color: #00103a; }
 
-.page-id-254 h1, .category-scottish-provident h1, .category-target-scottish-provident h1, .tag-scottish-provident h1 {
-  color: #fff;
-  background-color: #001D68;
-  border-radius: 1em;
-  text-align: center; }
-
-.page-id-254 h2, .page-id-254 h3, .page-id-254 h4, .category-scottish-provident h2, .category-scottish-provident h3, .category-scottish-provident h4, .category-target-scottish-provident h2, .category-target-scottish-provident h3, .category-target-scottish-provident h4, .tag-scottish-provident h2, .tag-scottish-provident h3, .tag-scottish-provident h4 {
+.page-id-254 .main h2,
+.page-id-254 .main h3,
+.page-id-254 .main h4,
+.tag-scottish-provident .main h2,
+.tag-scottish-provident .main h3,
+.tag-scottish-provident .main h4 {
   color: #001D68; }
 
-/* Scottish Widows
--------------------------------------------------------------- */
-.page-id-255 a, .page-id-255 a:visited, .category-scottish-widows a, .category-scottish-widows a:visited, .category-target-scottish-widows a, .category-target-scottish-widows a:visited, .tag-scottish-widows a, .tag-scottish-widows a:visited {
+/***** Scottish Widows *****/
+.page-id-255 .article-header,
+.tag-scottish-widows .article-header {
+  background-color: #cf002d; }
+
+.page-id-255 .main a,
+.page-id-255 .main a:visited,
+.tag-scottish-widows .main a,
+.tag-scottish-widows .main a:visited {
   color: #cf002d; }
-  .page-id-255 a:hover, .page-id-255 a:focus, .page-id-255 a:visited:hover, .page-id-255 a:visited:focus, .category-scottish-widows a:hover, .category-scottish-widows a:focus, .category-scottish-widows a:visited:hover, .category-scottish-widows a:visited:focus, .category-target-scottish-widows a:hover, .category-target-scottish-widows a:focus, .category-target-scottish-widows a:visited:hover, .category-target-scottish-widows a:visited:focus, .tag-scottish-widows a:hover, .tag-scottish-widows a:focus, .tag-scottish-widows a:visited:hover, .tag-scottish-widows a:visited:focus {
+  .page-id-255 .main a:hover, .page-id-255 .main a:focus,
+  .page-id-255 .main a:visited:hover,
+  .page-id-255 .main a:visited:focus,
+  .tag-scottish-widows .main a:hover,
+  .tag-scottish-widows .main a:focus,
+  .tag-scottish-widows .main a:visited:hover,
+  .tag-scottish-widows .main a:visited:focus {
     color: #a10023; }
 
-.page-id-255 h1, .category-scottish-widows h1, .category-target-scottish-widows h1, .tag-scottish-widows h1 {
-  color: #fff;
-  background-color: #cf002d;
-  border-radius: 1em;
-  text-align: center; }
-
-.page-id-255 h2, .page-id-255 h3, .page-id-255 h4, .category-scottish-widows h2, .category-scottish-widows h3, .category-scottish-widows h4, .category-target-scottish-widows h2, .category-target-scottish-widows h3, .category-target-scottish-widows h4, .tag-scottish-widows h2, .tag-scottish-widows h3, .tag-scottish-widows h4 {
+.page-id-255 .main h2,
+.page-id-255 .main h3,
+.page-id-255 .main h4,
+.tag-scottish-widows .main h2,
+.tag-scottish-widows .main h3,
+.tag-scottish-widows .main h4 {
   color: #cf002d; }
 
-/* Selectapension
--------------------------------------------------------------- */
-.page-id-260 a,
-.page-id-260 a:visited,
-.tag-selectapension a,
-.tag-selectapension a:visited {
+/***** Selectapension *****/
+.page-id-260 .article-header,
+.tag-selectapension .article-header {
+  background-color: #529FC5; }
+
+.page-id-260 .main a,
+.page-id-260 .main a:visited,
+.tag-selectapension .main a,
+.tag-selectapension .main a:visited {
   color: #529FC5; }
-  .page-id-260 a:hover, .page-id-260 a:focus,
-  .page-id-260 a:visited:hover,
-  .page-id-260 a:visited:focus,
-  .tag-selectapension a:hover,
-  .tag-selectapension a:focus,
-  .tag-selectapension a:visited:hover,
-  .tag-selectapension a:visited:focus {
+  .page-id-260 .main a:hover, .page-id-260 .main a:focus,
+  .page-id-260 .main a:visited:hover,
+  .page-id-260 .main a:visited:focus,
+  .tag-selectapension .main a:hover,
+  .tag-selectapension .main a:focus,
+  .tag-selectapension .main a:visited:hover,
+  .tag-selectapension .main a:visited:focus {
     color: #3b88af; }
 
-.page-id-260 h1,
-.tag-selectapension h1 {
-  color: #fff;
-  background-color: #529FC5;
-  border-radius: 1em;
-  text-align: center; }
-
-.page-id-260 h2,
-.page-id-260 h3,
-.page-id-260 h4,
-.tag-selectapension h2,
-.tag-selectapension h3,
-.tag-selectapension h4 {
+.page-id-260 .main h2,
+.page-id-260 .main h3,
+.page-id-260 .main h4,
+.tag-selectapension .main h2,
+.tag-selectapension .main h3,
+.tag-selectapension .main h4 {
   color: #529FC5; }
 
-/* Skandia
--------------------------------------------------------------- */
+/***** Skandia *****/
 .page-id-261 a,
 .page-id-261 a:visited,
 .category-skandia a,

@@ -787,57 +787,82 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 	}
 }
 
-/* Scottish Provident
--------------------------------------------------------------- */
+/***** Scottish Provident *****/
 
-.page-id-254, .category-scottish-provident, .category-target-scottish-provident, .tag-scottish-provident  {
-	a, a:visited {color: #001D68; &:hover, &:focus {color: darken(#001D68, 9%);} }
-	h1 {color: #fff; background-color:#001D68;  border-radius:1em; text-align:center;}
-	h2, h3, h4 {color: #001D68;}
+.page-id-254,
+.tag-scottish-provident  {
+
+    .article-header {
+        background-color: #001D68;
+    }
+
+    .main {
+        a,
+        a:visited {
+            color: #001D68;
+
+            &:hover,
+            &:focus {color: darken(#001D68, 9%);}
+        }
+
+        h2,
+        h3,
+        h4 {color: #001D68;}
 	}
+}
 
+/***** Scottish Widows *****/
 
-/* Scottish Widows
--------------------------------------------------------------- */
+.page-id-255,
+.tag-scottish-widows {
 
-.page-id-255, .category-scottish-widows, .category-target-scottish-widows, .tag-scottish-widows {
-	a, a:visited {color: #cf002d; &:hover, &:focus {color: darken(#cf002d, 9%);} }
-	h1 {color: #fff; background-color:#cf002d; border-radius:1em; text-align:center;}
-	h2, h3, h4 {color: #cf002d;}
+    .article-header {
+        background-color:#cf002d;
+    }
+	.main {
+        a,
+        a:visited {
+            color: #cf002d;
+
+            &:hover,
+            &:focus {color: darken(#cf002d, 9%);}
+        }
+
+        h2,
+        h3,
+        h4 {color: #cf002d;}
 	}
+}
 
-/* Selectapension
--------------------------------------------------------------- */
+/***** Selectapension *****/
 
 .page-id-260,
 .tag-selectapension {
 
-    a,
-    a:visited {
-        color: #529FC5;
-
-        &:hover,
-        &:focus {
-            color: darken(#529FC5, 9%);
-        }
-    }
-
-    h1 {
-        color: #fff;
+    .article-header {
         background-color:#529FC5;
-        border-radius:1em;
-        text-align:center;
     }
 
-    h2,
-    h3,
-    h4 {
-        color: #529FC5;
+    .main {
+        a,
+        a:visited {
+            color: #529FC5;
+
+            &:hover,
+            &:focus {
+                color: darken(#529FC5, 9%);
+            }
+        }
+
+        h2,
+        h3,
+        h4 {
+            color: #529FC5;
+        }
     }
 }
 
-/* Skandia
--------------------------------------------------------------- */
+/***** Skandia *****/
 
 .page-id-261,
 .category-skandia,
