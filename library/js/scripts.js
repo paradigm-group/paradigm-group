@@ -12,7 +12,7 @@
  * not required. It's your world baby, you can do whatever you want.
 */
 
-/*global $, jQuery, alert*/
+/*global $, jQuery, alert, rel*/
 
 /*
  * Get Viewport Dimensions
@@ -149,16 +149,11 @@ jQuery(document).ready(function ($) {
         );
     }
 
-}); /* end of as page load scripts */
-
-jQuery.noConflict();
-jQuery(document).ready(function () {
-    "use strict";
     jQuery(".aj-hidden").hide();
     jQuery(".aj-hidden").addClass("aj-visible");
     jQuery(".aj-collapse").click(function () {
         rel = jQuery(this).attr("rel");
         jQuery("#" + rel).slideToggle("fast");
     });
-});
 
+}); /* end of as page load scripts */
