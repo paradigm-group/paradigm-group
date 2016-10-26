@@ -97,6 +97,7 @@
                 </section>
             </div>
         </div>
+        <?php get_sidebar('members');?>
         <?php } ?>
 
     </div> <!-- end #content -->
