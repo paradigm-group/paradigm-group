@@ -410,19 +410,19 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
     }
 
     .main {
-	a,
-    a:visited {
-        color: #004F5C;
+        a,
+        a:visited {
+            color: #004F5C;
 
-        &:hover,
-        &:focus {
-            color: darken(#004F5C, 9%);
+            &:hover,
+            &:focus {
+                color: darken(#004F5C, 9%);
+            }
         }
-    }
 
-    h2,
-    h3,
-    h4 {color: #004F5C;}
+        h2,
+        h3,
+        h4 {color: #004F5C;}
 	}
 }
 /* Metlife
