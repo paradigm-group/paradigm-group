@@ -127,30 +127,30 @@ function bones_scripts_and_styles() {
   if (!is_admin()) {
 
 		// modernizr (without media query polyfill)
-		wp_register_script( 'buybrush-modernizr', get_stylesheet_directory_uri() . '/library/js/libs/modernizr.custom.min.js', array(), '2.5.3', false );
+		wp_register_script( 'paradigm-modernizr', get_stylesheet_directory_uri() . '/library/js/libs/modernizr.custom.min.js', array(), '2.5.3', false );
 
 		// register main stylesheet
-		wp_register_style( 'guybrush-stylesheet', get_stylesheet_directory_uri() . '/library/css/style.min.css', array(), '', 'all' );
+		wp_register_style( 'paradigm-stylesheet', get_stylesheet_directory_uri() . '/library/css/style.min.css', array(), '', 'all' );
 
 		// ie-only style sheet
-		wp_register_style( 'guybrush-ie-only', get_stylesheet_directory_uri() . '/library/css/ie.css', array(), '' );
+		wp_register_style( 'paradigm-ie-only', get_stylesheet_directory_uri() . '/library/css/ie.css', array(), '' );
 
         wp_register_style('google-fonts', 'http://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 		//adding scripts file in the footer
-		wp_register_script( 'guybrush-js', get_stylesheet_directory_uri() . '/library/js/min/scripts.min.js', array( 'jquery' ), '', true );
+		wp_register_script( 'paradigm', get_stylesheet_directory_uri() . '/library/js/min/scripts.min.js', array( 'jquery' ), '', true );
 
 		// enqueue styles
-		wp_enqueue_style( 'guybrush-stylesheet' );
-		wp_enqueue_style( 'guybrush-ie-only' );
+		wp_enqueue_style( 'paradigm-stylesheet' );
+		wp_enqueue_style( 'paradigm-ie-only' );
         wp_enqueue_style( 'google-fonts');
 
 		$wp_styles->add_data( 'guybrush-ie-only', 'conditional', 'lt IE 9' ); // add conditional wrapper around ie stylesheet
 
         // enqueue scripts
 		wp_enqueue_script( 'jquery' );
-		wp_enqueue_script( 'guybrush-js' );
-        wp_enqueue_script( 'guybrush-modernizr' );
+		wp_enqueue_script( 'paradigm-js' );
+        wp_enqueue_script( 'paradigm-modernizr' );
 
           // comment reply script for threaded comments
         if ( is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
