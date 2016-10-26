@@ -31,11 +31,10 @@
 
                 <div class="main entry-content" itemprop="articleBody">
 
-                            <?php if (is_front_page()) {} else {
-                    if ( function_exists('yoast_breadcrumb') ) {
+                    <?php if ( function_exists('yoast_breadcrumb') ) {
                         yoast_breadcrumb('<p id="breadcrumbs">','</p>');
-                    }
-                } ?>
+                    } ?>
+
                     <?php
                         // the content (pretty self explanatory huh)
                         the_content();
