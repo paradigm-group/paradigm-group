@@ -2,22 +2,29 @@
 
     <div id="content">
 
-        <div id="inner-content" class="wrap clearfix">
+        <?php
 
-            <?php
+            $term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) );
+            $parent = get_term($term->parent, get_query_var('taxonomy') );
 
-                $term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) );
-                $parent = get_term($term->parent, get_query_var('taxonomy') );
+            if($term->parent > 0)  {
+        ?>
 
-                if($term->parent > 0)  {
-            ?>
+            <div class="article-header">
+                <h1>Welcome to Target</h1>
+
+                <?php if( is_tax() ) {
+                    global $wp_query;
+                    $term = $wp_query->get_queried_object();
+                        $title = $term->name;
+
+                    echo $title;
+                } ?>
+            </div>
 
             <div id="main" class="twelvecol first clearfix" role="main">
                 <div class="ninecol first">
                     <div class="entry-content intro">
-
-                    <h1>Welcome to Target</h1>
-
 
                         <?php echo category_description( $category_id ); ?>
 
