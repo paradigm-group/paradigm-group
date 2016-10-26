@@ -1933,6 +1933,10 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
   color: #1BBCF3; }
 
 /***** TIME *****/
+.page-id-21909 .article-header,
+.tag-time .article-header {
+  background-color: #005581; }
+
 .page-id-21909 .main a,
 .page-id-21909 .main a:visited,
 .tag-time .main a,
