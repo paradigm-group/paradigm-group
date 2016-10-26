@@ -1091,62 +1091,59 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 .page-id-24787 .main h4 {
   color: #000; }
 
-/* Intelliflo
--------------------------------------------------------------- */
-.page-id-18313 a,
-.page-id-18313 a:visited, .tag-intelliflo a,
-.tag-intelliflo a:visited {
+/***** Intelliflo *****/
+.page-id-18313 .article-header,
+.tag-intelliflo .article-header {
+  background-color: #496394; }
+
+.page-id-18313 .main a,
+.page-id-18313 .main a:visited,
+.tag-intelliflo .main a,
+.tag-intelliflo .main a:visited {
   color: #496394; }
-  .page-id-18313 a:hover, .page-id-18313 a:focus,
-  .page-id-18313 a:visited:hover,
-  .page-id-18313 a:visited:focus, .tag-intelliflo a:hover, .tag-intelliflo a:focus,
-  .tag-intelliflo a:visited:hover,
-  .tag-intelliflo a:visited:focus {
+  .page-id-18313 .main a:hover, .page-id-18313 .main a:focus,
+  .page-id-18313 .main a:visited:hover,
+  .page-id-18313 .main a:visited:focus,
+  .tag-intelliflo .main a:hover,
+  .tag-intelliflo .main a:focus,
+  .tag-intelliflo .main a:visited:hover,
+  .tag-intelliflo .main a:visited:focus {
     color: #3a4e75; }
 
-.page-id-18313 h1, .tag-intelliflo h1 {
-  text-align: center;
-  background-color: #496394;
-  color: #fff;
-  border-radius: 1em; }
-
-.page-id-18313 h2,
-.page-id-18313 h3,
-.page-id-18313 h4, .tag-intelliflo h2,
-.tag-intelliflo h3,
-.tag-intelliflo h4 {
+.page-id-18313 .main h2,
+.page-id-18313 .main h3,
+.page-id-18313 .main h4,
+.tag-intelliflo .main h2,
+.tag-intelliflo .main h3,
+.tag-intelliflo .main h4 {
   color: #496394; }
 
-/* J.P. Morgan
--------------------------------------------------------------- */
-.page-id-243 a, .page-id-243 a:visited, .category-j-p-morgan a, .category-j-p-morgan a:visited, .tag-jp-morgan a, .tag-jp-morgan a:visited {
-  color: #345091; }
-  .page-id-243 a:hover, .page-id-243 a:focus, .page-id-243 a:visited:hover, .page-id-243 a:visited:focus, .category-j-p-morgan a:hover, .category-j-p-morgan a:focus, .category-j-p-morgan a:visited:hover, .category-j-p-morgan a:visited:focus, .tag-jp-morgan a:hover, .tag-jp-morgan a:focus, .tag-jp-morgan a:visited:hover, .tag-jp-morgan a:visited:focus {
-    color: #283d6f; }
+/***** J.P. Morgan *****/
+/***** Just Retirement *****/
+.page-id-4174 .article-header,
+.tag-just-retirement .article-header {
+  background-color: #273188; }
 
-.page-id-243 h1, .category-j-p-morgan h1, .tag-jp-morgan h1 {
-  color: #345091;
-  background-color: #F0EAD8;
-  border-radius: 1em;
-  text-align: center; }
-
-.page-id-243 h2, .page-id-243 h3, .page-id-243 h4, .category-j-p-morgan h2, .category-j-p-morgan h3, .category-j-p-morgan h4, .tag-jp-morgan h2, .tag-jp-morgan h3, .tag-jp-morgan h4 {
-  color: #345091; }
-
-/* Just Retirement
--------------------------------------------------------------- */
-.page-id-4174 a, .page-id-4174 a:visited, .category-just-retirement a, .category-just-retirement a:visited, .category-target-just-retirement a, .category-target-just-retirement a:visited, .tag-just-retirement a, .tag-just-retirement a:visited {
+.page-id-4174 .main a,
+.page-id-4174 .main a:visited,
+.tag-just-retirement .main a,
+.tag-just-retirement .main a:visited {
   color: #273188; }
-  .page-id-4174 a:hover, .page-id-4174 a:focus, .page-id-4174 a:visited:hover, .page-id-4174 a:visited:focus, .category-just-retirement a:hover, .category-just-retirement a:focus, .category-just-retirement a:visited:hover, .category-just-retirement a:visited:focus, .category-target-just-retirement a:hover, .category-target-just-retirement a:focus, .category-target-just-retirement a:visited:hover, .category-target-just-retirement a:visited:focus, .tag-just-retirement a:hover, .tag-just-retirement a:focus, .tag-just-retirement a:visited:hover, .tag-just-retirement a:visited:focus {
+  .page-id-4174 .main a:hover, .page-id-4174 .main a:focus,
+  .page-id-4174 .main a:visited:hover,
+  .page-id-4174 .main a:visited:focus,
+  .tag-just-retirement .main a:hover,
+  .tag-just-retirement .main a:focus,
+  .tag-just-retirement .main a:visited:hover,
+  .tag-just-retirement .main a:visited:focus {
     color: #1d2464; }
 
-.page-id-4174 h1, .category-just-retirement h1, .category-target-just-retirement h1, .tag-just-retirement h1 {
-  color: #a49400;
-  background-color: #273188;
-  border-radius: 1em;
-  text-align: center; }
-
-.page-id-4174 h2, .page-id-4174 h3, .page-id-4174 h4, .category-just-retirement h2, .category-just-retirement h3, .category-just-retirement h4, .category-target-just-retirement h2, .category-target-just-retirement h3, .category-target-just-retirement h4, .tag-just-retirement h2, .tag-just-retirement h3, .tag-just-retirement h4 {
+.page-id-4174 .main h2,
+.page-id-4174 .main h3,
+.page-id-4174 .main h4,
+.tag-just-retirement .main h2,
+.tag-just-retirement .main h3,
+.tag-just-retirement .main h4 {
   color: #273188; }
 
 /* London & Colonial

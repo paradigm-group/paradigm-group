@@ -256,51 +256,63 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
     }
 }
 
-/* Intelliflo
--------------------------------------------------------------- */
+/***** Intelliflo *****/
 
-.page-id-18313, .tag-intelliflo {
-	a,
-    a:visited {
-        color: #496394;
+.page-id-18313,
+.tag-intelliflo {
 
-        &:hover,
-        &:focus {
-            color: darken(#496394, 9%);
-        }
-    }
-
-    h1 {
-        text-align:center;
+    .article-header {
         background-color:#496394;
-        color:#fff;
-        border-radius:1em;
     }
 
-    h2,
-    h3,
-    h4 {
-        color: #496394;
+    .main {
+        a,
+        a:visited {
+            color: #496394;
+
+            &:hover,
+            &:focus {
+                color: darken(#496394, 9%);
+            }
+        }
+
+        h2,
+        h3,
+        h4 {
+            color: #496394;
+        }
     }
 }
 
-/* J.P. Morgan
--------------------------------------------------------------- */
+/***** J.P. Morgan *****/
 
-.page-id-243, .category-j-p-morgan, .tag-jp-morgan {
-	a, a:visited {color: #345091; &:hover, &:focus {color: darken(#345091, 9%);} }
-	h1 {color: #345091; background-color:#F0EAD8; border-radius:1em; text-align:center;}
-	h2, h3, h4 {color:#345091;}
+.page-id-243,
+.tag-jp-morgan {}
+
+/***** Just Retirement *****/
+
+.page-id-4174,
+.tag-just-retirement {
+
+    .article-header {
+        background-color:#273188;
+    }
+	.main {
+        a,
+        a:visited {
+            color: #273188;
+
+            &:hover,
+            &:focus {
+                color: darken(#273188, 9%);
+            }
+        }
+
+        h2,
+        h3,
+        h4 {color: #273188;}
 	}
-
-/* Just Retirement
--------------------------------------------------------------- */
-
-.page-id-4174, .category-just-retirement, .category-target-just-retirement, .tag-just-retirement {
-	a, a:visited {color: #273188; &:hover, &:focus {color: darken(#273188, 9%);} }
-	h1 {color: #a49400; background-color:#273188; border-radius:1em; text-align:center}
-	h2, h3, h4 {color: #273188;}
-	}
+}
 
 /* London & Colonial
 -------------------------------------------------------------- */
