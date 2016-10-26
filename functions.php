@@ -119,8 +119,8 @@ function bones_register_sidebars() {
 
     register_sidebar(array(
 		'id' => 'sidebar-main',
-		'name' => __( 'Sidebar Main', 'bonestheme' ),
-		'description' => __( 'The main (default) sidebar.', 'bonestheme' ),
+		'name' => __( 'Sidebar Main', 'paradigmg-group' ),
+		'description' => __( 'The main (default) sidebar.', 'paradigmg-group' ),
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h4 class="widgettitle">',
@@ -129,8 +129,18 @@ function bones_register_sidebars() {
 
     register_sidebar(array(
 		'id' => 'sidebar-header',
-		'name' => __( 'Sidebar Header', 'bonestheme' ),
-		'description' => __( 'The Header sidebar.', 'bonestheme' ),
+		'name' => __( 'Sidebar Header', 'paradigm-group' ),
+		'description' => __( 'The Header sidebar.', 'paradigmg-group' ),
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h4 class="widgettitle">',
+		'after_title' => '</h4>',
+	));
+
+    register_sidebar(array(
+		'id' => 'sidebar-members',
+		'name' => __( 'Sidebar Members', 'paradigm-group' ),
+		'description' => __( 'The Members sidebar.', 'paradigm-group' ),
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h4 class="widgettitle">',
