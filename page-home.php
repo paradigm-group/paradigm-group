@@ -24,11 +24,6 @@
                         <h1 class="entry-title page-title" itemprop="headline">
                             Welcome to Paradigm
                         </h1>
-                        <?php if (is_front_page()) {} else {
-                            if ( function_exists('yoast_breadcrumb') ) {
-                                yoast_breadcrumb('<p id="breadcrumbs">','</p>');
-                            }
-                        } ?>
 
                     </header> <?php // end article header ?>
 

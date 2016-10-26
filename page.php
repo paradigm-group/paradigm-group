@@ -15,15 +15,14 @@
                         <h1 class="entry-title page-title" itemprop="headline">
                             <?php the_title(); ?>
                         </h1>
-                        <?php if (is_front_page()) {} else {
-                            if ( function_exists('yoast_breadcrumb') ) {
-                                yoast_breadcrumb('<p id="breadcrumbs">','</p>');
-                            }
-                        } ?>
 
                     </header> <?php // end article header ?>
 
                     <div class="entry-content" itemprop="articleBody">
+                        <?php if ( function_exists('yoast_breadcrumb') ) {
+                            yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+                        } ?>
+
                         <?php
                             // the content (pretty self explanatory huh)
                             the_content();
