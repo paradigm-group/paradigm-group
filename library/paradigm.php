@@ -135,7 +135,7 @@ function bones_scripts_and_styles() {
 		// ie-only style sheet
 		wp_register_style( 'paradigm-ie-only', get_stylesheet_directory_uri() . '/library/css/ie.css', array(), '' );
 
-        wp_register_style('google-fonts', 'http://fonts.googleapis.com/css?family=Montserrat:400,700');
+        wp_register_style('google-fonts', 'http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 		//adding scripts file in the footer
 		wp_register_script( 'paradigm', get_stylesheet_directory_uri() . '/library/js/min/scripts.min.js', array( 'jquery' ), '', true );
