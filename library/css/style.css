@@ -2690,6 +2690,12 @@ SIDEBARS & ASIDES
   border-radius: 2px;
   margin-bottom: 1.5em; }
 
+#wpbs_slider {
+  display: none; }
+
+.page-id-18563 #wpbs_slider {
+  display: block; }
+
 /*********************
 FOOTER STYLES
 *********************/
