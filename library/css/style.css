@@ -2208,7 +2208,8 @@ POSTS & CONTENT STYLES
 
 .article-header {
   background-color: #bc1739;
-  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24); }
+  box-shadow: 0 1em 1em 0 rgba(0, 0, 0, 0.24);
+  border-bottom: 1px solid #93122d; }
   .article-header a {
     color: #fff; }
   .article-header .page-title {
