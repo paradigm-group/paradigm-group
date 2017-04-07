@@ -18,7 +18,9 @@
                         )); ?>
                     </nav>
 
-					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> Paradigm Partners Ltd | Registered in England and Wales. Company No.: 09902499 | Paradigm Partners Ltd, Paradigm House, Brooke Court, Wilmslow, Cheshire, SK9 3ND |.</p>
+					<p class="source-org copyright">
+                        &copy; <?php echo date('Y'); ?> Paradigm Partners Ltd | Registered in England and Wales. Company No.: 09902499 | Paradigm Partners Ltd, Paradigm House, Brooke Court, Wilmslow, Cheshire, SK9 3ND |
+                    </p>
 
 				</div>
 

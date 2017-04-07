@@ -1,5 +1,5 @@
 /******************************************************************
-Site Name: Guybrush
+Site Name: Paradigm
 Author: Jack Machin
 
 Stylesheet: Main Stylesheet
@@ -2704,6 +2704,9 @@ FOOTER STYLES
   color: #f8f9fa; }
 
 /* end .footer-links */
+.copyright {
+  font-size: .875em; }
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
