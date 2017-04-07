@@ -171,6 +171,14 @@ function bones_register_sidebars() {
 	sidebar-sidebar2.php
 
 	*/
+
+    // registering wp3+ menus
+	register_nav_menus(
+		array(
+			'main-nav' => __( 'Main Menu', 'paradigm-group' ),   // main nav in header
+			'members-nav' => __ ( 'Members Menu', 'paradigm-group'), // members nav
+		)
+	);
 } // don't remove this bracket!
 
 /************* COMMENT LAYOUT *********************/

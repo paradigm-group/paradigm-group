@@ -207,13 +207,6 @@ function bones_theme_support() {
 	// wp menus
 	add_theme_support( 'menus' );
 
-	// registering wp3+ menus
-	register_nav_menus(
-		array(
-			'main-nav' => __( 'Main Menu', 'paradigm-group' ),   // main nav in header
-			'members-nav' => __ ( 'Members Menu', 'paradigm-group'), // members nav
-		)
-	);
 } /* end bones theme support */
 
 
