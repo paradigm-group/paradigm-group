@@ -2701,7 +2701,8 @@ FOOTER STYLES
 *********************/
 .footer {
   background-color: #6D7275;
-  color: #f8f9fa; }
+  color: #f8f9fa;
+  font-size: 8.75em; }
 
 /* end .footer-links */
 /*********************
