@@ -1148,7 +1148,6 @@ FOOTER STYLES
 .footer {
 	background-color: $footer-bg;
 	color: $light-gray;
-    font-size: .875em;
 }
 
 	.footer-links {
@@ -1161,4 +1160,6 @@ FOOTER STYLES
 
 	} /* end .footer-links */
 
-	.copyright {}
+	.copyright {
+        font-size: .875em;
+    }

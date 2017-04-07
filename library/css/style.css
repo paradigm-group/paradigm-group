@@ -2701,10 +2701,12 @@ FOOTER STYLES
 *********************/
 .footer {
   background-color: #6D7275;
-  color: #f8f9fa;
-  font-size: .875em; }
+  color: #f8f9fa; }
 
 /* end .footer-links */
+.copyright {
+  font-size: .875em; }
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
