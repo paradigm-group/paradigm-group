@@ -521,14 +521,11 @@ POSTS & CONTENT STYLES
 }
 
 .tile {
-    margin: 0 1em;
-    padding: 0 1em;
-    min-width:30%;
-    max-width:30%;
     background-color:#bc1739;
 
 
     .tile-title {
+        margin:0;
         word-break:break-word;
         text-align:center;
     }
