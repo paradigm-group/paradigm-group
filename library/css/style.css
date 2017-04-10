@@ -2875,7 +2875,6 @@ NAVIGATION STYLES
         border: 1px solid #ccc;
         border-top: 0;
         position: absolute;
-        display: none;
         z-index: 8999;
         list-style-type: none;
         padding: initial;
