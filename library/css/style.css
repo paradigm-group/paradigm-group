@@ -2359,7 +2359,8 @@ POSTS & CONTENT STYLES
 
 .tile {
   margin-top: 0;
-  padding: 0 1em; }
+  padding: 0 1em;
+  width: 33%; }
   .tile .tile-title {
     word-break: break-word; }
 
