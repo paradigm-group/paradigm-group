@@ -63,7 +63,7 @@
                                         while( have_rows('menu') ): the_row();
 
                                             // vars
-                                            $post_id = get_field('menu_item', false, false);
+                                            $post_id = get_sub_field('menu_item', false, false);
 
                                             // display each item as a list - with a class of completed ( if completed )
                                             ?>
