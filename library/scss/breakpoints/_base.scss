@@ -340,9 +340,12 @@ POSTS & CONTENT STYLES
 
         ul,
         ol {
-            margin-left: 2em;
+            margin:0;
+            padding:0;
 
-            li {}
+            li {
+                margin-left:2em;
+            }
 
         }
 
