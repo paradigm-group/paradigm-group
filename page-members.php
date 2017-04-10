@@ -83,8 +83,11 @@
                         </div>
                     <?php endif; // if( get_field('to-do_lists') ): ?>
 
-                    <?php if (is_page ('members-area')) { echo adrotate_group(2); } ?>
-
+                    <?php if (is_page ('members-area')) { ?>
+                        <div class="ad-container">
+                            <?php echo adrotate_group(2); ?>
+                        </div>
+                    <?php } ?>
                 </div> <?php // end article section ?>
 
                 <?php get_sidebar('members'); ?>
