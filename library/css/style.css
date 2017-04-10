@@ -2359,12 +2359,16 @@ POSTS & CONTENT STYLES
     margin: 0 1em; }
 
 .tile {
-  margin-top: 0;
+  margin: 0 1em;
   padding: 0 1em;
   min-width: 30%;
-  max-width: 30%; }
+  max-width: 30%;
+  background-color: #bc1739; }
   .tile .tile-title {
-    word-break: break-word; }
+    word-break: break-word;
+    text-align: center; }
+  .tile a {
+    color: #fff; }
 
 /***** DROP DOWNS *****/
 .aj-collapse {
