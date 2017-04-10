@@ -656,7 +656,7 @@ Stylesheet: Layout Stylesheet
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center; }
+  justify-content: space-around; }
 
 .tile {
   -webkit-box-flex: 1;
@@ -2360,7 +2360,8 @@ POSTS & CONTENT STYLES
 .tile {
   margin-top: 0;
   padding: 0 1em;
-  width: 33%; }
+  min-width: 30%;
+  max-width: 30%; }
   .tile .tile-title {
     word-break: break-word; }
 
