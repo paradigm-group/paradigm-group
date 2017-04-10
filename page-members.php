@@ -65,7 +65,7 @@
 
                                         // display each item as a list - with a class of completed ( if completed )
                                         ?>
-                                        <li><?php the_sub_field('menu-item'); ?></li>
+                                        <li><?php the_sub_field('menu_item'); ?></li>
                                     <?php endwhile; ?>
                                     </ul>
                                 <?php endif; //if( get_sub_field('items') ): ?>
