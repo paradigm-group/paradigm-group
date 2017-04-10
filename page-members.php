@@ -51,7 +51,11 @@
                             // loop through rows (parent repeater)
                             while( have_rows('tile') ): the_row(); ?>
                                 <div class="tile">
-                                    <h2 class="tile-title"><?php the_sub_field('title_link'); ?></h2>
+                                    <h2 class="tile-title">
+                                        <a href="<?php the_sub_field('title_link'); ?>">
+                                            <?php the_sub_field('title_link'); ?>
+                                        </a>
+                                    </h2>
                                     <?php
 
                                     // check for rows (sub repeater)

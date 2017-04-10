@@ -34,7 +34,8 @@ body {
 
 #wpadminbar,
 li+li,
-span+span {
+span+span,
+.tile + .tile {
     margin-top: auto;
 }
 
