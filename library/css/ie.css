@@ -180,6 +180,10 @@ come into play. Have fun!
 /*********************
 GENERAL STYLES
 *********************/
+.container {
+  -webkit-flex-direction: row;
+  flex-direction: row; }
+
 /*********************
 HEADER STYLES
 *********************/
@@ -242,6 +246,9 @@ NAVIGATION STYLES
       display: block; }
 
 /* end .nav */
+.tile-container {
+  flex-direction: row; }
+
 .tile {
   margin: .5em;
   padding: .5em;

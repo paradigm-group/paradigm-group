@@ -18,6 +18,11 @@ GENERAL STYLES
 
 body {}
 
+.container {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
 /*********************
 HEADER STYLES
 *********************/
@@ -124,6 +129,9 @@ NAVIGATION STYLES
 
 } /* end .nav */
 
+.tile-container {
+    flex-direction: row;
+}
 .tile {
     margin: .5em;
     padding: .5em;;

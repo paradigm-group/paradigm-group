@@ -51,8 +51,8 @@ Stylesheet: Layout Stylesheet
     display: flex;
     display: -webkit-flex;
     display: flex;
-    -webkit-flex-direction: row;
-    flex-direction: row;
+    -webkit-flex-direction: column;
+    flex-direction: column;
     max-width:77.5em;
     margin:0 auto;
 }
@@ -92,7 +92,7 @@ Stylesheet: Layout Stylesheet
 
 .tile-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
 }

@@ -625,8 +625,8 @@ Stylesheet: Layout Stylesheet
   display: flex;
   display: -webkit-flex;
   display: flex;
-  -webkit-flex-direction: row;
-  flex-direction: row;
+  -webkit-flex-direction: column;
+  flex-direction: column;
   max-width: 77.5em;
   margin: 0 auto; }
 
@@ -654,7 +654,7 @@ Stylesheet: Layout Stylesheet
 
 .tile-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around; }
 
@@ -2844,6 +2844,9 @@ come into play. Have fun!
   /*********************
 GENERAL STYLES
 *********************/
+  .container {
+    -webkit-flex-direction: row;
+    flex-direction: row; }
   /*********************
 HEADER STYLES
 *********************/
@@ -2905,6 +2908,8 @@ NAVIGATION STYLES
         top: auto;
         display: block; }
   /* end .nav */
+  .tile-container {
+    flex-direction: row; }
   .tile {
     margin: .5em;
     padding: .5em;
