@@ -49,11 +49,15 @@
                         <div class="tile-container">
                             <?php
                             // loop through rows (parent repeater)
-                            while( have_rows('tile') ): the_row(); ?>
+                            while( have_rows('tile') ): the_row();
+
+                                // vars
+                                $post_id = get_sub_field('title_link');
+                            ?>
                                 <div class="tile">
                                     <h2 class="tile-title">
                                         <a href="<?php the_sub_field('title_link'); ?>">
-                                            <?php the_sub_field('title_link'); ?>
+                                            ><?php echo get_the_title($post_id); ?>
                                         </a>
                                     </h2>
                                     <?php
