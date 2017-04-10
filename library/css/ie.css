@@ -250,7 +250,6 @@ NAVIGATION STYLES
   flex-direction: row; }
 
 .tile {
-  margin: .5em;
   min-width: 30%;
   max-width: 30%; }
 

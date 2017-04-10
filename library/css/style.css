@@ -2360,7 +2360,9 @@ POSTS & CONTENT STYLES
 
 .tile {
   background-color: #bc1739;
-  padding: 1em .5em; }
+  padding: 1em .5em;
+  border: .25em solid #000;
+  margin: .25em; }
   .tile .tile-title {
     margin: 0;
     word-break: break-word;
@@ -2912,7 +2914,6 @@ NAVIGATION STYLES
   .tile-container {
     flex-direction: row; }
   .tile {
-    margin: .5em;
     min-width: 30%;
     max-width: 30%; }
   /*********************
