@@ -633,10 +633,10 @@ Stylesheet: Layout Stylesheet
   flex: 1; }
 
 .sidebar-header {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1; }
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3; }
 
 .full {
   flex: 1; }
@@ -647,6 +647,12 @@ Stylesheet: Layout Stylesheet
   -ms-flex: 4;
   flex: 4;
   padding: 0 1em 0 0; }
+
+.tile {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1; }
 
 .sidebar-main {
   -webkit-box-flex: 1;
