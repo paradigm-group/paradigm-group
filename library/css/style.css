@@ -2353,7 +2353,8 @@ POSTS & CONTENT STYLES
   background-color: #eee; }
   .type-target h1 {
     text-align: center;
-    color: #fff; }
+    color: #fff;
+    margin: 0; }
   .type-target .entry-content {
     margin: 0 1em; }
 
