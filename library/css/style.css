@@ -2229,11 +2229,11 @@ POSTS & CONTENT STYLES
     color: #fff; }
   .article-header .page-title {
     font-size: 3.5em;
-    color: #fff;
-    border-bottom: 1px solid #93122d; }
+    color: #fff; }
 
 .page-header {
-  box-shadow: 0 1em 1em 0 rgba(0, 0, 0, 0.24); }
+  box-shadow: 0 1em 1em 0 rgba(0, 0, 0, 0.24);
+  border-bottom: 1px solid #93122d; }
 
 .hentry footer p {
   margin: 0; }
