@@ -42,7 +42,41 @@
                         the_content();
                     ?>
 
+				    <?php
+
+                    // check for rows (parent repeater)
+                    if( have_rows('tile') ): ?>
+                        <div class="tile">
+                        <?php
+
+                        // loop through rows (parent repeater)
+                        while( have_rows('tile') ): the_row(); ?>
+                            <div>
+                                <h2 class="tile-title"><?php the_sub_field('title_link'); ?></h2>
+                                <?php
+
+                                // check for rows (sub repeater)
+                                if( have_rows('menu') ): ?>
+                                    <ul>
+                                    <?php
+
+                                    // loop through rows (sub repeater)
+                                    while( have_rows('menu') ): the_row();
+
+                                        // display each item as a list - with a class of completed ( if completed )
+                                        ?>
+                                        <li><?php the_sub_field('menu-item'); ?></li>
+                                    <?php endwhile; ?>
+                                    </ul>
+                                <?php endif; //if( get_sub_field('items') ): ?>
+                            </div>
+
+                        <?php endwhile; // while( has_sub_field('to-do_lists') ): ?>
+                        </div>
+                    <?php endif; // if( get_field('to-do_lists') ): ?>
+
                     <?php if (is_page ('members-area')) { echo adrotate_group(2); } ?>
+
                 </div> <?php // end article section ?>
 
                 <?php get_sidebar('members'); ?>
