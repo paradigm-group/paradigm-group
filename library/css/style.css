@@ -648,6 +648,12 @@ Stylesheet: Layout Stylesheet
   flex: 4;
   padding: 0 1em 0 0; }
 
+.tile-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
 .tile {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
