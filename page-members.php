@@ -46,7 +46,6 @@
 
                         // check for rows (parent repeater)
                         if( have_rows('tile') ): ?>
-                            <div class="container">
                             <?php
 
                             // loop through rows (parent repeater)
@@ -72,7 +71,7 @@
                                 </div>
 
                             <?php endwhile; // while( has_sub_field('to-do_lists') ): ?>
-                            </div>
+
                     <?php endif; // if( get_field('to-do_lists') ): ?>
 
                     <?php if (is_page ('members-area')) { echo adrotate_group(2); } ?>
