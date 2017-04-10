@@ -145,7 +145,7 @@ function bones_scripts_and_styles() {
 		wp_enqueue_style( 'paradigm-ie-only' );
         wp_enqueue_style( 'google-fonts');
 
-		$wp_styles->add_data( 'guybrush-ie-only', 'conditional', 'lt IE 9' ); // add conditional wrapper around ie stylesheet
+		$wp_styles->add_data( 'paradigm-ie-only', 'conditional', 'lt IE 9' ); // add conditional wrapper around ie stylesheet
 
         // enqueue scripts
 		wp_enqueue_script( 'jquery' );
