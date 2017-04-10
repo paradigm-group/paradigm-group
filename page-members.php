@@ -44,10 +44,10 @@
 
                     <?php
 
-                        // check for rows (parent repeater)
-                        if( have_rows('tile') ): ?>
+                    // check for rows (parent repeater)
+                    if( have_rows('tile') ): ?>
+                        <div class="tile-container">
                             <?php
-
                             // loop through rows (parent repeater)
                             while( have_rows('tile') ): the_row(); ?>
                                 <div class="tile">
@@ -62,9 +62,6 @@
                                         // loop through rows (sub repeater)
                                         while( have_rows('menu') ): the_row();
 
-                                            // vars
-                                            $post_id = get_sub_field('menu_item', false, false);
-
                                             // display each item as a list - with a class of completed ( if completed )
                                             ?>
                                             <li>
@@ -76,7 +73,7 @@
                                 </div>
 
                             <?php endwhile; // while( has_sub_field('to-do_lists') ): ?>
-
+                        </div>
                     <?php endif; // if( get_field('to-do_lists') ): ?>
 
                     <?php if (is_page ('members-area')) { echo adrotate_group(2); } ?>
