@@ -269,7 +269,6 @@ POSTS & CONTENT STYLES
 
 .article-header {
     background-color: $red;
-    border-bottom: 1px solid #93122d;
 
     a {
         color:$white;
@@ -278,6 +277,7 @@ POSTS & CONTENT STYLES
     .page-title {
         font-size: 3.5em;
         color:$white;
+        border-bottom: 1px solid #93122d;
     }
 }
 

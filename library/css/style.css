@@ -2224,13 +2224,13 @@ POSTS & CONTENT STYLES
   margin-top: 0; }
 
 .article-header {
-  background-color: #bc1739;
-  border-bottom: 1px solid #93122d; }
+  background-color: #bc1739; }
   .article-header a {
     color: #fff; }
   .article-header .page-title {
     font-size: 3.5em;
-    color: #fff; }
+    color: #fff;
+    border-bottom: 1px solid #93122d; }
 
 .page-header {
   box-shadow: 0 1em 1em 0 rgba(0, 0, 0, 0.24); }
