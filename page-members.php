@@ -54,7 +54,7 @@
                                     <h2 class="tile-title">
                                         <?php $post_id = get_sub_field('title_link'); ?>
                                         <a href="<?php the_sub_field('title_link'); ?>">
-                                            <?php the_sub_field('title_link'); ?>
+                                            <?php the_sub_field('tile_title'); ?>
                                         </a>
                                     </h2>
                                     <?php
