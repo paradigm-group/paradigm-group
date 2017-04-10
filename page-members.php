@@ -42,7 +42,7 @@
                         the_content();
                     ?>
 
-                    <?php if (is_page ('members-area') { echo adrotate_group(2); } ?>
+                    <?php if (is_page ('members-area')) { echo adrotate_group(2); } ?>
                 </div> <?php // end article section ?>
 
                 <?php get_sidebar('members'); ?>
