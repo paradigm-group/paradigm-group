@@ -2056,8 +2056,7 @@ body {
 /*** Lobotomised Owl Exclusions ***/
 #wpadminbar,
 li + li,
-span + span,
-.tile + .tile {
+span + span {
   margin-top: auto; }
 
 /********************
@@ -2349,8 +2348,10 @@ POSTS & CONTENT STYLES
   .type-target .entry-content {
     margin: 0 1em; }
 
-.tile .tile-title {
-  word-break: break-word; }
+.tile {
+  margin-top: 0; }
+  .tile .tile-title {
+    word-break: break-word; }
 
 /***** DROP DOWNS *****/
 .aj-collapse {

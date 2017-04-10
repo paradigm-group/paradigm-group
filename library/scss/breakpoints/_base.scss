@@ -34,8 +34,7 @@ body {
 
 #wpadminbar,
 li+li,
-span+span,
-.tile + .tile {
+span+span {
     margin-top: auto;
 }
 
@@ -517,6 +516,7 @@ POSTS & CONTENT STYLES
 }
 
 .tile {
+    margin-top:0;
 
     .tile-title {
         word-break:break-word;
