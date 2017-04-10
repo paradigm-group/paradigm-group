@@ -26,7 +26,7 @@
 
                     <p id="breadcrumbs">
                         <span xmlns:v="http://rdf.data-vocabulary.org/#">
-                            <span typeof="v:Breadcrumb"><a href="http://paradigmgroup.eu" rel="v:url" property="v:title">Home</a></span> » <span typeof="v:Breadcrumb"><a href="http://paradigmgroup.eu/members-area/" rel="v:url" property="v:title">Members Area</a></span> » <span typeof="v:Breadcrumb"><a href="http://paradigmgroup.eu/members-area/safeguard/" rel="v:url" property="v:title">Safeguard</a></span> » <span typeof="v:Breadcrumb"><a href="http://paradigmgroup.eu/members-area/safeguard/technical-services/" rel="v:url" property="v:title">Technical Services</a></span> » <span typeof="v:Breadcrumb"><span class="breadcrumb_last" property="v:title"><a href="http://paradigmgroup.eu/members-area/safeguard/technical-services/target/" rel="v:url" property="v:title">Target</a></span></span> » <?php single_cat_title(); ?>
+                            <span typeof="v:Breadcrumb"><a href="/" rel="v:url" property="v:title">Home</a></span> » <span typeof="v:Breadcrumb"><a href="/members-area/" rel="v:url" property="v:title">Members Area</a></span> » <span typeof="v:Breadcrumb"><a href="/members-area/safeguard/" rel="v:url" property="v:title">Safeguard</a></span> » <span typeof="v:Breadcrumb"><a href="/members-area/safeguard/technical-services/" rel="v:url" property="v:title">Technical Services</a></span> » <span typeof="v:Breadcrumb"><span class="breadcrumb_last" property="v:title"><a href="/members-area/safeguard/technical-services/target/" rel="v:url" property="v:title">Target</a></span></span> » <?php single_cat_title(); ?>
                         </span>
                     </p>
 
