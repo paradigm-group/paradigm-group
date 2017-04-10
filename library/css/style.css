@@ -2908,6 +2908,11 @@ NAVIGATION STYLES
         top: auto;
         display: block; }
   /* end .nav */
+  .tile {
+    margin: 0 1em;
+    padding: 0 1em;
+    min-width: 30%;
+    max-width: 30%; }
   /*********************
 SIDEBARS & ASIDES
 *********************/
