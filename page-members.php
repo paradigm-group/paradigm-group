@@ -31,15 +31,18 @@
 
                 <div class="main entry-content" itemprop="articleBody">
 
-                            <?php if (is_front_page()) {} else {
-                    if ( function_exists('yoast_breadcrumb') ) {
-                        yoast_breadcrumb('<p id="breadcrumbs">','</p>');
-                    }
-                } ?>
+                    <?php if (is_front_page()) {} else {
+                        if ( function_exists('yoast_breadcrumb') ) {
+                            yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+                        }
+                    } ?>
+
                     <?php
                         // the content (pretty self explanatory huh)
                         the_content();
                     ?>
+
+                    <?php if (is_page ('members-area') { echo adrotate_group(2); } ?>
                 </div> <?php // end article section ?>
 
                 <?php get_sidebar('members'); ?>
