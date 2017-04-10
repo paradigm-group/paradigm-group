@@ -2206,7 +2206,8 @@ and more scalable.
     .nav li ul.children {
       margin: 0 auto;
       list-style-type: none;
-      padding: initial; }
+      padding: initial;
+      display: none; }
       .nav li ul.sub-menu li,
       .nav li ul.children li {
         width: 100%; }
