@@ -909,9 +909,12 @@ COMMENT STYLES
 
         ul,
         ol {
-            margin-left: 1em;
+            margin:0;
+            padding:0;
 
-            li {}
+            li {
+                margin-left:2em;
+            }
 
         }
 

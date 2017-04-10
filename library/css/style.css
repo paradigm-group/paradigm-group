@@ -2580,7 +2580,11 @@ COMMENT STYLES
     line-height: 1.5em; }
   .comment_content ul,
   .comment_content ol {
-    margin-left: 1em; }
+    margin: 0;
+    padding: 0; }
+    .comment_content ul li,
+    .comment_content ol li {
+      margin-left: 2em; }
   .comment_content ul {
     list-style-type: disc; }
   .comment_content ol {
