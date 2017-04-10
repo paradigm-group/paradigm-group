@@ -62,9 +62,14 @@
                                         // loop through rows (sub repeater)
                                         while( have_rows('menu') ): the_row();
 
+                                            // vars
+                                            $post_id = get_field('menu_item', false, false);
+
                                             // display each item as a list - with a class of completed ( if completed )
                                             ?>
-                                            <li><?php the_sub_field('menu_item'); ?></li>
+                                            <li>
+                                                <a href="<?php echo get_the_permalink($post_id); ?>"><?php echo get_the_title($post_id); ?></a>
+                                            </li>
                                         <?php endwhile; ?>
                                         </ul>
                                     <?php endif; //if( get_sub_field('items') ): ?>
