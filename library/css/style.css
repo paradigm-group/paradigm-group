@@ -2899,8 +2899,9 @@ NAVIGATION STYLES
           .nav li ul.children li ul {
             top: 0;
             left: 100%; }
-      .nav li:hover > ul {
-        top: auto; }
+      .nav li:hover > ul.sub-menu {
+        top: auto;
+        display: block; }
   /* end .nav */
   /*********************
 SIDEBARS & ASIDES
