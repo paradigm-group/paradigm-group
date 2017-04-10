@@ -2204,7 +2204,6 @@ and more scalable.
 			*/ }
     .nav li ul.sub-menu,
     .nav li ul.children {
-      display: none;
       margin: 0 auto;
       list-style-type: none;
       padding: initial; }
