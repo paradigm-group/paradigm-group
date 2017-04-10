@@ -41,17 +41,17 @@
                         // the content (pretty self explanatory huh)
                         the_content();
                     ?>
-                        <div class="container">
-                        <?php
+
+                    <?php
 
                         // check for rows (parent repeater)
                         if( have_rows('tile') ): ?>
-                            <div class="tile">
+                            <div class="container">
                             <?php
 
                             // loop through rows (parent repeater)
                             while( have_rows('tile') ): the_row(); ?>
-                                <div>
+                                <div class="tile">
                                     <h2 class="tile-title"><?php the_sub_field('title_link'); ?></h2>
                                     <?php
 
@@ -73,8 +73,8 @@
 
                             <?php endwhile; // while( has_sub_field('to-do_lists') ): ?>
                             </div>
-                        <?php endif; // if( get_field('to-do_lists') ): ?>
-                        </div>
+                    <?php endif; // if( get_field('to-do_lists') ): ?>
+
                     <?php if (is_page ('members-area')) { echo adrotate_group(2); } ?>
 
                 </div> <?php // end article section ?>
