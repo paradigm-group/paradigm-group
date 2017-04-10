@@ -268,7 +268,6 @@ POSTS & CONTENT STYLES
 
 .article-header {
     background-color: $red;
-    box-shadow: 0 1em 1em 0 rgba(0,0,0,.24);
     border-bottom: 1px solid #93122d;
 
     a {
@@ -279,6 +278,10 @@ POSTS & CONTENT STYLES
         font-size: 3.5em;
         color:$white;
     }
+}
+
+.page-header {
+    box-shadow: 0 1em 1em 0 rgba(0,0,0,.24);
 }
 
     .hentry {
