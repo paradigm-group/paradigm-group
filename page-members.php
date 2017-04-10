@@ -71,7 +71,7 @@
                                             ?>
                                             <li>
                                                 <a href="<?php the_sub_field('menu_item'); ?>">
-                                                    <?php the_sub_field('menu_item'); ?>
+                                                    <?php the_sub_field('item_title'); ?>
                                                 </a>
                                             </li>
                                         <?php endwhile; ?>
