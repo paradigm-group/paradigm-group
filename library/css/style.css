@@ -2349,7 +2349,8 @@ POSTS & CONTENT STYLES
     margin: 0 1em; }
 
 .tile {
-  margin-top: 0; }
+  margin-top: 0;
+  padding: 0 1em; }
   .tile .tile-title {
     word-break: break-word; }
 
