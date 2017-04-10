@@ -50,10 +50,12 @@
 
                     <?php the_content(); ?>
 
+                     <p><a href="#top">Back to top&hellip;</a></p>
+
                 </div> <!-- end article section -->
 
                 <footer class="article-footer">
-                    <p><a href="#top">Back to top&hellip;</a></p>
+
                 </footer> <!-- end article footer -->
 
             </article> <!-- end article -->
