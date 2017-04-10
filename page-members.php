@@ -65,7 +65,9 @@
                                             // display each item as a list - with a class of completed ( if completed )
                                             ?>
                                             <li>
-                                                <a href="<?php echo get_the_permalink($post_id); ?>"><?php echo get_the_title($post_id); ?></a>
+                                                <a href="<?php the_sub_field('menu_item'); ?>">
+                                                    <?php the_sub_field('menu_item'); ?>
+                                                </a>
                                             </li>
                                         <?php endwhile; ?>
                                         </ul>
