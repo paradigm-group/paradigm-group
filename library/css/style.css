@@ -2359,7 +2359,8 @@ POSTS & CONTENT STYLES
     margin: 0 1em; }
 
 .tile {
-  background-color: #bc1739; }
+  background-color: #bc1739;
+  padding: 1em .5em; }
   .tile .tile-title {
     margin: 0;
     word-break: break-word;
@@ -2912,7 +2913,6 @@ NAVIGATION STYLES
     flex-direction: row; }
   .tile {
     margin: .5em;
-    padding: .5em;
     min-width: 30%;
     max-width: 30%; }
   /*********************
