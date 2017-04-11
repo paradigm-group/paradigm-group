@@ -16,8 +16,6 @@
                                 <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
                             </h1>
 
-                            <p class="byline vcard">Posted <?php echo get_the_time(get_option('date_format'));?> by <?php echo get_the_author_meta( 'display_name' );?></p>
-
                         </header> <?php // end article header ?>
 
                         <div class="entry-content" itemprop="articleBody">
@@ -27,15 +25,7 @@
                             ?>
                         </div> <?php // end article section ?>
 
-                        <footer class="article-footer">
-
-                            <?php printf( __( 'Filed under: %1$s', 'bonestheme' ), get_the_category_list(', ') ); ?>
-
-                            <?php the_tags( '<p class="tags"><span class="tags-title">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ', ', '</p>' ); ?>
-
-                        </footer> <?php // end article footer ?>
-
-                        <?php comments_template(); ?>
+                        <?php get_template_part ('partials/article-footer');?>
 
                     </article> <?php // end article ?>
 
