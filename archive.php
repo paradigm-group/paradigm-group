@@ -54,7 +54,7 @@
 
                 <article id="post-<?php the_ID(); ?>" <?php post_class( 'cleafix' ); ?> role="article">
 
-                    <header class="article-header">
+                    <header class="archive-header">
 
                         <h1 class="entry-title">
                             <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
