@@ -46,7 +46,7 @@
         ?>
 
             <h2>
-                <a href="http://paradigmgroup.eu/issue/<?php echo $category->slug; ?>">
+                <a href="/issue/<?php echo $category->slug; ?>">
                     <?php echo $category->name;?>
                 </a>
             </h2>
