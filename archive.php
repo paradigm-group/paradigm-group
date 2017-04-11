@@ -1,12 +1,11 @@
 <?php get_header(); ?>
 
-    <div class="content wrapper">
+    <div class="content">
 
-        <div id="inner-content" class="container">
+        <div class="page-header">
 
-            <div class="main" role="main">
-
-            <?php if (is_category()) { ?>
+            <div class="container">
+                <?php if (is_category()) { ?>
                 <h1 class="archive-title">
                     <span><?php _e( 'Posts Categorized:', 'guybrush' ); ?></span> <?php single_cat_title(); ?>
                 </h1>
@@ -40,6 +39,12 @@
                         <span><?php _e( 'Yearly Archives:', 'guybrush' ); ?></span> <?php the_time('Y'); ?>
                     </h1>
             <?php } ?>
+            </div>
+        </div>
+
+        <div id="inner-content" class="container">
+
+            <div class="main" role="main">
 
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
