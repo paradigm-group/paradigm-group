@@ -1142,7 +1142,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 /***** Columbia Threadneedle *****/
 .page-id-264 .article-header,
 .tag-threadneedle .article-header {
-  background-color: #003D6D; }
+  background-color: #003D6D;
+  border-bottom: 1px solid #00233f; }
 
 .page-id-264 .entry-content a,
 .page-id-264 .entry-content a:visited,
