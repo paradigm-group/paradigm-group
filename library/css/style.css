@@ -1842,7 +1842,9 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 /***** Para-Sols ****/
 .page-id-19474 .article-header,
 .tag-parasols .article-header {
-  background-color: #005A84; }
+  background-color: #005A84;
+  border-bottom: 1px solid #003b56;
+  color: #fff; }
 
 .page-id-19474 .entry-content a,
 .page-id-19474 .entry-content a:visited,
