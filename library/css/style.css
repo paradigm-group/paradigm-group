@@ -1700,7 +1700,9 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 /***** Metlife *****/
 .page-id-247 .article-header,
 .tag-metlife-2 .article-header {
-  background-color: #007cc2; }
+  background-color: #007cc2;
+  border-bottom: 1px solid #005f94;
+  color: #fff; }
 
 .page-id-247 .entry-content a,
 .page-id-247 .entry-content a:visited,
