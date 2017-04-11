@@ -2,7 +2,7 @@
 
     <div class="content">
 
-        <div class="page-header">
+        <div class="article-header">
 
             <div class="container">
                 <?php if (is_category()) { ?>
@@ -57,8 +57,6 @@
                                 <?php the_title(); ?>
                             </a>
                         </h1>
-
-                        <p class="byline vcard">Posted <?php echo get_the_time(get_option('date_format'));?> by <?php echo get_the_author_meta( 'display_name' );?></p>
 
                     </header>
 
