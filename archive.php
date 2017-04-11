@@ -10,35 +10,35 @@
                     <?php single_cat_title(); ?>
                 </h1>
 
-            <?php } elseif (is_tag()) { ?>
-                <h1 class="archive-title">
-                    <span><?php _e( 'Posts Tagged:', 'guybrush' ); ?></span> <?php single_tag_title(); ?>
-                </h1>
-
-            <?php } elseif (is_author()) {
-                global $post;
-                $author_id = $post->post_author;
-            ?>
-                <h1 class="archive-title">
-
-                    <span><?php _e( 'Posts By:', 'guybrush' ); ?></span> <?php the_author_meta('display_name', $author_id); ?>
-
-                </h1>
-            <?php } elseif (is_day()) { ?>
-                <h1 class="archive-title">
-                    <span><?php _e( 'Daily Archives:', 'guybrush' ); ?></span> <?php the_time('l, F j, Y'); ?>
-                </h1>
-
-            <?php } elseif (is_month()) { ?>
+                <?php } elseif (is_tag()) { ?>
                     <h1 class="archive-title">
-                        <span><?php _e( 'Monthly Archives:', 'guybrush' ); ?></span> <?php the_time('F Y'); ?>
+                        <span><?php _e( 'Posts Tagged:', 'guybrush' ); ?></span> <?php single_tag_title(); ?>
                     </h1>
 
-            <?php } elseif (is_year()) { ?>
+                <?php } elseif (is_author()) {
+                    global $post;
+                    $author_id = $post->post_author;
+                ?>
                     <h1 class="archive-title">
-                        <span><?php _e( 'Yearly Archives:', 'guybrush' ); ?></span> <?php the_time('Y'); ?>
+
+                        <span><?php _e( 'Posts By:', 'guybrush' ); ?></span> <?php the_author_meta('display_name', $author_id); ?>
+
                     </h1>
-            <?php } ?>
+                <?php } elseif (is_day()) { ?>
+                    <h1 class="archive-title">
+                        <span><?php _e( 'Daily Archives:', 'guybrush' ); ?></span> <?php the_time('l, F j, Y'); ?>
+                    </h1>
+
+                <?php } elseif (is_month()) { ?>
+                        <h1 class="archive-title">
+                            <span><?php _e( 'Monthly Archives:', 'guybrush' ); ?></span> <?php the_time('F Y'); ?>
+                        </h1>
+
+                <?php } elseif (is_year()) { ?>
+                        <h1 class="archive-title">
+                            <span><?php _e( 'Yearly Archives:', 'guybrush' ); ?></span> <?php the_time('Y'); ?>
+                        </h1>
+                <?php } ?>
             </div>
         </div>
 
