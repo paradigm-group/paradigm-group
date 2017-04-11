@@ -72,7 +72,11 @@
 
                         <?php foreach($posts as $post) { setup_postdata($post);  ?>
 
-                            <li><?php echo the_title();?></li>
+                            <li>
+                                <a href="/issue/<?php echo $category->slug; ?>/#<?php echo the_id();?>">
+                                    <?php echo the_title();?>
+                                </a>
+                            </li>
 
                         <?php } ?>
 
