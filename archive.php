@@ -6,7 +6,7 @@
 
             <div class="container">
                 <?php if (is_category()) { ?>
-                <h1 class="archive-title">
+                <h1 class="page-title">
                     <?php single_cat_title(); ?>
                 </h1>
 
