@@ -5,11 +5,14 @@
         <h1 class="page-title"><?php single_cat_title(); ?> Target Archive</h1>
 
     </div>
+
 </header>
+
 <?php
     $term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) );
     $parent = get_term($term->parent, get_query_var('taxonomy') );
 ?>
+
 <div class="container">
 
     <div class="main">
@@ -50,13 +53,7 @@
 
             <div class="twelvecol">
 
-                <div class="twocol">
-
-                    <a href="http://paradigmgroup.eu/issue/<?php echo $category->slug; ?>"><img  class="shadow" src="<?php echo $url; ?>"/></a>
-
-                </div>
-
-                <div class="ninecol">
+                <a href="/issue/<?php echo $category->slug; ?>"><img  class="shadow" src="<?php echo $url; ?>"/></a>
 
                     <?php if( ! empty( $term_meta['tax_pdf'] ) ) { ?>
                         <a href="<?php echo $pdfurl; ?>">PDF</a>
@@ -66,11 +63,12 @@
                     <?php } else {} ?>
 
                     <?php $posts = get_posts( array(
-                        'target_cat' => $category->slug,
-                        'post_type' => 'target'
+                        'target_cat'        => $category->slug,
+                        'post_type'         => 'target',
+                        'posts_per_page'    => -1
                     ))?>
 
-                        <ul>
+                    <ul>
 
                         <?php foreach($posts as $post) { setup_postdata($post);  ?>
 
@@ -78,9 +76,7 @@
 
                         <?php } ?>
 
-                        </ul>
-
-                </div>
+                    </ul>
 
             </div>
         <?php } ?>
