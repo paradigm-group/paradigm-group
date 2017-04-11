@@ -3085,18 +3085,6 @@ POSTS & CONTENT STYLES
   .tile a {
     color: #000; }
 
-/***** DROP DOWNS *****/
-.aj-collapse {
-  cursor: pointer; }
-
-.aj-hidden {
-  display: none;
-  visibility: hidden; }
-
-.aj-visible {
-  display: block;
-  visibility: visible; }
-
 /***** POST FORMATS *****/
 /* Style the quote post wrapper. */
 /* Style blockquotes within the quote post. */
