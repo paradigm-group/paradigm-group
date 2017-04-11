@@ -1188,7 +1188,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 /***** Defaqto *****/
 .page-id-19456 .article-header,
 .tag-defaqto .article-header {
-  background-color: #005493; }
+  background-color: #005493;
+  border-bottom: 1px solid #003a65; }
 
 .page-id-19456 .entry-content a,
 .page-id-19456 .entry-content a:visited,
