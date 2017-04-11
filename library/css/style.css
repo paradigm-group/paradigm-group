@@ -2353,7 +2353,9 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 /***** Schroders *****/
 .page-id-253 .article-header,
 .tag-schroders .article-header {
-  background-color: #003772; }
+  background-color: #003772;
+  border-bottom: 1px solid #002144;
+  color: #fff; }
 
 .page-id-253 .entry-content a,
 .page-id-253 .entry-content a:visited,
