@@ -343,7 +343,6 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 /***** Just Retirement *****/
 
-.page-id-4174,
 .tag-just-retirement {
 
     .article-header {
@@ -366,6 +365,30 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 	}
 }
 
+/***** Just *****/
+
+.page-id-4174,
+.tag-just {
+    .article-header {
+        background-color:#ff7d7d;
+        color:#000;
+    }
+	.entry-content {
+        a,
+        a:visited {
+            color:#ff7d7d;
+
+            &:hover,
+            &:focus {
+                color: darken(#ff7d7d, 9%);
+            }
+        }
+
+        h2,
+        h3,
+        h4 {color: #ff7d7d;}
+	}
+}
 /***** London & Colonial *****/
 
 .page-id-24547,

@@ -1209,31 +1209,49 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 /***** J.P. Morgan *****/
 /***** Just Retirement *****/
-.page-id-4174 .article-header,
 .tag-just-retirement .article-header {
   background-color: #273188; }
 
-.page-id-4174 .entry-content a,
-.page-id-4174 .entry-content a:visited,
 .tag-just-retirement .entry-content a,
 .tag-just-retirement .entry-content a:visited {
   color: #273188; }
-  .page-id-4174 .entry-content a:hover, .page-id-4174 .entry-content a:focus,
-  .page-id-4174 .entry-content a:visited:hover,
-  .page-id-4174 .entry-content a:visited:focus,
-  .tag-just-retirement .entry-content a:hover,
-  .tag-just-retirement .entry-content a:focus,
+  .tag-just-retirement .entry-content a:hover, .tag-just-retirement .entry-content a:focus,
   .tag-just-retirement .entry-content a:visited:hover,
   .tag-just-retirement .entry-content a:visited:focus {
     color: #1d2464; }
 
-.page-id-4174 .entry-content h2,
-.page-id-4174 .entry-content h3,
-.page-id-4174 .entry-content h4,
 .tag-just-retirement .entry-content h2,
 .tag-just-retirement .entry-content h3,
 .tag-just-retirement .entry-content h4 {
   color: #273188; }
+
+/***** Just *****/
+.page-id-4174 .article-header,
+.tag-just .article-header {
+  background-color: #ff7d7d;
+  color: #000; }
+
+.page-id-4174 .entry-content a,
+.page-id-4174 .entry-content a:visited,
+.tag-just .entry-content a,
+.tag-just .entry-content a:visited {
+  color: #ff7d7d; }
+  .page-id-4174 .entry-content a:hover, .page-id-4174 .entry-content a:focus,
+  .page-id-4174 .entry-content a:visited:hover,
+  .page-id-4174 .entry-content a:visited:focus,
+  .tag-just .entry-content a:hover,
+  .tag-just .entry-content a:focus,
+  .tag-just .entry-content a:visited:hover,
+  .tag-just .entry-content a:visited:focus {
+    color: #ff4f4f; }
+
+.page-id-4174 .entry-content h2,
+.page-id-4174 .entry-content h3,
+.page-id-4174 .entry-content h4,
+.tag-just .entry-content h2,
+.tag-just .entry-content h3,
+.tag-just .entry-content h4 {
+  color: #ff7d7d; }
 
 /***** London & Colonial *****/
 .page-id-24547 .article-header,
