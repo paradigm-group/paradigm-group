@@ -1329,7 +1329,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 /***** Investec *****/
 .tag-investec .article-header,
 .page-id-24787 .article-header {
-  background-color: #000; }
+  background-color: #000;
+  border-bottom: 1px solid #000; }
 
 .tag-investec .entry-content a,
 .tag-investec .entry-content a:visited,
