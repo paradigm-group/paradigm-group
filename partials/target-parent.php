@@ -53,7 +53,7 @@
 
             <div class="twelvecol">
 
-                <a href="/issue/<?php echo $category->slug; ?>"><img  class="shadow" src="<?php echo $url; ?>"/></a>
+                <a href="/issue/<?php echo $category->slug; ?>"><img class="shadow alignleft" src="<?php echo $url; ?>"/></a>
 
                     <?php if( ! empty( $term_meta['tax_pdf'] ) ) { ?>
                         <a href="<?php echo $pdfurl; ?>">PDF</a>
