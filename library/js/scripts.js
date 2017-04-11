@@ -12,7 +12,7 @@
  * not required. It's your world baby, you can do whatever you want.
 */
 
-/*global $, jQuery, alert */
+/*global $, jQuery, alert, rel */
 
 /*
  * Get Viewport Dimensions
@@ -164,8 +164,8 @@ jQuery(document).ready(function ($) {
         during the initial page load.
     */
     jQuery(".aj-hidden").addClass("aj-visible");
-    j
-    Query(".aj-collapse").click(function (e) {
+
+    jQuery(".aj-collapse").click(function (e) {
         rel = jQuery(this).attr('rel');
         jQuery("#" + rel).slideToggle('fast');
     });
