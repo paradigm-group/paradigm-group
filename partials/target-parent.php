@@ -86,5 +86,6 @@
         <?php } ?>
     </section>
 </div>
+    <?php get_sidebar('members');?>
 </div>
-<?php get_sidebar('members');?>
+
