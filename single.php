@@ -41,7 +41,15 @@
 
                 </div>
 
-                <?php get_sidebar(); ?>
+                <?php if (in_category('breaking-news')) {
+
+                    get_sidebar('members');
+
+                } else {
+
+                    get_sidebar();
+
+                } ?>
 
             </div>
 
