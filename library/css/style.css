@@ -2490,7 +2490,9 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 /***** Selectapension *****/
 .page-id-260 .article-header,
 .tag-selectapension .article-header {
-  background-color: #529FC5; }
+  background-color: #529FC5;
+  border-bottom: 1px solid #3b88af;
+  color: #fff; }
 
 .page-id-260 .entry-content a,
 .page-id-260 .entry-content a:visited,
