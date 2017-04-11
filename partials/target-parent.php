@@ -57,7 +57,7 @@
                 </div>
                 <div class="target-archive-details">
                     <?php if( ! empty( $term_meta['tax_pdf'] ) ) { ?>
-                <strong><a href="<?php echo $pdfurl; ?>">Dowmload PDF</a></strong>strong>
+                        <strong><a href="<?php echo $pdfurl; ?>">Dowmload PDF</a></strong>
                     <?php } else {} ?>
                     <?php if( ! empty( $term_meta['tax_word'] ) ) { ?>
                         <strong><a href="<?php echo $wordurl; ?>">Download Word</a></strong>
