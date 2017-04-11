@@ -2970,7 +2970,8 @@ POSTS & CONTENT STYLES
     color: #fff; }
   .article-header .page-title {
     font-size: 3.5em;
-    color: #fff; }
+    color: #fff;
+    text-align: center; }
 
 .page-header {
   box-shadow: 0 1em 1em 0 rgba(0, 0, 0, 0.24);
@@ -3645,6 +3646,8 @@ NAVIGATION STYLES
   .tile {
     min-width: 30%;
     max-width: 30%; }
+  .page-title {
+    text-align: left; }
   /*********************
 SIDEBARS & ASIDES
 *********************/
