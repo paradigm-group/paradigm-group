@@ -54,7 +54,7 @@
             'fallback_cb' => ''                                 // fallback function (if there is one)
         ));
 
-    }   elseif (is_category ('breaking-news')) {
+    }   elseif (in_category ('breaking-news')) {
 
         wp_nav_menu(array(
             'container' => 'div',                               // remove nav container
