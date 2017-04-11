@@ -1081,6 +1081,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
     .article-header {
         background-color: #005581;
+        border-bottom: 1px solid darken(#005581, 9%);
+        color:#fff;
     }
 
     .entry-content,

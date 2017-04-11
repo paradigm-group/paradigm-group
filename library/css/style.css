@@ -2672,7 +2672,9 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 /***** TIME *****/
 .page-id-21909 .article-header,
 .tag-time .article-header {
-  background-color: #005581; }
+  background-color: #005581;
+  border-bottom: 1px solid #003753;
+  color: #fff; }
 
 .page-id-21909 .entry-content a,
 .page-id-21909 .entry-content a:visited,
