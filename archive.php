@@ -7,7 +7,7 @@
             <div class="container">
                 <?php if (is_category()) { ?>
                 <h1 class="archive-title">
-                    <span><?php _e( 'Posts Categorized:', 'guybrush' ); ?></span> <?php single_cat_title(); ?>
+                    <?php single_cat_title(); ?>
                 </h1>
 
             <?php } elseif (is_tag()) { ?>
