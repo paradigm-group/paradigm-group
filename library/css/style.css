@@ -1233,24 +1233,42 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-4174 .entry-content a,
 .page-id-4174 .entry-content a:visited,
+.page-id-4174 .article-footer a,
+.page-id-4174 .article-footer a:visited,
 .tag-just .entry-content a,
-.tag-just .entry-content a:visited {
+.tag-just .entry-content a:visited,
+.tag-just .article-footer a,
+.tag-just .article-footer a:visited {
   color: #ff7d7d; }
   .page-id-4174 .entry-content a:hover, .page-id-4174 .entry-content a:focus,
   .page-id-4174 .entry-content a:visited:hover,
   .page-id-4174 .entry-content a:visited:focus,
+  .page-id-4174 .article-footer a:hover,
+  .page-id-4174 .article-footer a:focus,
+  .page-id-4174 .article-footer a:visited:hover,
+  .page-id-4174 .article-footer a:visited:focus,
   .tag-just .entry-content a:hover,
   .tag-just .entry-content a:focus,
   .tag-just .entry-content a:visited:hover,
-  .tag-just .entry-content a:visited:focus {
+  .tag-just .entry-content a:visited:focus,
+  .tag-just .article-footer a:hover,
+  .tag-just .article-footer a:focus,
+  .tag-just .article-footer a:visited:hover,
+  .tag-just .article-footer a:visited:focus {
     color: #ff4f4f; }
 
 .page-id-4174 .entry-content h2,
 .page-id-4174 .entry-content h3,
 .page-id-4174 .entry-content h4,
+.page-id-4174 .article-footer h2,
+.page-id-4174 .article-footer h3,
+.page-id-4174 .article-footer h4,
 .tag-just .entry-content h2,
 .tag-just .entry-content h3,
-.tag-just .entry-content h4 {
+.tag-just .entry-content h4,
+.tag-just .article-footer h2,
+.tag-just .article-footer h3,
+.tag-just .article-footer h4 {
   color: #ff7d7d; }
 
 /***** London & Colonial *****/
