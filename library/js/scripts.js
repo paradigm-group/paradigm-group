@@ -164,7 +164,8 @@ jQuery(document).ready(function ($) {
         during the initial page load.
     */
     jQuery(".aj-hidden").addClass("aj-visible");
-    jQuery(".aj-collapse").click(function () {
+    j
+    Query(".aj-collapse").click(function (e) {
         rel = jQuery(this).attr('rel');
         jQuery("#" + rel).slideToggle('fast');
     });
