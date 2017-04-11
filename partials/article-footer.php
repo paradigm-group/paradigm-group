@@ -108,6 +108,10 @@
 
         <h4>Visit the <a href="/members-area/strategic-partners/octopus/">Octopus Strategic Partner page</a></h4>
 
+    <?php } elseif (has_tag ('Old Mutual')) { ?>
+
+        <h4>Visit the <a href="/members-area/strategic-partners/old-mutual-global-investors//">Old Mutual Global Investors</a></h4>
+
     <?php } elseif (has_tag ('Partnership')) { ?>
 
         <h4>Visit the <a href="/members-area/strategic-partners/partnership/">Partnership Strategic Partner page</a></h4>
