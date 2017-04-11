@@ -909,36 +909,66 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-168 .entry-content a,
 .page-id-168 .entry-content a:visited,
+.page-id-168 .article-footer a,
+.page-id-168 .article-footer a:visited,
 .category-aegon .entry-content a,
 .category-aegon .entry-content a:visited,
+.category-aegon .article-footer a,
+.category-aegon .article-footer a:visited,
 .tag-aegon .entry-content a,
-.tag-aegon .entry-content a:visited {
+.tag-aegon .entry-content a:visited,
+.tag-aegon .article-footer a,
+.tag-aegon .article-footer a:visited {
   color: #0077C8; }
   .page-id-168 .entry-content a:hover, .page-id-168 .entry-content a:focus,
   .page-id-168 .entry-content a:visited:hover,
   .page-id-168 .entry-content a:visited:focus,
+  .page-id-168 .article-footer a:hover,
+  .page-id-168 .article-footer a:focus,
+  .page-id-168 .article-footer a:visited:hover,
+  .page-id-168 .article-footer a:visited:focus,
   .category-aegon .entry-content a:hover,
   .category-aegon .entry-content a:focus,
   .category-aegon .entry-content a:visited:hover,
   .category-aegon .entry-content a:visited:focus,
+  .category-aegon .article-footer a:hover,
+  .category-aegon .article-footer a:focus,
+  .category-aegon .article-footer a:visited:hover,
+  .category-aegon .article-footer a:visited:focus,
   .tag-aegon .entry-content a:hover,
   .tag-aegon .entry-content a:focus,
   .tag-aegon .entry-content a:visited:hover,
-  .tag-aegon .entry-content a:visited:focus {
+  .tag-aegon .entry-content a:visited:focus,
+  .tag-aegon .article-footer a:hover,
+  .tag-aegon .article-footer a:focus,
+  .tag-aegon .article-footer a:visited:hover,
+  .tag-aegon .article-footer a:visited:focus {
     color: #005c9a; }
 
 .page-id-168 .entry-content h2,
 .page-id-168 .entry-content h3,
 .page-id-168 .entry-content h4,
 .page-id-168 .entry-content h5,
+.page-id-168 .article-footer h2,
+.page-id-168 .article-footer h3,
+.page-id-168 .article-footer h4,
+.page-id-168 .article-footer h5,
 .category-aegon .entry-content h2,
 .category-aegon .entry-content h3,
 .category-aegon .entry-content h4,
 .category-aegon .entry-content h5,
+.category-aegon .article-footer h2,
+.category-aegon .article-footer h3,
+.category-aegon .article-footer h4,
+.category-aegon .article-footer h5,
 .tag-aegon .entry-content h2,
 .tag-aegon .entry-content h3,
 .tag-aegon .entry-content h4,
-.tag-aegon .entry-content h5 {
+.tag-aegon .entry-content h5,
+.tag-aegon .article-footer h2,
+.tag-aegon .article-footer h3,
+.tag-aegon .article-footer h4,
+.tag-aegon .article-footer h5 {
   color: #0077C8; }
 
 /***** Ageas Page 233 *****/
@@ -954,33 +984,60 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-234 .entry-content a,
 .page-id-234 .entry-content a:visited,
+.page-id-234 .article-footer a,
+.page-id-234 .article-footer a:visited,
 .category-aviva .entry-content a,
 .category-aviva .entry-content a:visited,
+.category-aviva .article-footer a,
+.category-aviva .article-footer a:visited,
 .tag-aviva .entry-content a,
-.tag-aviva .entry-content a:visited {
+.tag-aviva .entry-content a:visited,
+.tag-aviva .article-footer a,
+.tag-aviva .article-footer a:visited {
   color: #004fb6; }
   .page-id-234 .entry-content a:hover, .page-id-234 .entry-content a:focus,
   .page-id-234 .entry-content a:visited:hover,
   .page-id-234 .entry-content a:visited:focus,
+  .page-id-234 .article-footer a:hover,
+  .page-id-234 .article-footer a:focus,
+  .page-id-234 .article-footer a:visited:hover,
+  .page-id-234 .article-footer a:visited:focus,
   .category-aviva .entry-content a:hover,
   .category-aviva .entry-content a:focus,
   .category-aviva .entry-content a:visited:hover,
   .category-aviva .entry-content a:visited:focus,
+  .category-aviva .article-footer a:hover,
+  .category-aviva .article-footer a:focus,
+  .category-aviva .article-footer a:visited:hover,
+  .category-aviva .article-footer a:visited:focus,
   .tag-aviva .entry-content a:hover,
   .tag-aviva .entry-content a:focus,
   .tag-aviva .entry-content a:visited:hover,
-  .tag-aviva .entry-content a:visited:focus {
+  .tag-aviva .entry-content a:visited:focus,
+  .tag-aviva .article-footer a:hover,
+  .tag-aviva .article-footer a:focus,
+  .tag-aviva .article-footer a:visited:hover,
+  .tag-aviva .article-footer a:visited:focus {
     color: #003b88; }
 
 .page-id-234 .entry-content h2,
 .page-id-234 .entry-content h3,
 .page-id-234 .entry-content h4,
+.page-id-234 .article-footer h2,
+.page-id-234 .article-footer h3,
+.page-id-234 .article-footer h4,
 .category-aviva .entry-content h2,
 .category-aviva .entry-content h3,
 .category-aviva .entry-content h4,
+.category-aviva .article-footer h2,
+.category-aviva .article-footer h3,
+.category-aviva .article-footer h4,
 .tag-aviva .entry-content h2,
 .tag-aviva .entry-content h3,
-.tag-aviva .entry-content h4 {
+.tag-aviva .entry-content h4,
+.tag-aviva .article-footer h2,
+.tag-aviva .article-footer h3,
+.tag-aviva .article-footer h4 {
   color: #004fb6; }
 
 /***** AXA (Wealth & Life Invest) *****/
@@ -991,33 +1048,60 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-235 .entry-content a,
 .page-id-235 .entry-content a:visited,
+.page-id-235 .article-footer a,
+.page-id-235 .article-footer a:visited,
 .page-id-11095 .entry-content a,
 .page-id-11095 .entry-content a:visited,
+.page-id-11095 .article-footer a,
+.page-id-11095 .article-footer a:visited,
 .tag-axa .entry-content a,
-.tag-axa .entry-content a:visited {
+.tag-axa .entry-content a:visited,
+.tag-axa .article-footer a,
+.tag-axa .article-footer a:visited {
   color: #0b3881; }
   .page-id-235 .entry-content a:hover, .page-id-235 .entry-content a:focus,
   .page-id-235 .entry-content a:visited:hover,
   .page-id-235 .entry-content a:visited:focus,
+  .page-id-235 .article-footer a:hover,
+  .page-id-235 .article-footer a:focus,
+  .page-id-235 .article-footer a:visited:hover,
+  .page-id-235 .article-footer a:visited:focus,
   .page-id-11095 .entry-content a:hover,
   .page-id-11095 .entry-content a:focus,
   .page-id-11095 .entry-content a:visited:hover,
   .page-id-11095 .entry-content a:visited:focus,
+  .page-id-11095 .article-footer a:hover,
+  .page-id-11095 .article-footer a:focus,
+  .page-id-11095 .article-footer a:visited:hover,
+  .page-id-11095 .article-footer a:visited:focus,
   .tag-axa .entry-content a:hover,
   .tag-axa .entry-content a:focus,
   .tag-axa .entry-content a:visited:hover,
-  .tag-axa .entry-content a:visited:focus {
+  .tag-axa .entry-content a:visited:focus,
+  .tag-axa .article-footer a:hover,
+  .tag-axa .article-footer a:focus,
+  .tag-axa .article-footer a:visited:hover,
+  .tag-axa .article-footer a:visited:focus {
     color: #072657; }
 
 .page-id-235 .entry-content h2,
 .page-id-235 .entry-content h3,
 .page-id-235 .entry-content h4,
+.page-id-235 .article-footer h2,
+.page-id-235 .article-footer h3,
+.page-id-235 .article-footer h4,
 .page-id-11095 .entry-content h2,
 .page-id-11095 .entry-content h3,
 .page-id-11095 .entry-content h4,
+.page-id-11095 .article-footer h2,
+.page-id-11095 .article-footer h3,
+.page-id-11095 .article-footer h4,
 .tag-axa .entry-content h2,
 .tag-axa .entry-content h3,
-.tag-axa .entry-content h4 {
+.tag-axa .entry-content h4,
+.tag-axa .article-footer h2,
+.tag-axa .article-footer h3,
+.tag-axa .article-footer h4 {
   color: #0b3881; }
 
 /***** Blackrock *****/
@@ -1028,16 +1112,25 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
   background-color: #496394; }
 
 .tag-brand-ft .entry-content a,
-.tag-brand-ft .entry-content a:visited {
+.tag-brand-ft .entry-content a:visited,
+.tag-brand-ft .article-footer a,
+.tag-brand-ft .article-footer a:visited {
   color: #2262ac; }
   .tag-brand-ft .entry-content a:hover, .tag-brand-ft .entry-content a:focus,
   .tag-brand-ft .entry-content a:visited:hover,
-  .tag-brand-ft .entry-content a:visited:focus {
+  .tag-brand-ft .entry-content a:visited:focus,
+  .tag-brand-ft .article-footer a:hover,
+  .tag-brand-ft .article-footer a:focus,
+  .tag-brand-ft .article-footer a:visited:hover,
+  .tag-brand-ft .article-footer a:visited:focus {
     color: #1a4c86; }
 
 .tag-brand-ft .entry-content h2,
 .tag-brand-ft .entry-content h3,
-.tag-brand-ft .entry-content h4 {
+.tag-brand-ft .entry-content h4,
+.tag-brand-ft .article-footer h2,
+.tag-brand-ft .article-footer h3,
+.tag-brand-ft .article-footer h4 {
   color: #2262ac; }
 
 /***** Bright Grey *****/
@@ -1049,24 +1142,42 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-264 .entry-content a,
 .page-id-264 .entry-content a:visited,
+.page-id-264 .article-footer a,
+.page-id-264 .article-footer a:visited,
 .tag-threadneedle .entry-content a,
-.tag-threadneedle .entry-content a:visited {
+.tag-threadneedle .entry-content a:visited,
+.tag-threadneedle .article-footer a,
+.tag-threadneedle .article-footer a:visited {
   color: #003D6D; }
   .page-id-264 .entry-content a:hover, .page-id-264 .entry-content a:focus,
   .page-id-264 .entry-content a:visited:hover,
   .page-id-264 .entry-content a:visited:focus,
+  .page-id-264 .article-footer a:hover,
+  .page-id-264 .article-footer a:focus,
+  .page-id-264 .article-footer a:visited:hover,
+  .page-id-264 .article-footer a:visited:focus,
   .tag-threadneedle .entry-content a:hover,
   .tag-threadneedle .entry-content a:focus,
   .tag-threadneedle .entry-content a:visited:hover,
-  .tag-threadneedle .entry-content a:visited:focus {
+  .tag-threadneedle .entry-content a:visited:focus,
+  .tag-threadneedle .article-footer a:hover,
+  .tag-threadneedle .article-footer a:focus,
+  .tag-threadneedle .article-footer a:visited:hover,
+  .tag-threadneedle .article-footer a:visited:focus {
     color: #00233f; }
 
 .page-id-264 .entry-content h2,
 .page-id-264 .entry-content h3,
 .page-id-264 .entry-content h4,
+.page-id-264 .article-footer h2,
+.page-id-264 .article-footer h3,
+.page-id-264 .article-footer h4,
 .tag-threadneedle .entry-content h2,
 .tag-threadneedle .entry-content h3,
-.tag-threadneedle .entry-content h4 {
+.tag-threadneedle .entry-content h4,
+.tag-threadneedle .article-footer h2,
+.tag-threadneedle .article-footer h3,
+.tag-threadneedle .article-footer h4 {
   color: #003D6D; }
 
 /***** Defaqto *****/
@@ -1076,24 +1187,42 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-19456 .entry-content a,
 .page-id-19456 .entry-content a:visited,
+.page-id-19456 .article-footer a,
+.page-id-19456 .article-footer a:visited,
 .tag-defaqto .entry-content a,
-.tag-defaqto .entry-content a:visited {
+.tag-defaqto .entry-content a:visited,
+.tag-defaqto .article-footer a,
+.tag-defaqto .article-footer a:visited {
   color: #005493; }
   .page-id-19456 .entry-content a:hover, .page-id-19456 .entry-content a:focus,
   .page-id-19456 .entry-content a:visited:hover,
   .page-id-19456 .entry-content a:visited:focus,
+  .page-id-19456 .article-footer a:hover,
+  .page-id-19456 .article-footer a:focus,
+  .page-id-19456 .article-footer a:visited:hover,
+  .page-id-19456 .article-footer a:visited:focus,
   .tag-defaqto .entry-content a:hover,
   .tag-defaqto .entry-content a:focus,
   .tag-defaqto .entry-content a:visited:hover,
-  .tag-defaqto .entry-content a:visited:focus {
+  .tag-defaqto .entry-content a:visited:focus,
+  .tag-defaqto .article-footer a:hover,
+  .tag-defaqto .article-footer a:focus,
+  .tag-defaqto .article-footer a:visited:hover,
+  .tag-defaqto .article-footer a:visited:focus {
     color: #003a65; }
 
 .page-id-19456 .entry-content h2,
 .page-id-19456 .entry-content h3,
 .page-id-19456 .entry-content h4,
+.page-id-19456 .article-footer h2,
+.page-id-19456 .article-footer h3,
+.page-id-19456 .article-footer h4,
 .tag-defaqto .entry-content h2,
 .tag-defaqto .entry-content h3,
-.tag-defaqto .entry-content h4 {
+.tag-defaqto .entry-content h4,
+.tag-defaqto .article-footer h2,
+.tag-defaqto .article-footer h3,
+.tag-defaqto .article-footer h4 {
   color: #005493; }
 
 /***** Fidelity *****/
@@ -1105,24 +1234,42 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-20608 .entry-content a,
 .page-id-20608 .entry-content a:visited,
+.page-id-20608 .article-footer a,
+.page-id-20608 .article-footer a:visited,
 .tag-goldman-sachs .entry-content a,
-.tag-goldman-sachs .entry-content a:visited {
+.tag-goldman-sachs .entry-content a:visited,
+.tag-goldman-sachs .article-footer a,
+.tag-goldman-sachs .article-footer a:visited {
   color: #7399C6; }
   .page-id-20608 .entry-content a:hover, .page-id-20608 .entry-content a:focus,
   .page-id-20608 .entry-content a:visited:hover,
   .page-id-20608 .entry-content a:visited:focus,
+  .page-id-20608 .article-footer a:hover,
+  .page-id-20608 .article-footer a:focus,
+  .page-id-20608 .article-footer a:visited:hover,
+  .page-id-20608 .article-footer a:visited:focus,
   .tag-goldman-sachs .entry-content a:hover,
   .tag-goldman-sachs .entry-content a:focus,
   .tag-goldman-sachs .entry-content a:visited:hover,
-  .tag-goldman-sachs .entry-content a:visited:focus {
+  .tag-goldman-sachs .entry-content a:visited:focus,
+  .tag-goldman-sachs .article-footer a:hover,
+  .tag-goldman-sachs .article-footer a:focus,
+  .tag-goldman-sachs .article-footer a:visited:hover,
+  .tag-goldman-sachs .article-footer a:visited:focus {
     color: #5281b9; }
 
 .page-id-20608 .entry-content h2,
 .page-id-20608 .entry-content h3,
 .page-id-20608 .entry-content h4,
+.page-id-20608 .article-footer h2,
+.page-id-20608 .article-footer h3,
+.page-id-20608 .article-footer h4,
 .tag-goldman-sachs .entry-content h2,
 .tag-goldman-sachs .entry-content h3,
-.tag-goldman-sachs .entry-content h4 {
+.tag-goldman-sachs .entry-content h4,
+.tag-goldman-sachs .article-footer h2,
+.tag-goldman-sachs .article-footer h3,
+.tag-goldman-sachs .article-footer h4 {
   color: #7399C6; }
 
 /***** Henderson Global Investors Page *****/
@@ -1133,24 +1280,42 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-242 .entry-content a,
 .page-id-242 .entry-content a:visited,
+.page-id-242 .article-footer a,
+.page-id-242 .article-footer a:visited,
 .tag-ingenious .entry-content a,
-.tag-ingenious .entry-content a:visited {
+.tag-ingenious .entry-content a:visited,
+.tag-ingenious .article-footer a,
+.tag-ingenious .article-footer a:visited {
   color: #004F71; }
   .page-id-242 .entry-content a:hover, .page-id-242 .entry-content a:focus,
   .page-id-242 .entry-content a:visited:hover,
   .page-id-242 .entry-content a:visited:focus,
+  .page-id-242 .article-footer a:hover,
+  .page-id-242 .article-footer a:focus,
+  .page-id-242 .article-footer a:visited:hover,
+  .page-id-242 .article-footer a:visited:focus,
   .tag-ingenious .entry-content a:hover,
   .tag-ingenious .entry-content a:focus,
   .tag-ingenious .entry-content a:visited:hover,
-  .tag-ingenious .entry-content a:visited:focus {
+  .tag-ingenious .entry-content a:visited:focus,
+  .tag-ingenious .article-footer a:hover,
+  .tag-ingenious .article-footer a:focus,
+  .tag-ingenious .article-footer a:visited:hover,
+  .tag-ingenious .article-footer a:visited:focus {
     color: #004F71; }
 
 .page-id-242 .entry-content h2,
 .page-id-242 .entry-content h3,
 .page-id-242 .entry-content h4,
+.page-id-242 .article-footer h2,
+.page-id-242 .article-footer h3,
+.page-id-242 .article-footer h4,
 .tag-ingenious .entry-content h2,
 .tag-ingenious .entry-content h3,
-.tag-ingenious .entry-content h4 {
+.tag-ingenious .entry-content h4,
+.tag-ingenious .article-footer h2,
+.tag-ingenious .article-footer h3,
+.tag-ingenious .article-footer h4 {
   color: #004F71; }
 
 /***** Investec *****/
@@ -1160,24 +1325,42 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .tag-investec .entry-content a,
 .tag-investec .entry-content a:visited,
+.tag-investec .article-footer a,
+.tag-investec .article-footer a:visited,
 .page-id-24787 .entry-content a,
-.page-id-24787 .entry-content a:visited {
+.page-id-24787 .entry-content a:visited,
+.page-id-24787 .article-footer a,
+.page-id-24787 .article-footer a:visited {
   color: #000; }
   .tag-investec .entry-content a:hover, .tag-investec .entry-content a:focus,
   .tag-investec .entry-content a:visited:hover,
   .tag-investec .entry-content a:visited:focus,
+  .tag-investec .article-footer a:hover,
+  .tag-investec .article-footer a:focus,
+  .tag-investec .article-footer a:visited:hover,
+  .tag-investec .article-footer a:visited:focus,
   .page-id-24787 .entry-content a:hover,
   .page-id-24787 .entry-content a:focus,
   .page-id-24787 .entry-content a:visited:hover,
-  .page-id-24787 .entry-content a:visited:focus {
+  .page-id-24787 .entry-content a:visited:focus,
+  .page-id-24787 .article-footer a:hover,
+  .page-id-24787 .article-footer a:focus,
+  .page-id-24787 .article-footer a:visited:hover,
+  .page-id-24787 .article-footer a:visited:focus {
     color: #000; }
 
 .tag-investec .entry-content h2,
 .tag-investec .entry-content h3,
 .tag-investec .entry-content h4,
+.tag-investec .article-footer h2,
+.tag-investec .article-footer h3,
+.tag-investec .article-footer h4,
 .page-id-24787 .entry-content h2,
 .page-id-24787 .entry-content h3,
-.page-id-24787 .entry-content h4 {
+.page-id-24787 .entry-content h4,
+.page-id-24787 .article-footer h2,
+.page-id-24787 .article-footer h3,
+.page-id-24787 .article-footer h4 {
   color: #000; }
 
 /***** Intelliflo *****/
@@ -1187,24 +1370,42 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-18313 .entry-content a,
 .page-id-18313 .entry-content a:visited,
+.page-id-18313 .article-footer a,
+.page-id-18313 .article-footer a:visited,
 .tag-intelliflo .entry-content a,
-.tag-intelliflo .entry-content a:visited {
+.tag-intelliflo .entry-content a:visited,
+.tag-intelliflo .article-footer a,
+.tag-intelliflo .article-footer a:visited {
   color: #496394; }
   .page-id-18313 .entry-content a:hover, .page-id-18313 .entry-content a:focus,
   .page-id-18313 .entry-content a:visited:hover,
   .page-id-18313 .entry-content a:visited:focus,
+  .page-id-18313 .article-footer a:hover,
+  .page-id-18313 .article-footer a:focus,
+  .page-id-18313 .article-footer a:visited:hover,
+  .page-id-18313 .article-footer a:visited:focus,
   .tag-intelliflo .entry-content a:hover,
   .tag-intelliflo .entry-content a:focus,
   .tag-intelliflo .entry-content a:visited:hover,
-  .tag-intelliflo .entry-content a:visited:focus {
+  .tag-intelliflo .entry-content a:visited:focus,
+  .tag-intelliflo .article-footer a:hover,
+  .tag-intelliflo .article-footer a:focus,
+  .tag-intelliflo .article-footer a:visited:hover,
+  .tag-intelliflo .article-footer a:visited:focus {
     color: #3a4e75; }
 
 .page-id-18313 .entry-content h2,
 .page-id-18313 .entry-content h3,
 .page-id-18313 .entry-content h4,
+.page-id-18313 .article-footer h2,
+.page-id-18313 .article-footer h3,
+.page-id-18313 .article-footer h4,
 .tag-intelliflo .entry-content h2,
 .tag-intelliflo .entry-content h3,
-.tag-intelliflo .entry-content h4 {
+.tag-intelliflo .entry-content h4,
+.tag-intelliflo .article-footer h2,
+.tag-intelliflo .article-footer h3,
+.tag-intelliflo .article-footer h4 {
   color: #496394; }
 
 /***** J.P. Morgan *****/
@@ -1213,16 +1414,25 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
   background-color: #273188; }
 
 .tag-just-retirement .entry-content a,
-.tag-just-retirement .entry-content a:visited {
+.tag-just-retirement .entry-content a:visited,
+.tag-just-retirement .article-footer a,
+.tag-just-retirement .article-footer a:visited {
   color: #273188; }
   .tag-just-retirement .entry-content a:hover, .tag-just-retirement .entry-content a:focus,
   .tag-just-retirement .entry-content a:visited:hover,
-  .tag-just-retirement .entry-content a:visited:focus {
+  .tag-just-retirement .entry-content a:visited:focus,
+  .tag-just-retirement .article-footer a:hover,
+  .tag-just-retirement .article-footer a:focus,
+  .tag-just-retirement .article-footer a:visited:hover,
+  .tag-just-retirement .article-footer a:visited:focus {
     color: #1d2464; }
 
 .tag-just-retirement .entry-content h2,
 .tag-just-retirement .entry-content h3,
-.tag-just-retirement .entry-content h4 {
+.tag-just-retirement .entry-content h4,
+.tag-just-retirement .article-footer h2,
+.tag-just-retirement .article-footer h3,
+.tag-just-retirement .article-footer h4 {
   color: #273188; }
 
 /***** Just *****/
@@ -1278,24 +1488,42 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-24547 .entry-content a,
 .page-id-24547 .entry-content a:visited,
+.page-id-24547 .article-footer a,
+.page-id-24547 .article-footer a:visited,
 .tag-london-colonial .entry-content a,
-.tag-london-colonial .entry-content a:visited {
+.tag-london-colonial .entry-content a:visited,
+.tag-london-colonial .article-footer a,
+.tag-london-colonial .article-footer a:visited {
   color: #b6121c; }
   .page-id-24547 .entry-content a:hover, .page-id-24547 .entry-content a:focus,
   .page-id-24547 .entry-content a:visited:hover,
   .page-id-24547 .entry-content a:visited:focus,
+  .page-id-24547 .article-footer a:hover,
+  .page-id-24547 .article-footer a:focus,
+  .page-id-24547 .article-footer a:visited:hover,
+  .page-id-24547 .article-footer a:visited:focus,
   .tag-london-colonial .entry-content a:hover,
   .tag-london-colonial .entry-content a:focus,
   .tag-london-colonial .entry-content a:visited:hover,
-  .tag-london-colonial .entry-content a:visited:focus {
+  .tag-london-colonial .entry-content a:visited:focus,
+  .tag-london-colonial .article-footer a:hover,
+  .tag-london-colonial .article-footer a:focus,
+  .tag-london-colonial .article-footer a:visited:hover,
+  .tag-london-colonial .article-footer a:visited:focus {
     color: #8c0e16; }
 
 .page-id-24547 .entry-content h2,
 .page-id-24547 .entry-content h3,
 .page-id-24547 .entry-content h4,
+.page-id-24547 .article-footer h2,
+.page-id-24547 .article-footer h3,
+.page-id-24547 .article-footer h4,
 .tag-london-colonial .entry-content h2,
 .tag-london-colonial .entry-content h3,
-.tag-london-colonial .entry-content h4 {
+.tag-london-colonial .entry-content h4,
+.tag-london-colonial .article-footer h2,
+.tag-london-colonial .article-footer h3,
+.tag-london-colonial .article-footer h4 {
   color: #273188; }
 
 /***** Legal & General *****/
@@ -1305,26 +1533,46 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-244 .entry-content a,
 .page-id-244 .entry-content a:visited,
+.page-id-244 .article-footer a,
+.page-id-244 .article-footer a:visited,
 .tag-legal-general .entry-content a,
-.tag-legal-general .entry-content a:visited {
+.tag-legal-general .entry-content a:visited,
+.tag-legal-general .article-footer a,
+.tag-legal-general .article-footer a:visited {
   color: #006688; }
   .page-id-244 .entry-content a:hover, .page-id-244 .entry-content a:focus,
   .page-id-244 .entry-content a:visited:hover,
   .page-id-244 .entry-content a:visited:focus,
+  .page-id-244 .article-footer a:hover,
+  .page-id-244 .article-footer a:focus,
+  .page-id-244 .article-footer a:visited:hover,
+  .page-id-244 .article-footer a:visited:focus,
   .tag-legal-general .entry-content a:hover,
   .tag-legal-general .entry-content a:focus,
   .tag-legal-general .entry-content a:visited:hover,
-  .tag-legal-general .entry-content a:visited:focus {
+  .tag-legal-general .entry-content a:visited:focus,
+  .tag-legal-general .article-footer a:hover,
+  .tag-legal-general .article-footer a:focus,
+  .tag-legal-general .article-footer a:visited:hover,
+  .tag-legal-general .article-footer a:visited:focus {
     color: #00445a; }
 
 .page-id-244 .entry-content h2,
 .page-id-244 .entry-content h3,
 .page-id-244 .entry-content h4,
 .page-id-244 .entry-content h5,
+.page-id-244 .article-footer h2,
+.page-id-244 .article-footer h3,
+.page-id-244 .article-footer h4,
+.page-id-244 .article-footer h5,
 .tag-legal-general .entry-content h2,
 .tag-legal-general .entry-content h3,
 .tag-legal-general .entry-content h4,
-.tag-legal-general .entry-content h5 {
+.tag-legal-general .entry-content h5,
+.tag-legal-general .article-footer h2,
+.tag-legal-general .article-footer h3,
+.tag-legal-general .article-footer h4,
+.tag-legal-general .article-footer h5 {
   color: #0077C8; }
 
 /***** Legal & General Investments *****/
@@ -1334,22 +1582,42 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-245 .entry-content a,
 .page-id-245 .entry-content a:visited,
+.page-id-245 .article-footer a,
+.page-id-245 .article-footer a:visited,
 .tag-legal-general-investments .entry-content a,
-.tag-legal-general-investments .entry-content a:visited {
+.tag-legal-general-investments .entry-content a:visited,
+.tag-legal-general-investments .article-footer a,
+.tag-legal-general-investments .article-footer a:visited {
   color: #068; }
   .page-id-245 .entry-content a:hover, .page-id-245 .entry-content a:focus,
   .page-id-245 .entry-content a:visited:hover,
   .page-id-245 .entry-content a:visited:focus,
+  .page-id-245 .article-footer a:hover,
+  .page-id-245 .article-footer a:focus,
+  .page-id-245 .article-footer a:visited:hover,
+  .page-id-245 .article-footer a:visited:focus,
   .tag-legal-general-investments .entry-content a:hover,
   .tag-legal-general-investments .entry-content a:focus,
   .tag-legal-general-investments .entry-content a:visited:hover,
-  .tag-legal-general-investments .entry-content a:visited:focus {
+  .tag-legal-general-investments .entry-content a:visited:focus,
+  .tag-legal-general-investments .article-footer a:hover,
+  .tag-legal-general-investments .article-footer a:focus,
+  .tag-legal-general-investments .article-footer a:visited:hover,
+  .tag-legal-general-investments .article-footer a:visited:focus {
     color: #00445a; }
 
-.page-id-245 .entry-content h2, .page-id-245 .entry-content h3, .page-id-245 .entry-content h4,
+.page-id-245 .entry-content h2,
+.page-id-245 .entry-content h3,
+.page-id-245 .entry-content h4,
+.page-id-245 .article-footer h2,
+.page-id-245 .article-footer h3,
+.page-id-245 .article-footer h4,
 .tag-legal-general-investments .entry-content h2,
 .tag-legal-general-investments .entry-content h3,
-.tag-legal-general-investments .entry-content h4 {
+.tag-legal-general-investments .entry-content h4,
+.tag-legal-general-investments .article-footer h2,
+.tag-legal-general-investments .article-footer h3,
+.tag-legal-general-investments .article-footer h4 {
   color: #068; }
 
 /***** M&G *****/
@@ -1360,33 +1628,60 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-246 .entry-content a,
 .page-id-246 .entry-content a:visited,
+.page-id-246 .article-footer a,
+.page-id-246 .article-footer a:visited,
 .tag-mg .entry-content a,
 .tag-mg .entry-content a:visited,
+.tag-mg .article-footer a,
+.tag-mg .article-footer a:visited,
 .tag-mg-2 .entry-content a,
-.tag-mg-2 .entry-content a:visited {
+.tag-mg-2 .entry-content a:visited,
+.tag-mg-2 .article-footer a,
+.tag-mg-2 .article-footer a:visited {
   color: #004F5C; }
   .page-id-246 .entry-content a:hover, .page-id-246 .entry-content a:focus,
   .page-id-246 .entry-content a:visited:hover,
   .page-id-246 .entry-content a:visited:focus,
+  .page-id-246 .article-footer a:hover,
+  .page-id-246 .article-footer a:focus,
+  .page-id-246 .article-footer a:visited:hover,
+  .page-id-246 .article-footer a:visited:focus,
   .tag-mg .entry-content a:hover,
   .tag-mg .entry-content a:focus,
   .tag-mg .entry-content a:visited:hover,
   .tag-mg .entry-content a:visited:focus,
+  .tag-mg .article-footer a:hover,
+  .tag-mg .article-footer a:focus,
+  .tag-mg .article-footer a:visited:hover,
+  .tag-mg .article-footer a:visited:focus,
   .tag-mg-2 .entry-content a:hover,
   .tag-mg-2 .entry-content a:focus,
   .tag-mg-2 .entry-content a:visited:hover,
-  .tag-mg-2 .entry-content a:visited:focus {
+  .tag-mg-2 .entry-content a:visited:focus,
+  .tag-mg-2 .article-footer a:hover,
+  .tag-mg-2 .article-footer a:focus,
+  .tag-mg-2 .article-footer a:visited:hover,
+  .tag-mg-2 .article-footer a:visited:focus {
     color: #00282e; }
 
 .page-id-246 .entry-content h2,
 .page-id-246 .entry-content h3,
 .page-id-246 .entry-content h4,
+.page-id-246 .article-footer h2,
+.page-id-246 .article-footer h3,
+.page-id-246 .article-footer h4,
 .tag-mg .entry-content h2,
 .tag-mg .entry-content h3,
 .tag-mg .entry-content h4,
+.tag-mg .article-footer h2,
+.tag-mg .article-footer h3,
+.tag-mg .article-footer h4,
 .tag-mg-2 .entry-content h2,
 .tag-mg-2 .entry-content h3,
-.tag-mg-2 .entry-content h4 {
+.tag-mg-2 .entry-content h4,
+.tag-mg-2 .article-footer h2,
+.tag-mg-2 .article-footer h3,
+.tag-mg-2 .article-footer h4 {
   color: #004F5C; }
 
 /***** Metlife *****/
@@ -1396,24 +1691,42 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-247 .entry-content a,
 .page-id-247 .entry-content a:visited,
+.page-id-247 .article-footer a,
+.page-id-247 .article-footer a:visited,
 .tag-metlife-2 .entry-content a,
-.tag-metlife-2 .entry-content a:visited {
+.tag-metlife-2 .entry-content a:visited,
+.tag-metlife-2 .article-footer a,
+.tag-metlife-2 .article-footer a:visited {
   color: #007cc2; }
   .page-id-247 .entry-content a:hover, .page-id-247 .entry-content a:focus,
   .page-id-247 .entry-content a:visited:hover,
   .page-id-247 .entry-content a:visited:focus,
+  .page-id-247 .article-footer a:hover,
+  .page-id-247 .article-footer a:focus,
+  .page-id-247 .article-footer a:visited:hover,
+  .page-id-247 .article-footer a:visited:focus,
   .tag-metlife-2 .entry-content a:hover,
   .tag-metlife-2 .entry-content a:focus,
   .tag-metlife-2 .entry-content a:visited:hover,
-  .tag-metlife-2 .entry-content a:visited:focus {
+  .tag-metlife-2 .entry-content a:visited:focus,
+  .tag-metlife-2 .article-footer a:hover,
+  .tag-metlife-2 .article-footer a:focus,
+  .tag-metlife-2 .article-footer a:visited:hover,
+  .tag-metlife-2 .article-footer a:visited:focus {
     color: #005f94; }
 
 .page-id-247 .entry-content h2,
 .page-id-247 .entry-content h3,
 .page-id-247 .entry-content h4,
+.page-id-247 .article-footer h2,
+.page-id-247 .article-footer h3,
+.page-id-247 .article-footer h4,
 .tag-metlife-2 .entry-content h2,
 .tag-metlife-2 .entry-content h3,
-.tag-metlife-2 .entry-content h4 {
+.tag-metlife-2 .entry-content h4,
+.tag-metlife-2 .article-footer h2,
+.tag-metlife-2 .article-footer h3,
+.tag-metlife-2 .article-footer h4 {
   color: #007cc2; }
 
 /***** OBSR *****/
@@ -1424,24 +1737,42 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-249 .entry-content a,
 .page-id-249 .entry-content a:visited,
+.page-id-249 .article-footer a,
+.page-id-249 .article-footer a:visited,
 .tag-octopus .entry-content a,
-.tag-octopus .entry-content a:visited {
+.tag-octopus .entry-content a:visited,
+.tag-octopus .article-footer a,
+.tag-octopus .article-footer a:visited {
   color: #336699; }
   .page-id-249 .entry-content a:hover, .page-id-249 .entry-content a:focus,
   .page-id-249 .entry-content a:visited:hover,
   .page-id-249 .entry-content a:visited:focus,
+  .page-id-249 .article-footer a:hover,
+  .page-id-249 .article-footer a:focus,
+  .page-id-249 .article-footer a:visited:hover,
+  .page-id-249 .article-footer a:visited:focus,
   .tag-octopus .entry-content a:hover,
   .tag-octopus .entry-content a:focus,
   .tag-octopus .entry-content a:visited:hover,
-  .tag-octopus .entry-content a:visited:focus {
+  .tag-octopus .entry-content a:visited:focus,
+  .tag-octopus .article-footer a:hover,
+  .tag-octopus .article-footer a:focus,
+  .tag-octopus .article-footer a:visited:hover,
+  .tag-octopus .article-footer a:visited:focus {
     color: #284f77; }
 
 .page-id-249 .entry-content h2,
 .page-id-249 .entry-content h3,
 .page-id-249 .entry-content h4,
+.page-id-249 .article-footer h2,
+.page-id-249 .article-footer h3,
+.page-id-249 .article-footer h4,
 .tag-octopus .entry-content h2,
 .tag-octopus .entry-content h3,
-.tag-octopus .entry-content h4 {
+.tag-octopus .entry-content h4,
+.tag-octopus .article-footer h2,
+.tag-octopus .article-footer h3,
+.tag-octopus .article-footer h4 {
   color: #336699; }
 
 /***** Old Mutual *****/
@@ -1451,24 +1782,42 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-24671 .entry-content a,
 .page-id-24671 .entry-content a:visited,
+.page-id-24671 .article-footer a,
+.page-id-24671 .article-footer a:visited,
 .tag-old-mutual .entry-content a,
-.tag-old-mutual .entry-content a:visited {
+.tag-old-mutual .entry-content a:visited,
+.tag-old-mutual .article-footer a,
+.tag-old-mutual .article-footer a:visited {
   color: #006150; }
   .page-id-24671 .entry-content a:hover, .page-id-24671 .entry-content a:focus,
   .page-id-24671 .entry-content a:visited:hover,
   .page-id-24671 .entry-content a:visited:focus,
+  .page-id-24671 .article-footer a:hover,
+  .page-id-24671 .article-footer a:focus,
+  .page-id-24671 .article-footer a:visited:hover,
+  .page-id-24671 .article-footer a:visited:focus,
   .tag-old-mutual .entry-content a:hover,
   .tag-old-mutual .entry-content a:focus,
   .tag-old-mutual .entry-content a:visited:hover,
-  .tag-old-mutual .entry-content a:visited:focus {
+  .tag-old-mutual .entry-content a:visited:focus,
+  .tag-old-mutual .article-footer a:hover,
+  .tag-old-mutual .article-footer a:focus,
+  .tag-old-mutual .article-footer a:visited:hover,
+  .tag-old-mutual .article-footer a:visited:focus {
     color: #00332a; }
 
 .page-id-24671 .entry-content h2,
 .page-id-24671 .entry-content h3,
 .page-id-24671 .entry-content h4,
+.page-id-24671 .article-footer h2,
+.page-id-24671 .article-footer h3,
+.page-id-24671 .article-footer h4,
 .tag-old-mutual .entry-content h2,
 .tag-old-mutual .entry-content h3,
-.tag-old-mutual .entry-content h4 {
+.tag-old-mutual .entry-content h4,
+.tag-old-mutual .article-footer h2,
+.tag-old-mutual .article-footer h3,
+.tag-old-mutual .article-footer h4 {
   color: #006150; }
 
 /***** Para-Sols ****/
@@ -1478,24 +1827,42 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-19474 .entry-content a,
 .page-id-19474 .entry-content a:visited,
+.page-id-19474 .article-footer a,
+.page-id-19474 .article-footer a:visited,
 .tag-parasols .entry-content a,
-.tag-parasols .entry-content a:visited {
+.tag-parasols .entry-content a:visited,
+.tag-parasols .article-footer a,
+.tag-parasols .article-footer a:visited {
   color: #005A84; }
   .page-id-19474 .entry-content a:hover, .page-id-19474 .entry-content a:focus,
   .page-id-19474 .entry-content a:visited:hover,
   .page-id-19474 .entry-content a:visited:focus,
+  .page-id-19474 .article-footer a:hover,
+  .page-id-19474 .article-footer a:focus,
+  .page-id-19474 .article-footer a:visited:hover,
+  .page-id-19474 .article-footer a:visited:focus,
   .tag-parasols .entry-content a:hover,
   .tag-parasols .entry-content a:focus,
   .tag-parasols .entry-content a:visited:hover,
-  .tag-parasols .entry-content a:visited:focus {
+  .tag-parasols .entry-content a:visited:focus,
+  .tag-parasols .article-footer a:hover,
+  .tag-parasols .article-footer a:focus,
+  .tag-parasols .article-footer a:visited:hover,
+  .tag-parasols .article-footer a:visited:focus {
     color: #003b56; }
 
 .page-id-19474 .entry-content h2,
 .page-id-19474 .entry-content h3,
 .page-id-19474 .entry-content h4,
+.page-id-19474 .article-footer h2,
+.page-id-19474 .article-footer h3,
+.page-id-19474 .article-footer h4,
 .tag-parasols .entry-content h2,
 .tag-parasols .entry-content h3,
-.tag-parasols .entry-content h4 {
+.tag-parasols .entry-content h4,
+.tag-parasols .article-footer h2,
+.tag-parasols .article-footer h3,
+.tag-parasols .article-footer h4 {
   color: #005A84; }
 
 /***** Partnership *****/
@@ -1509,55 +1876,104 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
   background-color: #6eb43f; }
 
 .page-id-250 .entry-content a,
+.page-id-250 .article-footer a,
 .category-partnership .entry-content a,
+.category-partnership .article-footer a,
 .category-partnership-newsletter .entry-content a,
+.category-partnership-newsletter .article-footer a,
 .category-target-partnership .entry-content a,
+.category-target-partnership .article-footer a,
 .tag-partnership .entry-content a,
+.tag-partnership .article-footer a,
 .category-partnership-december-14 .entry-content a,
-.category-328 .entry-content a {
+.category-partnership-december-14 .article-footer a,
+.category-328 .entry-content a,
+.category-328 .article-footer a {
   color: #6eb43f; }
   .page-id-250 .entry-content a:hover, .page-id-250 .entry-content a:focus, .page-id-250 .entry-content a:visited,
+  .page-id-250 .article-footer a:hover,
+  .page-id-250 .article-footer a:focus,
+  .page-id-250 .article-footer a:visited,
   .category-partnership .entry-content a:hover,
   .category-partnership .entry-content a:focus,
   .category-partnership .entry-content a:visited,
+  .category-partnership .article-footer a:hover,
+  .category-partnership .article-footer a:focus,
+  .category-partnership .article-footer a:visited,
   .category-partnership-newsletter .entry-content a:hover,
   .category-partnership-newsletter .entry-content a:focus,
   .category-partnership-newsletter .entry-content a:visited,
+  .category-partnership-newsletter .article-footer a:hover,
+  .category-partnership-newsletter .article-footer a:focus,
+  .category-partnership-newsletter .article-footer a:visited,
   .category-target-partnership .entry-content a:hover,
   .category-target-partnership .entry-content a:focus,
   .category-target-partnership .entry-content a:visited,
+  .category-target-partnership .article-footer a:hover,
+  .category-target-partnership .article-footer a:focus,
+  .category-target-partnership .article-footer a:visited,
   .tag-partnership .entry-content a:hover,
   .tag-partnership .entry-content a:focus,
   .tag-partnership .entry-content a:visited,
+  .tag-partnership .article-footer a:hover,
+  .tag-partnership .article-footer a:focus,
+  .tag-partnership .article-footer a:visited,
   .category-partnership-december-14 .entry-content a:hover,
   .category-partnership-december-14 .entry-content a:focus,
   .category-partnership-december-14 .entry-content a:visited,
+  .category-partnership-december-14 .article-footer a:hover,
+  .category-partnership-december-14 .article-footer a:focus,
+  .category-partnership-december-14 .article-footer a:visited,
   .category-328 .entry-content a:hover,
   .category-328 .entry-content a:focus,
-  .category-328 .entry-content a:visited {
+  .category-328 .entry-content a:visited,
+  .category-328 .article-footer a:hover,
+  .category-328 .article-footer a:focus,
+  .category-328 .article-footer a:visited {
     color: #599233; }
 
 .page-id-250 .entry-content h2,
 .page-id-250 .entry-content h3,
 .page-id-250 .entry-content h4,
+.page-id-250 .article-footer h2,
+.page-id-250 .article-footer h3,
+.page-id-250 .article-footer h4,
 .category-partnership .entry-content h2,
 .category-partnership .entry-content h3,
 .category-partnership .entry-content h4,
+.category-partnership .article-footer h2,
+.category-partnership .article-footer h3,
+.category-partnership .article-footer h4,
 .category-partnership-newsletter .entry-content h2,
 .category-partnership-newsletter .entry-content h3,
 .category-partnership-newsletter .entry-content h4,
+.category-partnership-newsletter .article-footer h2,
+.category-partnership-newsletter .article-footer h3,
+.category-partnership-newsletter .article-footer h4,
 .category-target-partnership .entry-content h2,
 .category-target-partnership .entry-content h3,
 .category-target-partnership .entry-content h4,
+.category-target-partnership .article-footer h2,
+.category-target-partnership .article-footer h3,
+.category-target-partnership .article-footer h4,
 .tag-partnership .entry-content h2,
 .tag-partnership .entry-content h3,
 .tag-partnership .entry-content h4,
+.tag-partnership .article-footer h2,
+.tag-partnership .article-footer h3,
+.tag-partnership .article-footer h4,
 .category-partnership-december-14 .entry-content h2,
 .category-partnership-december-14 .entry-content h3,
 .category-partnership-december-14 .entry-content h4,
+.category-partnership-december-14 .article-footer h2,
+.category-partnership-december-14 .article-footer h3,
+.category-partnership-december-14 .article-footer h4,
 .category-328 .entry-content h2,
 .category-328 .entry-content h3,
-.category-328 .entry-content h4 {
+.category-328 .entry-content h4,
+.category-328 .article-footer h2,
+.category-328 .article-footer h3,
+.category-328 .article-footer h4 {
   color: #6eb43f; }
 
 .page-id-250 .partnership-title,
@@ -1640,26 +2056,46 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-251 .entry-content a,
 .page-id-251 .entry-content a:visited,
+.page-id-251 .article-footer a,
+.page-id-251 .article-footer a:visited,
 .tag-prudential .entry-content a,
-.tag-prudential .entry-content a:visited {
+.tag-prudential .entry-content a:visited,
+.tag-prudential .article-footer a,
+.tag-prudential .article-footer a:visited {
   color: #CC0000; }
   .page-id-251 .entry-content a:hover, .page-id-251 .entry-content a:focus,
   .page-id-251 .entry-content a:visited:hover,
   .page-id-251 .entry-content a:visited:focus,
+  .page-id-251 .article-footer a:hover,
+  .page-id-251 .article-footer a:focus,
+  .page-id-251 .article-footer a:visited:hover,
+  .page-id-251 .article-footer a:visited:focus,
   .tag-prudential .entry-content a:hover,
   .tag-prudential .entry-content a:focus,
   .tag-prudential .entry-content a:visited:hover,
-  .tag-prudential .entry-content a:visited:focus {
+  .tag-prudential .entry-content a:visited:focus,
+  .tag-prudential .article-footer a:hover,
+  .tag-prudential .article-footer a:focus,
+  .tag-prudential .article-footer a:visited:hover,
+  .tag-prudential .article-footer a:visited:focus {
     color: #9e0000; }
 
 .page-id-251 .entry-content h2,
 .page-id-251 .entry-content h3,
 .page-id-251 .entry-content h4,
 .page-id-251 .entry-content h5,
+.page-id-251 .article-footer h2,
+.page-id-251 .article-footer h3,
+.page-id-251 .article-footer h4,
+.page-id-251 .article-footer h5,
 .tag-prudential .entry-content h2,
 .tag-prudential .entry-content h3,
 .tag-prudential .entry-content h4,
-.tag-prudential .entry-content h5 {
+.tag-prudential .entry-content h5,
+.tag-prudential .article-footer h2,
+.tag-prudential .article-footer h3,
+.tag-prudential .article-footer h4,
+.tag-prudential .article-footer h5 {
   color: #CC0000; }
 
 /***** Quilter *****/
@@ -1669,24 +2105,42 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-252 .entry-content a,
 .page-id-252 .entry-content a:visited,
+.page-id-252 .article-footer a,
+.page-id-252 .article-footer a:visited,
 .tag-quilter .entry-content a,
-.tag-quilter .entry-content a:visited {
+.tag-quilter .entry-content a:visited,
+.tag-quilter .article-footer a,
+.tag-quilter .article-footer a:visited {
   color: #079DB8; }
   .page-id-252 .entry-content a:hover, .page-id-252 .entry-content a:focus,
   .page-id-252 .entry-content a:visited:hover,
   .page-id-252 .entry-content a:visited:focus,
+  .page-id-252 .article-footer a:hover,
+  .page-id-252 .article-footer a:focus,
+  .page-id-252 .article-footer a:visited:hover,
+  .page-id-252 .article-footer a:visited:focus,
   .tag-quilter .entry-content a:hover,
   .tag-quilter .entry-content a:focus,
   .tag-quilter .entry-content a:visited:hover,
-  .tag-quilter .entry-content a:visited:focus {
+  .tag-quilter .entry-content a:visited:focus,
+  .tag-quilter .article-footer a:hover,
+  .tag-quilter .article-footer a:focus,
+  .tag-quilter .article-footer a:visited:hover,
+  .tag-quilter .article-footer a:visited:focus {
     color: #05778c; }
 
 .page-id-252 .entry-content h2,
 .page-id-252 .entry-content h3,
 .page-id-252 .entry-content h4,
+.page-id-252 .article-footer h2,
+.page-id-252 .article-footer h3,
+.page-id-252 .article-footer h4,
 .tag-quilter .entry-content h2,
 .tag-quilter .entry-content h3,
-.tag-quilter .entry-content h4 {
+.tag-quilter .entry-content h4,
+.tag-quilter .article-footer h2,
+.tag-quilter .article-footer h3,
+.tag-quilter .article-footer h4 {
   color: #079DB8; }
 
 /***** Red *****/
@@ -1694,16 +2148,25 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
   background-color: #cd2027; }
 
 .tag-red .entry-content a,
-.tag-red .entry-content a:visited {
+.tag-red .entry-content a:visited,
+.tag-red .article-footer a,
+.tag-red .article-footer a:visited {
   color: #cd2027; }
   .tag-red .entry-content a:hover, .tag-red .entry-content a:focus,
   .tag-red .entry-content a:visited:hover,
-  .tag-red .entry-content a:visited:focus {
+  .tag-red .entry-content a:visited:focus,
+  .tag-red .article-footer a:hover,
+  .tag-red .article-footer a:focus,
+  .tag-red .article-footer a:visited:hover,
+  .tag-red .article-footer a:visited:focus {
     color: #a51a1f; }
 
 .tag-red .entry-content h2,
 .tag-red .entry-content h3,
-.tag-red .entry-content h4 {
+.tag-red .entry-content h4,
+.tag-red .article-footer h2,
+.tag-red .article-footer h3,
+.tag-red .article-footer h4 {
   color: #cd2027; }
 
 /***** Retirement Advantage *****/
@@ -1713,24 +2176,42 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-21955 .entry-content a,
 .page-id-21955 .entry-content a:visited,
+.page-id-21955 .article-footer a,
+.page-id-21955 .article-footer a:visited,
 .tag-retirement-advantage .entry-content a,
-.tag-retirement-advantage .entry-content a:visited {
+.tag-retirement-advantage .entry-content a:visited,
+.tag-retirement-advantage .article-footer a,
+.tag-retirement-advantage .article-footer a:visited {
   color: #00ab8e; }
   .page-id-21955 .entry-content a:hover, .page-id-21955 .entry-content a:focus,
   .page-id-21955 .entry-content a:visited:hover,
   .page-id-21955 .entry-content a:visited:focus,
+  .page-id-21955 .article-footer a:hover,
+  .page-id-21955 .article-footer a:focus,
+  .page-id-21955 .article-footer a:visited:hover,
+  .page-id-21955 .article-footer a:visited:focus,
   .tag-retirement-advantage .entry-content a:hover,
   .tag-retirement-advantage .entry-content a:focus,
   .tag-retirement-advantage .entry-content a:visited:hover,
-  .tag-retirement-advantage .entry-content a:visited:focus {
+  .tag-retirement-advantage .entry-content a:visited:focus,
+  .tag-retirement-advantage .article-footer a:hover,
+  .tag-retirement-advantage .article-footer a:focus,
+  .tag-retirement-advantage .article-footer a:visited:hover,
+  .tag-retirement-advantage .article-footer a:visited:focus {
     color: #007d68; }
 
 .page-id-21955 .entry-content h2,
 .page-id-21955 .entry-content h3,
 .page-id-21955 .entry-content h4,
+.page-id-21955 .article-footer h2,
+.page-id-21955 .article-footer h3,
+.page-id-21955 .article-footer h4,
 .tag-retirement-advantage .entry-content h2,
 .tag-retirement-advantage .entry-content h3,
-.tag-retirement-advantage .entry-content h4 {
+.tag-retirement-advantage .entry-content h4,
+.tag-retirement-advantage .article-footer h2,
+.tag-retirement-advantage .article-footer h3,
+.tag-retirement-advantage .article-footer h4 {
   color: #00ab8e; }
 
 /***** Royal London *****/
@@ -1741,33 +2222,60 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-11297 .entry-content a,
 .page-id-11297 .entry-content a:visited,
+.page-id-11297 .article-footer a,
+.page-id-11297 .article-footer a:visited,
 .tag-scottish-life .entry-content a,
 .tag-scottish-life .entry-content a:visited,
+.tag-scottish-life .article-footer a,
+.tag-scottish-life .article-footer a:visited,
 .tag-royal-london .entry-content a,
-.tag-royal-london .entry-content a:visited {
+.tag-royal-london .entry-content a:visited,
+.tag-royal-london .article-footer a,
+.tag-royal-london .article-footer a:visited {
   color: #421853; }
   .page-id-11297 .entry-content a:hover, .page-id-11297 .entry-content a:focus,
   .page-id-11297 .entry-content a:visited:hover,
   .page-id-11297 .entry-content a:visited:focus,
+  .page-id-11297 .article-footer a:hover,
+  .page-id-11297 .article-footer a:focus,
+  .page-id-11297 .article-footer a:visited:hover,
+  .page-id-11297 .article-footer a:visited:focus,
   .tag-scottish-life .entry-content a:hover,
   .tag-scottish-life .entry-content a:focus,
   .tag-scottish-life .entry-content a:visited:hover,
   .tag-scottish-life .entry-content a:visited:focus,
+  .tag-scottish-life .article-footer a:hover,
+  .tag-scottish-life .article-footer a:focus,
+  .tag-scottish-life .article-footer a:visited:hover,
+  .tag-scottish-life .article-footer a:visited:focus,
   .tag-royal-london .entry-content a:hover,
   .tag-royal-london .entry-content a:focus,
   .tag-royal-london .entry-content a:visited:hover,
-  .tag-royal-london .entry-content a:visited:focus {
+  .tag-royal-london .entry-content a:visited:focus,
+  .tag-royal-london .article-footer a:hover,
+  .tag-royal-london .article-footer a:focus,
+  .tag-royal-london .article-footer a:visited:hover,
+  .tag-royal-london .article-footer a:visited:focus {
     color: #260e2f; }
 
 .page-id-11297 .entry-content h2,
 .page-id-11297 .entry-content h3,
 .page-id-11297 .entry-content h4,
+.page-id-11297 .article-footer h2,
+.page-id-11297 .article-footer h3,
+.page-id-11297 .article-footer h4,
 .tag-scottish-life .entry-content h2,
 .tag-scottish-life .entry-content h3,
 .tag-scottish-life .entry-content h4,
+.tag-scottish-life .article-footer h2,
+.tag-scottish-life .article-footer h3,
+.tag-scottish-life .article-footer h4,
 .tag-royal-london .entry-content h2,
 .tag-royal-london .entry-content h3,
-.tag-royal-london .entry-content h4 {
+.tag-royal-london .entry-content h4,
+.tag-royal-london .article-footer h2,
+.tag-royal-london .article-footer h3,
+.tag-royal-london .article-footer h4 {
   color: #421853; }
 
 /***** Santander *****/
@@ -1777,24 +2285,42 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-11209 .entry-content a,
 .page-id-11209 .entry-content a:visited,
+.page-id-11209 .article-footer a,
+.page-id-11209 .article-footer a:visited,
 .tag-santander .entry-content a,
-.tag-santander .entry-content a:visited {
+.tag-santander .entry-content a:visited,
+.tag-santander .article-footer a,
+.tag-santander .article-footer a:visited {
   color: #ff0000; }
   .page-id-11209 .entry-content a:hover, .page-id-11209 .entry-content a:focus,
   .page-id-11209 .entry-content a:visited:hover,
   .page-id-11209 .entry-content a:visited:focus,
+  .page-id-11209 .article-footer a:hover,
+  .page-id-11209 .article-footer a:focus,
+  .page-id-11209 .article-footer a:visited:hover,
+  .page-id-11209 .article-footer a:visited:focus,
   .tag-santander .entry-content a:hover,
   .tag-santander .entry-content a:focus,
   .tag-santander .entry-content a:visited:hover,
-  .tag-santander .entry-content a:visited:focus {
+  .tag-santander .entry-content a:visited:focus,
+  .tag-santander .article-footer a:hover,
+  .tag-santander .article-footer a:focus,
+  .tag-santander .article-footer a:visited:hover,
+  .tag-santander .article-footer a:visited:focus {
     color: #d10000; }
 
 .page-id-11209 .entry-content h2,
 .page-id-11209 .entry-content h3,
 .page-id-11209 .entry-content h4,
+.page-id-11209 .article-footer h2,
+.page-id-11209 .article-footer h3,
+.page-id-11209 .article-footer h4,
 .tag-santander .entry-content h2,
 .tag-santander .entry-content h3,
-.tag-santander .entry-content h4 {
+.tag-santander .entry-content h4,
+.tag-santander .article-footer h2,
+.tag-santander .article-footer h3,
+.tag-santander .article-footer h4 {
   color: #ff0000; }
 
 /***** Schroders *****/
@@ -1804,24 +2330,42 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-253 .entry-content a,
 .page-id-253 .entry-content a:visited,
+.page-id-253 .article-footer a,
+.page-id-253 .article-footer a:visited,
 .tag-schroders .entry-content a,
-.tag-schroders .entry-content a:visited {
+.tag-schroders .entry-content a:visited,
+.tag-schroders .article-footer a,
+.tag-schroders .article-footer a:visited {
   color: #003772; }
   .page-id-253 .entry-content a:hover, .page-id-253 .entry-content a:focus,
   .page-id-253 .entry-content a:visited:hover,
   .page-id-253 .entry-content a:visited:focus,
+  .page-id-253 .article-footer a:hover,
+  .page-id-253 .article-footer a:focus,
+  .page-id-253 .article-footer a:visited:hover,
+  .page-id-253 .article-footer a:visited:focus,
   .tag-schroders .entry-content a:hover,
   .tag-schroders .entry-content a:focus,
   .tag-schroders .entry-content a:visited:hover,
-  .tag-schroders .entry-content a:visited:focus {
+  .tag-schroders .entry-content a:visited:focus,
+  .tag-schroders .article-footer a:hover,
+  .tag-schroders .article-footer a:focus,
+  .tag-schroders .article-footer a:visited:hover,
+  .tag-schroders .article-footer a:visited:focus {
     color: #002144; }
 
 .page-id-253 .entry-content h2,
 .page-id-253 .entry-content h3,
 .page-id-253 .entry-content h4,
+.page-id-253 .article-footer h2,
+.page-id-253 .article-footer h3,
+.page-id-253 .article-footer h4,
 .tag-schroders .entry-content h2,
 .tag-schroders .entry-content h3,
-.tag-schroders .entry-content h4 {
+.tag-schroders .entry-content h4,
+.tag-schroders .article-footer h2,
+.tag-schroders .article-footer h3,
+.tag-schroders .article-footer h4 {
   color: #003772; }
 
 /***** Scottish Provident *****/
@@ -1831,24 +2375,42 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-254 .entry-content a,
 .page-id-254 .entry-content a:visited,
+.page-id-254 .article-footer a,
+.page-id-254 .article-footer a:visited,
 .tag-scottish-provident .entry-content a,
-.tag-scottish-provident .entry-content a:visited {
+.tag-scottish-provident .entry-content a:visited,
+.tag-scottish-provident .article-footer a,
+.tag-scottish-provident .article-footer a:visited {
   color: #001D68; }
   .page-id-254 .entry-content a:hover, .page-id-254 .entry-content a:focus,
   .page-id-254 .entry-content a:visited:hover,
   .page-id-254 .entry-content a:visited:focus,
+  .page-id-254 .article-footer a:hover,
+  .page-id-254 .article-footer a:focus,
+  .page-id-254 .article-footer a:visited:hover,
+  .page-id-254 .article-footer a:visited:focus,
   .tag-scottish-provident .entry-content a:hover,
   .tag-scottish-provident .entry-content a:focus,
   .tag-scottish-provident .entry-content a:visited:hover,
-  .tag-scottish-provident .entry-content a:visited:focus {
+  .tag-scottish-provident .entry-content a:visited:focus,
+  .tag-scottish-provident .article-footer a:hover,
+  .tag-scottish-provident .article-footer a:focus,
+  .tag-scottish-provident .article-footer a:visited:hover,
+  .tag-scottish-provident .article-footer a:visited:focus {
     color: #00103a; }
 
 .page-id-254 .entry-content h2,
 .page-id-254 .entry-content h3,
 .page-id-254 .entry-content h4,
+.page-id-254 .article-footer h2,
+.page-id-254 .article-footer h3,
+.page-id-254 .article-footer h4,
 .tag-scottish-provident .entry-content h2,
 .tag-scottish-provident .entry-content h3,
-.tag-scottish-provident .entry-content h4 {
+.tag-scottish-provident .entry-content h4,
+.tag-scottish-provident .article-footer h2,
+.tag-scottish-provident .article-footer h3,
+.tag-scottish-provident .article-footer h4 {
   color: #001D68; }
 
 /***** Scottish Widows *****/
@@ -1858,24 +2420,42 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-255 .entry-content a,
 .page-id-255 .entry-content a:visited,
+.page-id-255 .article-footer a,
+.page-id-255 .article-footer a:visited,
 .tag-scottish-widows .entry-content a,
-.tag-scottish-widows .entry-content a:visited {
+.tag-scottish-widows .entry-content a:visited,
+.tag-scottish-widows .article-footer a,
+.tag-scottish-widows .article-footer a:visited {
   color: #cf002d; }
   .page-id-255 .entry-content a:hover, .page-id-255 .entry-content a:focus,
   .page-id-255 .entry-content a:visited:hover,
   .page-id-255 .entry-content a:visited:focus,
+  .page-id-255 .article-footer a:hover,
+  .page-id-255 .article-footer a:focus,
+  .page-id-255 .article-footer a:visited:hover,
+  .page-id-255 .article-footer a:visited:focus,
   .tag-scottish-widows .entry-content a:hover,
   .tag-scottish-widows .entry-content a:focus,
   .tag-scottish-widows .entry-content a:visited:hover,
-  .tag-scottish-widows .entry-content a:visited:focus {
+  .tag-scottish-widows .entry-content a:visited:focus,
+  .tag-scottish-widows .article-footer a:hover,
+  .tag-scottish-widows .article-footer a:focus,
+  .tag-scottish-widows .article-footer a:visited:hover,
+  .tag-scottish-widows .article-footer a:visited:focus {
     color: #a10023; }
 
 .page-id-255 .entry-content h2,
 .page-id-255 .entry-content h3,
 .page-id-255 .entry-content h4,
+.page-id-255 .article-footer h2,
+.page-id-255 .article-footer h3,
+.page-id-255 .article-footer h4,
 .tag-scottish-widows .entry-content h2,
 .tag-scottish-widows .entry-content h3,
-.tag-scottish-widows .entry-content h4 {
+.tag-scottish-widows .entry-content h4,
+.tag-scottish-widows .article-footer h2,
+.tag-scottish-widows .article-footer h3,
+.tag-scottish-widows .article-footer h4 {
   color: #cf002d; }
 
 /***** Selectapension *****/
@@ -1885,24 +2465,42 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-260 .entry-content a,
 .page-id-260 .entry-content a:visited,
+.page-id-260 .article-footer a,
+.page-id-260 .article-footer a:visited,
 .tag-selectapension .entry-content a,
-.tag-selectapension .entry-content a:visited {
+.tag-selectapension .entry-content a:visited,
+.tag-selectapension .article-footer a,
+.tag-selectapension .article-footer a:visited {
   color: #529FC5; }
   .page-id-260 .entry-content a:hover, .page-id-260 .entry-content a:focus,
   .page-id-260 .entry-content a:visited:hover,
   .page-id-260 .entry-content a:visited:focus,
+  .page-id-260 .article-footer a:hover,
+  .page-id-260 .article-footer a:focus,
+  .page-id-260 .article-footer a:visited:hover,
+  .page-id-260 .article-footer a:visited:focus,
   .tag-selectapension .entry-content a:hover,
   .tag-selectapension .entry-content a:focus,
   .tag-selectapension .entry-content a:visited:hover,
-  .tag-selectapension .entry-content a:visited:focus {
+  .tag-selectapension .entry-content a:visited:focus,
+  .tag-selectapension .article-footer a:hover,
+  .tag-selectapension .article-footer a:focus,
+  .tag-selectapension .article-footer a:visited:hover,
+  .tag-selectapension .article-footer a:visited:focus {
     color: #3b88af; }
 
 .page-id-260 .entry-content h2,
 .page-id-260 .entry-content h3,
 .page-id-260 .entry-content h4,
+.page-id-260 .article-footer h2,
+.page-id-260 .article-footer h3,
+.page-id-260 .article-footer h4,
 .tag-selectapension .entry-content h2,
 .tag-selectapension .entry-content h3,
-.tag-selectapension .entry-content h4 {
+.tag-selectapension .entry-content h4,
+.tag-selectapension .article-footer h2,
+.tag-selectapension .article-footer h3,
+.tag-selectapension .article-footer h4 {
   color: #529FC5; }
 
 /***** Skandia *****/
@@ -1957,24 +2555,42 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-262 .entry-content a,
 .page-id-262 .entry-content a:visited,
+.page-id-262 .article-footer a,
+.page-id-262 .article-footer a:visited,
 .tag-smith-williamson .entry-content a,
-.tag-smith-williamson .entry-content a:visited {
+.tag-smith-williamson .entry-content a:visited,
+.tag-smith-williamson .article-footer a,
+.tag-smith-williamson .article-footer a:visited {
   color: #880C00; }
   .page-id-262 .entry-content a:hover, .page-id-262 .entry-content a:focus,
   .page-id-262 .entry-content a:visited:hover,
   .page-id-262 .entry-content a:visited:focus,
+  .page-id-262 .article-footer a:hover,
+  .page-id-262 .article-footer a:focus,
+  .page-id-262 .article-footer a:visited:hover,
+  .page-id-262 .article-footer a:visited:focus,
   .tag-smith-williamson .entry-content a:hover,
   .tag-smith-williamson .entry-content a:focus,
   .tag-smith-williamson .entry-content a:visited:hover,
-  .tag-smith-williamson .entry-content a:visited:focus {
+  .tag-smith-williamson .entry-content a:visited:focus,
+  .tag-smith-williamson .article-footer a:hover,
+  .tag-smith-williamson .article-footer a:focus,
+  .tag-smith-williamson .article-footer a:visited:hover,
+  .tag-smith-williamson .article-footer a:visited:focus {
     color: #5a0800; }
 
 .page-id-262 .entry-content h2,
 .page-id-262 .entry-content h3,
 .page-id-262 .entry-content h4,
+.page-id-262 .article-footer h2,
+.page-id-262 .article-footer h3,
+.page-id-262 .article-footer h4,
 .tag-smith-williamson .entry-content h2,
 .tag-smith-williamson .entry-content h3,
-.tag-smith-williamson .entry-content h4 {
+.tag-smith-williamson .entry-content h4,
+.tag-smith-williamson .article-footer h2,
+.tag-smith-williamson .article-footer h3,
+.tag-smith-williamson .article-footer h4 {
   color: #880C00; }
 
 /***** Suffolk Life *****/
@@ -1984,24 +2600,42 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-263 .entry-content a,
 .page-id-263 .entry-content a:visited,
+.page-id-263 .article-footer a,
+.page-id-263 .article-footer a:visited,
 .tag-suffolk-life .entry-content a,
-.tag-suffolk-life .entry-content a:visited {
+.tag-suffolk-life .entry-content a:visited,
+.tag-suffolk-life .article-footer a,
+.tag-suffolk-life .article-footer a:visited {
   color: #1BBCF3; }
   .page-id-263 .entry-content a:hover, .page-id-263 .entry-content a:focus,
   .page-id-263 .entry-content a:visited:hover,
   .page-id-263 .entry-content a:visited:focus,
+  .page-id-263 .article-footer a:hover,
+  .page-id-263 .article-footer a:focus,
+  .page-id-263 .article-footer a:visited:hover,
+  .page-id-263 .article-footer a:visited:focus,
   .tag-suffolk-life .entry-content a:hover,
   .tag-suffolk-life .entry-content a:focus,
   .tag-suffolk-life .entry-content a:visited:hover,
-  .tag-suffolk-life .entry-content a:visited:focus {
+  .tag-suffolk-life .entry-content a:visited:focus,
+  .tag-suffolk-life .article-footer a:hover,
+  .tag-suffolk-life .article-footer a:focus,
+  .tag-suffolk-life .article-footer a:visited:hover,
+  .tag-suffolk-life .article-footer a:visited:focus {
     color: #0ba2d5; }
 
 .page-id-263 .entry-content h2,
 .page-id-263 .entry-content h3,
 .page-id-263 .entry-content h4,
+.page-id-263 .article-footer h2,
+.page-id-263 .article-footer h3,
+.page-id-263 .article-footer h4,
 .tag-suffolk-life .entry-content h2,
 .tag-suffolk-life .entry-content h3,
-.tag-suffolk-life .entry-content h4 {
+.tag-suffolk-life .entry-content h4,
+.tag-suffolk-life .article-footer h2,
+.tag-suffolk-life .article-footer h3,
+.tag-suffolk-life .article-footer h4 {
   color: #1BBCF3; }
 
 /***** TIME *****/
@@ -2011,26 +2645,46 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-21909 .entry-content a,
 .page-id-21909 .entry-content a:visited,
+.page-id-21909 .article-footer a,
+.page-id-21909 .article-footer a:visited,
 .tag-time .entry-content a,
-.tag-time .entry-content a:visited {
+.tag-time .entry-content a:visited,
+.tag-time .article-footer a,
+.tag-time .article-footer a:visited {
   color: #005581; }
   .page-id-21909 .entry-content a:hover, .page-id-21909 .entry-content a:focus,
   .page-id-21909 .entry-content a:visited:hover,
   .page-id-21909 .entry-content a:visited:focus,
+  .page-id-21909 .article-footer a:hover,
+  .page-id-21909 .article-footer a:focus,
+  .page-id-21909 .article-footer a:visited:hover,
+  .page-id-21909 .article-footer a:visited:focus,
   .tag-time .entry-content a:hover,
   .tag-time .entry-content a:focus,
   .tag-time .entry-content a:visited:hover,
-  .tag-time .entry-content a:visited:focus {
+  .tag-time .entry-content a:visited:focus,
+  .tag-time .article-footer a:hover,
+  .tag-time .article-footer a:focus,
+  .tag-time .article-footer a:visited:hover,
+  .tag-time .article-footer a:visited:focus {
     color: #003753; }
 
 .page-id-21909 .entry-content h2,
 .page-id-21909 .entry-content h3,
 .page-id-21909 .entry-content h4,
 .page-id-21909 .entry-content h5,
+.page-id-21909 .article-footer h2,
+.page-id-21909 .article-footer h3,
+.page-id-21909 .article-footer h4,
+.page-id-21909 .article-footer h5,
 .tag-time .entry-content h2,
 .tag-time .entry-content h3,
 .tag-time .entry-content h4,
-.tag-time .entry-content h5 {
+.tag-time .entry-content h5,
+.tag-time .article-footer h2,
+.tag-time .article-footer h3,
+.tag-time .article-footer h4,
+.tag-time .article-footer h5 {
   color: #005581; }
 
 /***** Zurich *****/
@@ -2040,24 +2694,42 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
 .page-id-265 .entry-content a,
 .page-id-265 .entry-content a:visited,
+.page-id-265 .article-footer a,
+.page-id-265 .article-footer a:visited,
 .tag-zurich .entry-content a,
-.tag-zurich .entry-content a:visited {
+.tag-zurich .entry-content a:visited,
+.tag-zurich .article-footer a,
+.tag-zurich .article-footer a:visited {
   color: #003399; }
   .page-id-265 .entry-content a:hover, .page-id-265 .entry-content a:focus,
   .page-id-265 .entry-content a:visited:hover,
   .page-id-265 .entry-content a:visited:focus,
+  .page-id-265 .article-footer a:hover,
+  .page-id-265 .article-footer a:focus,
+  .page-id-265 .article-footer a:visited:hover,
+  .page-id-265 .article-footer a:visited:focus,
   .tag-zurich .entry-content a:hover,
   .tag-zurich .entry-content a:focus,
   .tag-zurich .entry-content a:visited:hover,
-  .tag-zurich .entry-content a:visited:focus {
+  .tag-zurich .entry-content a:visited:focus,
+  .tag-zurich .article-footer a:hover,
+  .tag-zurich .article-footer a:focus,
+  .tag-zurich .article-footer a:visited:hover,
+  .tag-zurich .article-footer a:visited:focus {
     color: #00246b; }
 
 .page-id-265 .entry-content h2,
 .page-id-265 .entry-content h3,
 .page-id-265 .entry-content h4,
+.page-id-265 .article-footer h2,
+.page-id-265 .article-footer h3,
+.page-id-265 .article-footer h4,
 .tag-zurich .entry-content h2,
 .tag-zurich .entry-content h3,
-.tag-zurich .entry-content h4 {
+.tag-zurich .entry-content h4,
+.tag-zurich .article-footer h2,
+.tag-zurich .article-footer h3,
+.tag-zurich .article-footer h4 {
   color: #003399; }
 
 /*********************

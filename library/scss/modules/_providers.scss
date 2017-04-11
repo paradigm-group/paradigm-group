@@ -18,7 +18,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 		background-color: #0077C8;
     }
 
-    .entry-content{
+    .entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #0077C8;
@@ -55,7 +56,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         .page-title {color: #004fb6;}
     }
 
-    .entry-content {
+    .entry-content,
+    .article-footer {
 
         a,
         a:visited {
@@ -82,7 +84,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color: #0b3881;
     }
 
-	.entry-content {
+	.entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #0b3881;
@@ -125,7 +128,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color:#496394;
     }
 
-    .entry-content {
+    .entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #2262ac;
@@ -163,7 +167,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color:#003D6D;
     }
 
-    .entry-content {
+    .entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #003D6D;
@@ -191,7 +196,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color:#005493;
     }
 
-    .entry-content {
+    .entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #005493;
@@ -229,7 +235,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color:#7399C6;
     }
 
-    .entry-content {
+    .entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #7399C6;
@@ -261,7 +268,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color:#004F71;
     }
 
-  .entry-content {
+    .entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #004F71;
@@ -289,7 +297,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color: #000;
     }
 
-    .entry-content {
+    .entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #000;
@@ -317,7 +326,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color:#496394;
     }
 
-    .entry-content {
+    .entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #496394;
@@ -348,7 +358,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
     .article-header {
         background-color:#273188;
     }
-	.entry-content {
+	.entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #273188;
@@ -399,7 +410,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color:#000;
     }
 
-    .entry-content {
+    .entry-content,
+    .article-footer {
         a,
         a:visited {color: #b6121c;
             &:hover,
@@ -422,7 +434,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 		background-color: #006688;
     }
 
-    .entry-content {
+    .entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #006688;
@@ -448,7 +461,9 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
     .article-header {
         background-color: #068;
     }
-    .entry-content {
+
+    .entry-content,
+    .article-footer {
 	   a,
         a:visited {
             color: #068;
@@ -456,7 +471,9 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
             &:hover,
             &:focus {color: darken(#006688, 9%);}
         }
-	h2, h3, h4 {color: #068;}
+	h2,
+    h3,
+    h4 {color: #068;}
 	}
 }
 /***** M&G *****/
@@ -469,7 +486,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color:#004F5C;
     }
 
-    .entry-content {
+    .entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #004F5C;
@@ -494,7 +512,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color:#007cc2;
     }
 
-    .entry-content {
+    .entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #007cc2;
@@ -524,7 +543,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
     .article-header {
         background-color:#336699;
     }
-    .entry-content {
+    .entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #336699;
@@ -548,7 +568,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color: #006150;
     }
 
-    .entry-content {
+    .entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #006150;
@@ -576,7 +597,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color: #005A84;
     }
 
-    .entry-content {
+    .entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #005A84;
@@ -608,7 +630,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
     .article-header {
         background-color: #6eb43f;
     }
-    .entry-content {
+    .entry-content,
+    .article-footer {
         a {
             color: #6eb43f;
 
@@ -668,7 +691,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color:#CC0000;
     }
 
-    .entry-content {
+    .entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #CC0000;
@@ -696,7 +720,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
     .article-header {
         background-color:#079DB8;
     }
-	.entry-content {
+	.entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #079DB8;
@@ -722,7 +747,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color:#cd2027;
     }
 
-    .entry-content {
+    .entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #cd2027;
@@ -751,7 +777,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color: #00ab8e;
     }
 
-    .entry-content {
+    .entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #00ab8e;
@@ -780,7 +807,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color: #421853;
     }
 
-	.entry-content {
+	.entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #421853;
@@ -804,7 +832,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color: #ff0000;
     }
 
-    .entry-content {
+    .entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #ff0000;
@@ -831,7 +860,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
     .article-header {
         background-color: #003772;
     }
-	.entry-content {
+	.entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #003772;
@@ -855,7 +885,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color: #001D68;
     }
 
-    .entry-content {
+    .entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #001D68;
@@ -878,7 +909,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
     .article-header {
         background-color:#cf002d;
     }
-	.entry-content {
+	.entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #cf002d;
@@ -902,7 +934,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color:#529FC5;
     }
 
-    .entry-content {
+    .entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #529FC5;
@@ -964,7 +997,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color: #880C00;
     }
 
-    .entry-content {
+    .entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #880C00;
@@ -988,7 +1022,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color: #1BBCF3;
     }
 
-	.entry-content {
+	.entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #1BBCF3;
@@ -1012,7 +1047,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color: #005581;
     }
 
-    .entry-content {
+    .entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #005581;
@@ -1041,7 +1077,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
         background-color:#003399;
     }
 
-    .entry-content {
+    .entry-content,
+    .article-footer {
         a,
         a:visited {
             color: #003399;
