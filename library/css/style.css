@@ -1778,7 +1778,9 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 /***** Old Mutual *****/
 .page-id-24671 .article-header,
 .tag-old-mutual .article-header {
-  background-color: #006150; }
+  background-color: #006150;
+  color: #fff;
+  border-bottom: 1px solid #00332a; }
 
 .page-id-24671 .entry-content a,
 .page-id-24671 .entry-content a:visited,
