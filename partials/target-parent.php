@@ -6,7 +6,10 @@
 
     </div>
 </header>
-
+<?php
+    $term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) );
+    $parent = get_term($term->parent, get_query_var('taxonomy') );
+?>
 <div class="container">
 
     <div class="main">
