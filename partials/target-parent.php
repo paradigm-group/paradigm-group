@@ -73,7 +73,7 @@
                         <?php foreach($posts as $post) { setup_postdata($post);  ?>
 
                             <li>
-                                <a href="/issue/<?php echo $category->slug; ?>/#<?php echo the_id();?>">
+                                <a href="/issue/<?php echo $category->slug; ?>/#post-<?php echo the_id();?>">
                                     <?php echo the_title();?>
                                 </a>
                             </li>
