@@ -2243,7 +2243,9 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 .page-id-11297 .article-header,
 .tag-scottish-life .article-header,
 .tag-royal-london .article-header {
-  background-color: #421853; }
+  background-color: #421853;
+  border-bottom: 1px solid #260e2f;
+  color: #fff; }
 
 .page-id-11297 .entry-content a,
 .page-id-11297 .entry-content a:visited,
