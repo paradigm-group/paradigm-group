@@ -51,15 +51,16 @@
                 </a>
             </h2>
 
-            <div class="twelvecol">
-
-                <a href="/issue/<?php echo $category->slug; ?>"><img class="shadow alignleft" src="<?php echo $url; ?>"/></a>
-
+            <div class="container">
+                <div class="target-archive-image">
+                    <a href="/issue/<?php echo $category->slug; ?>"><img class="target-cover alignleft" src="<?php echo $url; ?>"/></a>
+                </div>
+                <div class="target-archive-details">
                     <?php if( ! empty( $term_meta['tax_pdf'] ) ) { ?>
-                        <a href="<?php echo $pdfurl; ?>">PDF</a>
+                <strong><a href="<?php echo $pdfurl; ?>">Dowmload PDF</a></strong>strong>
                     <?php } else {} ?>
                     <?php if( ! empty( $term_meta['tax_word'] ) ) { ?>
-                        <a href="<?php echo $wordurl; ?>">Word</a>
+                        <strong><a href="<?php echo $wordurl; ?>">Download Word</a></strong>
                     <?php } else {} ?>
 
                     <?php $posts = get_posts( array(
@@ -81,7 +82,7 @@
                         <?php } ?>
 
                     </ul>
-
+                </div>
             </div>
         <?php } ?>
     </section>
