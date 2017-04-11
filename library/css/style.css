@@ -2071,8 +2071,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
     color: #fff; }
 
 /***** Prudential *****/
-.page-id-251 article-header,
-.tag-prudential article-header {
+.page-id-251 .article-header,
+.tag-prudential .article-header {
   background-color: #CC0000;
   border-bottom: 1px solid #9e0000;
   color: #fff; }
