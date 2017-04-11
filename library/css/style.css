@@ -905,7 +905,9 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 .page-id-168 .article-header,
 .category-aegon .article-header,
 .tag-aegon .article-header {
-  background-color: #0077C8; }
+  background-color: #0077C8;
+  color: #fff;
+  border-bottom: 1px solid #005c9a; }
 
 .page-id-168 .entry-content a,
 .page-id-168 .entry-content a:visited,

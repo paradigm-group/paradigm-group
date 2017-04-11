@@ -12,6 +12,10 @@
 
         <h4>Visit the <a href="/members-area/strategic-partners/aegon/">Aegon Strategic Partner page</a></h4>
 
+    <?php } elseif (has_tag ('Aegon')) { ?>
+
+        <h4>Visit the <a href="/members-area/strategic-partners/aegon/">Aegon Strategic Partner page</a></h4>
+
     <?php } elseif (in_category ('Ageas')) { ?>
 
         <h4>Visit the <a href="/members-area/strategic-partners/ageas-protect/">Ageas Protect Strategic Partner page</a></h4>
