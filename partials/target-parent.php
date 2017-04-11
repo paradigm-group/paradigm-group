@@ -57,10 +57,10 @@
                 </div>
                 <div class="target-archive-details">
                     <?php if( ! empty( $term_meta['tax_pdf'] ) ) { ?>
-                        <strong><a href="<?php echo $pdfurl; ?>">Dowmload PDF</a></strong>
+                        <h3><a href="<?php echo $pdfurl; ?>">Download PDF</a></h3>
                     <?php } else {} ?>
                     <?php if( ! empty( $term_meta['tax_word'] ) ) { ?>
-                        <strong><a href="<?php echo $wordurl; ?>">Download Word</a></strong>
+                        <h3><a href="<?php echo $wordurl; ?>">Download Word</a></h3>
                     <?php } else {} ?>
 
                     <?php $posts = get_posts( array(
