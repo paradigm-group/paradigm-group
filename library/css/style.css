@@ -1491,51 +1491,6 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 .tag-just .article-footer h4 {
   color: #ff7d7d; }
 
-/***** London & Colonial *****/
-.page-id-24547 .article-header,
-.tag-london-colonial .article-header {
-  background-color: #000; }
-
-.page-id-24547 .entry-content a,
-.page-id-24547 .entry-content a:visited,
-.page-id-24547 .article-footer a,
-.page-id-24547 .article-footer a:visited,
-.tag-london-colonial .entry-content a,
-.tag-london-colonial .entry-content a:visited,
-.tag-london-colonial .article-footer a,
-.tag-london-colonial .article-footer a:visited {
-  color: #b6121c; }
-  .page-id-24547 .entry-content a:hover, .page-id-24547 .entry-content a:focus,
-  .page-id-24547 .entry-content a:visited:hover,
-  .page-id-24547 .entry-content a:visited:focus,
-  .page-id-24547 .article-footer a:hover,
-  .page-id-24547 .article-footer a:focus,
-  .page-id-24547 .article-footer a:visited:hover,
-  .page-id-24547 .article-footer a:visited:focus,
-  .tag-london-colonial .entry-content a:hover,
-  .tag-london-colonial .entry-content a:focus,
-  .tag-london-colonial .entry-content a:visited:hover,
-  .tag-london-colonial .entry-content a:visited:focus,
-  .tag-london-colonial .article-footer a:hover,
-  .tag-london-colonial .article-footer a:focus,
-  .tag-london-colonial .article-footer a:visited:hover,
-  .tag-london-colonial .article-footer a:visited:focus {
-    color: #8c0e16; }
-
-.page-id-24547 .entry-content h2,
-.page-id-24547 .entry-content h3,
-.page-id-24547 .entry-content h4,
-.page-id-24547 .article-footer h2,
-.page-id-24547 .article-footer h3,
-.page-id-24547 .article-footer h4,
-.tag-london-colonial .entry-content h2,
-.tag-london-colonial .entry-content h3,
-.tag-london-colonial .entry-content h4,
-.tag-london-colonial .article-footer h2,
-.tag-london-colonial .article-footer h3,
-.tag-london-colonial .article-footer h4 {
-  color: #273188; }
-
 /***** Legal & General *****/
 .page-id-244 .article-header,
 .tag-legal-general .article-header {
@@ -1630,11 +1585,59 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 .tag-legal-general-investments .article-footer h4 {
   color: #068; }
 
+/***** London & Colonial *****/
+.page-id-24547 .article-header,
+.tag-london-colonial .article-header {
+  background-color: #000;
+  border-bottom: 1px solid #000; }
+
+.page-id-24547 .entry-content a,
+.page-id-24547 .entry-content a:visited,
+.page-id-24547 .article-footer a,
+.page-id-24547 .article-footer a:visited,
+.tag-london-colonial .entry-content a,
+.tag-london-colonial .entry-content a:visited,
+.tag-london-colonial .article-footer a,
+.tag-london-colonial .article-footer a:visited {
+  color: #b6121c; }
+  .page-id-24547 .entry-content a:hover, .page-id-24547 .entry-content a:focus,
+  .page-id-24547 .entry-content a:visited:hover,
+  .page-id-24547 .entry-content a:visited:focus,
+  .page-id-24547 .article-footer a:hover,
+  .page-id-24547 .article-footer a:focus,
+  .page-id-24547 .article-footer a:visited:hover,
+  .page-id-24547 .article-footer a:visited:focus,
+  .tag-london-colonial .entry-content a:hover,
+  .tag-london-colonial .entry-content a:focus,
+  .tag-london-colonial .entry-content a:visited:hover,
+  .tag-london-colonial .entry-content a:visited:focus,
+  .tag-london-colonial .article-footer a:hover,
+  .tag-london-colonial .article-footer a:focus,
+  .tag-london-colonial .article-footer a:visited:hover,
+  .tag-london-colonial .article-footer a:visited:focus {
+    color: #8c0e16; }
+
+.page-id-24547 .entry-content h2,
+.page-id-24547 .entry-content h3,
+.page-id-24547 .entry-content h4,
+.page-id-24547 .article-footer h2,
+.page-id-24547 .article-footer h3,
+.page-id-24547 .article-footer h4,
+.tag-london-colonial .entry-content h2,
+.tag-london-colonial .entry-content h3,
+.tag-london-colonial .entry-content h4,
+.tag-london-colonial .article-footer h2,
+.tag-london-colonial .article-footer h3,
+.tag-london-colonial .article-footer h4 {
+  color: #273188; }
+
 /***** M&G *****/
 .page-id-246 .article-header,
 .tag-mg .article-header,
 .tag-mg-2 .article-header {
-  background-color: #004F5C; }
+  background-color: #004F5C;
+  border-bottom: 1px solid #00282e;
+  color: #fff; }
 
 .page-id-246 .entry-content a,
 .page-id-246 .entry-content a:visited,
