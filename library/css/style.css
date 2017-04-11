@@ -1748,7 +1748,9 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 /***** Octopus *****/
 .page-id-249 .article-header,
 .tag-octopus .article-header {
-  background-color: #336699; }
+  background-color: #336699;
+  border-bottom: 1px solid #284f77;
+  color: #fff; }
 
 .page-id-249 .entry-content a,
 .page-id-249 .entry-content a:visited,
