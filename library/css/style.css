@@ -1448,7 +1448,8 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 .page-id-4174 .article-header,
 .tag-just .article-header {
   background-color: #ff7d7d;
-  color: #000; }
+  color: #000;
+  border-bottom: 1px solid #ff4f4f; }
 
 .page-id-4174 .entry-content a,
 .page-id-4174 .entry-content a:visited,
