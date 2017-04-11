@@ -17,7 +17,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
     .article-header {
 		background-color: #0077C8;
         color:#fff;
-        border-bottom: 1px solid #005c9a;
+        border-bottom: 1px solid darken(#0077C8, 9%);
     }
 
     .entry-content,
@@ -54,7 +54,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
     .article-header {
         background-color:#ffd900;
-        border-bottom: 1px solid #d1b200;
+        border-bottom: 1px solid darken(#ffd900, 9%);
         color: #004fb6;
 
         .page-title {
@@ -171,7 +171,7 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 
     .article-header {
         background-color:#003D6D;
-        border-bottom: 1px solid #00233f;
+        border-bottom: 1px solid darken(#003D6D, 9%);
     }
 
     .entry-content,
