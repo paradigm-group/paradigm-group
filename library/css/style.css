@@ -3646,7 +3646,8 @@ NAVIGATION STYLES
   .tile {
     min-width: 30%;
     max-width: 30%; }
-  .page-title {
+  .article-header .page-title,
+  page-title {
     text-align: left; }
   /*********************
 SIDEBARS & ASIDES
