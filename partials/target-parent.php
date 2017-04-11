@@ -53,9 +53,9 @@
 
             <div class="container">
                 <div class="target-archive-image">
-                    <a href="/issue/<?php echo $category->slug; ?>"><img class="target-cover alignleft" src="<?php echo $url; ?>"/></a>
-                </div>
-                <div class="target-archive-details">
+                    <a href="/issue/<?php echo $category->slug; ?>">
+                        <img class="target-cover alignleft" src="<?php echo $url; ?>"/>
+                    </a>
                     <?php if( ! empty( $term_meta['tax_pdf'] ) ) { ?>
                         <h3><a href="<?php echo $pdfurl; ?>">Download PDF</a></h3>
                     <?php } else {} ?>
@@ -63,6 +63,8 @@
                         <h3><a href="<?php echo $wordurl; ?>">Download Word</a></h3>
                     <?php } else {} ?>
 
+                </div>
+                <div class="target-archive-details">
                     <?php $posts = get_posts( array(
                         'target_cat'        => $category->slug,
                         'post_type'         => 'target',
