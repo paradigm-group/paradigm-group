@@ -1,33 +1,35 @@
 <?php get_header(); ?>
 
-    <div class="content wrapper">
+    <div class="content">
 
-        <div id="inner-content" class="container">
+        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-            <div class="main" role="main">
+        <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
-                <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+            <header class="article-header">
 
-                    <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+                <div class="container">
 
-                        <header class="article-header">
+                    <h1 class="entry-title single-title" itemprop="headline">
+                        <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+                    </h1>
 
-                            <h1 class="entry-title single-title" itemprop="headline">
-                                <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
-                            </h1>
+                </div>
 
-                        </header> <?php // end article header ?>
+            </header> <?php // end article header ?>
 
-                        <div class="entry-content" itemprop="articleBody">
-                            <?php
-                            // the content (pretty self explanatory huh)
-                            the_content();
-                            ?>
-                        </div> <?php // end article section ?>
+            <div class="container">
 
-                        <?php get_template_part ('partials/article-footer');?>
+                <div class="main" role="main">
 
-                    </article> <?php // end article ?>
+                    <div class="entry-content" itemprop="articleBody">
+                        <?php
+                        // the content (pretty self explanatory huh)
+                        the_content();
+                        ?>
+                    </div> <?php // end article section ?>
+
+                    <?php get_template_part ('partials/article-footer');?>
 
                 <?php endwhile; ?>
 
@@ -37,11 +39,13 @@
 
                 <?php endif; ?>
 
+                </div>
+
+                <?php get_sidebar(); ?>
+
             </div>
 
-            <?php get_sidebar(); ?>
-
-        </div>
+        </article>
 
     </div>
 
