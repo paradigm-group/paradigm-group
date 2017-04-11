@@ -2195,7 +2195,9 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 /***** Retirement Advantage *****/
 .page-id-21955 .article-header,
 .tag-retirement-advantage .article-header {
-  background-color: #00ab8e; }
+  background-color: #00ab8e;
+  border-bottom: 1px solid #007d68;
+  color: #fff; }
 
 .page-id-21955 .entry-content a,
 .page-id-21955 .entry-content a:visited,
