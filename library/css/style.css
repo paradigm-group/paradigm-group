@@ -979,10 +979,11 @@ This is where we do custom CSS for Strategic Partners to make their page look ni
 .category-aviva .article-header,
 .tag-aviva .article-header {
   background-color: #ffd900;
-  border-bottom: 1px solid #d1b200; }
-  .page-id-234 .article-header page-title,
-  .category-aviva .article-header page-title,
-  .tag-aviva .article-header page-title {
+  border-bottom: 1px solid #d1b200;
+  color: #004fb6; }
+  .page-id-234 .article-header .page-title,
+  .category-aviva .article-header .page-title,
+  .tag-aviva .article-header .page-title {
     color: #004fb6; }
 
 .page-id-234 .entry-content a,
