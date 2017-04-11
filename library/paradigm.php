@@ -138,7 +138,7 @@ function bones_scripts_and_styles() {
         wp_register_style('google-fonts', 'http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 		//adding scripts file in the footer
-		wp_register_script( 'paradigm', get_stylesheet_directory_uri() . '/library/js/min/scripts.min.js', array( 'jquery' ), '', true );
+		wp_register_script( 'paradigm-js', get_stylesheet_directory_uri() . '/library/js/min/scripts.min.js', array( 'jquery' ), '', true );
 
 		// enqueue styles
 		wp_enqueue_style( 'paradigm-stylesheet' );
