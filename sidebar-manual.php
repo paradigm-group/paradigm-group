@@ -20,15 +20,19 @@
 
     <?php if ( is_page( 986 ) || '986' == $post->post_parent ) {
 
-        tablepress_print_table( array( 'id' => '26', 'use_datatables' => true, 'print_name' => false ) );
+        tablepress_print_table( array( 'id' => '26', 'use_datatables' => false, 'print_name' => false ) );
 
     } elseif ( is_page( 987 ) || '987' == $post->post_parent ) {
 
-        tablepress_print_table( array( 'id' => '27', 'use_datatables' => true, 'print_name' => false ) );
+        tablepress_print_table( array( 'id' => '27', 'use_datatables' => false, 'print_name' => false ) );
 
-    } elseif ( is_page( 988  ) || '988' == $post->post_parent ) {
+    } elseif ( is_page( 988 ) || '988' == $post->post_parent ) {
 
         tablepress_print_table( array( 'id' => '28', 'use_datatables' => false, 'print_name' => false ) );
+
+    } elseif ( is_page( 989 ) || '989' == $post->post_parent ) {
+
+        tablepress_print_table( array( 'id' => '29', 'use_datatables' => false, 'print_name' => false ) );
 
     } ?>
 
