@@ -18,10 +18,14 @@
 
     <?php endif; ?>
 
-    <?php if ( is_page( 986 ) || '986' == $post->post_parent ) { ?>
+    <?php if ( is_page( 986 ) || '986' == $post->post_parent ) {
 
-        <?php tablepress_print_table( array( 'id' => '1', 'use_datatables' => true, 'print_name' => false ) ); ?>
+        tablepress_print_table( array( 'id' => '1', 'use_datatables' => true, 'print_name' => false ) );
 
-    <?php } ?>
+    } elseif ( is_page( 987 ) || '987' == $post->post_parent ) {
+
+        tablepress_print_table( array( 'id' => '2', 'use_datatables' => true, 'print_name' => false ) );
+
+    } ?>
 
 </div>
