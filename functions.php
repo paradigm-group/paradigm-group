@@ -147,6 +147,15 @@ function bones_register_sidebars() {
 		'after_title' => '</p>',
 	));
 
+    register_sidebar(array(
+		'id' => 'sidebar-manual',
+		'name' => __( 'Sidebar Manual', 'paradigm-group' ),
+		'description' => __( 'The Manual sidebar.', 'paradigm-group' ),
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<p class="widgettitle">',
+		'after_title' => '</p>',
+	));
 	/*
 	to add more sidebars or widgetized areas, just copy
 	and edit the above sidebar code. In order to call

@@ -1,0 +1,107 @@
+<?php
+/*
+ Template Name: Manual Template
+ *
+ * This is the Compliance Manual template.
+ * It should show the current chapter's contents in the sidebar.
+ *
+*/
+?>
+
+<?php get_header(); ?>
+    <div class="content">
+
+        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
+        <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+
+            <header class="article-header page-header">
+
+                <div class="container">
+
+                    <h1 class="entry-title page-title" itemprop="headline">
+                        <?php the_title(); ?>
+                    </h1>
+
+                </div>
+
+            </header> <?php // end article header ?>
+
+            <div class="container">
+
+                <div class="main entry-content" itemprop="articleBody">
+
+                    <?php if (is_front_page()) {} else {
+                        if ( function_exists('yoast_breadcrumb') ) {
+                            yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+                        }
+                    } ?>
+
+                    <?php
+                        // the content (pretty self explanatory huh)
+                        the_content();
+                    ?>
+                    <?php if ( current_user_can( 'see_menu' ) ) { ?>
+                        <?php
+
+                        // check for rows (parent repeater)
+                        if( have_rows('tile') ): ?>
+                            <div class="tile-container">
+                                <?php
+                                // loop through rows (parent repeater)
+                                while( have_rows('tile') ): the_row(); ?>
+                                    <div class="tile">
+                                        <h2 class="tile-title">
+                                            <?php $post_id = get_sub_field('title_link'); ?>
+                                            <a href="<?php the_sub_field('title_link'); ?>">
+                                                <?php the_sub_field('tile_title'); ?>
+                                            </a>
+                                        </h2>
+                                        <?php
+
+                                        // check for rows (sub repeater)
+                                        if( have_rows('menu') ): ?>
+                                            <ul>
+                                            <?php
+
+                                            // loop through rows (sub repeater)
+                                            while( have_rows('menu') ): the_row();
+
+                                                // display each item as a list - with a class of completed ( if completed )
+                                                ?>
+                                                <li>
+                                                    <a href="<?php the_sub_field('menu_item'); ?>">
+                                                        <?php the_sub_field('item_title'); ?>
+                                                    </a>
+                                                </li>
+                                            <?php endwhile; ?>
+                                            </ul>
+                                        <?php endif; //if( get_sub_field('items') ): ?>
+                                    </div>
+
+                                <?php endwhile; // while( has_sub_field('to-do_lists') ): ?>
+                            </div>
+                        <?php endif; // if( get_field('to-do_lists') ): ?>
+
+                        <?php if (is_page ('members-area')) { ?>
+                            <div class="ad-container">
+                                <?php echo adrotate_group(2); ?>
+                            </div>
+                        <?php } ?>
+                    <?php } ?>
+                </div> <?php // end article section ?>
+
+                <?php get_sidebar('members'); ?>
+
+            </div>
+        </article>
+
+    <?php endwhile; else : ?>
+
+        <?php get_template_part ('partials/no-post-found');?>
+
+    <?php endif; ?>
+
+    </div>
+
+<?php get_footer(); ?>
