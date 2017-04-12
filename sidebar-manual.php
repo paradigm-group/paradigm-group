@@ -34,6 +34,10 @@
 
         tablepress_print_table( array( 'id' => '29', 'use_datatables' => false, 'print_name' => false ) );
 
+    } elseif ( is_page( 990 ) || '990' == $post->post_parent ) {
+
+        tablepress_print_table( array( 'id' => '30', 'use_datatables' => false, 'print_name' => false ) );
+
     } ?>
 
 </div>
