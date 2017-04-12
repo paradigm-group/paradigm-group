@@ -24,7 +24,7 @@
 
     } elseif ( is_page( 987 ) || '987' == $post->post_parent ) {
 
-        tablepress_print_table( array( 'id' => '2', 'use_datatables' => true, 'print_name' => false ) );
+        tablepress_print_table( array( 'id' => '27', 'use_datatables' => true, 'print_name' => false ) );
 
     } elseif ( is_page( 988  ) || '988' == $post->post_parent ) {
 
