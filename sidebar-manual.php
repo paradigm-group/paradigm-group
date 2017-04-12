@@ -18,7 +18,7 @@
 
     <?php endif; ?>
 
-    <?php if ( is_tree( '986' )) { ?>
+    <?php if ( is_page( 986 ) || '986' == $post->post_parent ) { ?>
 
         <?php tablepress_print_table( array( 'id' => '1', 'use_datatables' => true, 'print_name' => false ) ); ?>
 

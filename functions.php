@@ -229,27 +229,4 @@ function bones_comments( $comment, $args, $depth ) {
 <?php
 } // don't remove this bracket!
 
-/**
- * Check whether we are on this page or a sub page
- *
- * @param int $pid Page ID to check against.
- * @return bool True if we are on this page or a sub page of this page.
- */
-function wpdocs_is_tree( $pid ) {      // $pid = The ID of the page we're looking for pages underneath
-    $post = get_post();               // load details about this page
-
-    $is_tree = false;
-    if ( is_page( $pid ) ) {
-        $is_tree = true;            // we're at the page or at a sub page
-    }
-
-    $anc = get_post_ancestors( $post->ID );
-    foreach ( $anc as $ancestor ) {
-        if ( is_page() && $ancestor == $pid ) {
-            $is_tree = true;
-        }
-    }
-    return $is_tree;  // we arn't at the page, and the page is not an ancestor
-}
-
 /* DON'T DELETE THIS CLOSING TAG */ ?>
