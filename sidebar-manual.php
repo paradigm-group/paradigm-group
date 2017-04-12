@@ -18,4 +18,10 @@
 
     <?php endif; ?>
 
+    <?php if (is_tree('986')) { ?>
+
+        <?php tablepress_print_table( array( 'id' => '1', 'use_datatables' => true, 'print_name' => false ) ); ?>
+
+    <?php } ?>
+
 </div>
